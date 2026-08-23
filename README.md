@@ -8,7 +8,7 @@ This repository contains the curated code, processed experimental artifacts, rob
 
 ## Repository purpose
 
-The repository is organized to make the paper's empirical claims auditable. It separates predictive development, decision-oriented calibration (DOC), frozen prediction-to-decision representations, future out-of-time evaluation, and retrospective robustness/diagnostic analyses.
+The repository is organized to make the paper's empirical claims auditable. It separates predictive development, decision-oriented calibration (DOC), frozen prediction-to-decision representations, future out-of-time evaluation, and retrospective robustness and diagnostic analyses.
 
 Future-period outcomes are not used to reselect the representation evaluated prospectively.
 
@@ -40,59 +40,114 @@ FAME/
 └── reproducibility/
 ```
 
-
 ## Reproducibility status
 
-For the current verification level, see `reproducibility/REPRODUCIBILITY_STATUS.md`. The archived results are fully auditable; a clean-clone end-to-end rerun remains pending until the documented external datasets are supplied.
+The repository provides the curated numerical artifacts, temporal split definitions, frozen parameters, analysis code, and supporting documentation required to audit the empirical claims reported in the manuscript.
 
+The archived results can be inspected without access to the original raw datasets. End-to-end re-execution of analyses that depend on external or third-party data additionally requires the corresponding source data described in `data/README.md` and `data/SOURCES_AND_RECONSTRUCTION.md`.
 
-The repository currently provides the curated numerical artifacts required to audit the
-manuscript. Full end-to-end execution from a clean clone additionally requires the external/raw
-data sources described in `data/README.md`. See `reproducibility/NOTEBOOK_AUDIT.md` before
-running the notebooks.
+The clean-clone verification procedure is documented in `reproducibility/CLEAN_CLONE_WORKFLOW.md`.
 
 ## Code
 
-The `code/` directory contains the notebooks used for the final fantasy-football and Energy experiments reported in the manuscript. Development/debug notebooks and obsolete intermediate versions were intentionally excluded from the public repository.
-
+The `code/` directory contains the notebooks used for the final fantasy-football and Energy experiments reported in the manuscript. Development, debugging, and obsolete intermediate notebooks were intentionally excluded from the public repository.
 
 ## Notebook format
 
-All public notebooks in `code/` contain executable code cells only. Markdown/raw cells,
-inline comments, standalone comments, outputs, and execution counts were removed from the
-public copies. Scientific documentation is kept in the repository Markdown files and in the
-manuscript rather than inside the notebooks.
+All public notebooks in `code/` contain executable code cells only. Markdown and raw cells, inline and standalone comments, stored outputs, and execution counts were removed from the public copies.
+
+Scientific documentation is provided in the repository Markdown files and in the manuscript rather than inside the notebooks.
 
 ## Data
 
-Raw third-party data are **not redistributed by default** in this repository. The repository includes temporal split definitions and processed experimental artifacts that can be shared. See `data/README.md` and `data/SOURCES_AND_RECONSTRUCTION.md` for the data policy, provenance, and reconstruction guidance.
+Raw third-party data are not redistributed by default in this repository.
+
+The repository includes temporal split definitions and processed experimental artifacts that can be shared. Data provenance, external sources, expected input structures, redistribution considerations, and reconstruction guidance are documented in `data/README.md` and `data/SOURCES_AND_RECONSTRUCTION.md`.
 
 ## Main reproducibility artifacts
 
 ### Fantasy football
 
-The repository includes temporal development folds, frozen predictive hyperparameters and ensemble weights, DOC weight grid and frozen DOC weights, bootstrap stability results, out-of-time 2025 operational summaries, temporal replication comparisons, component ablation, captain-selection sensitivity, target-alignment and missing-next-market audits, local calibration sensitivity, and leakage/freeze audits.
+The repository includes:
+
+- temporal development folds;
+- frozen predictive hyperparameters and ensemble weights;
+- DOC weight grid and frozen DOC weights;
+- bootstrap stability results;
+- out-of-time 2025 operational summaries;
+- temporal replication comparisons;
+- component ablation analyses;
+- captain-selection sensitivity analyses;
+- target-alignment and missing-next-market audits;
+- local calibration sensitivity analyses; and
+- leakage and freeze audits.
 
 ### Energy
 
-The repository includes temporal replication definitions, frozen representation parameters, the extended-theta robustness experiment, capacity-margin × VOLL robustness summaries, and replication-level/model-level summaries.
+The repository includes:
+
+- temporal replication definitions;
+- frozen representation parameters;
+- extended-theta robustness experiments;
+- capacity-margin × VOLL robustness summaries; and
+- replication-level and model-level summaries.
 
 ## Reproducing paper claims
 
-See `reproducibility/artifact_manifest.csv`, which maps manuscript claims and analyses to the corresponding repository artifacts and code.
+The file `reproducibility/artifact_manifest.csv` maps manuscript claims and analyses to the corresponding archived artifacts and analysis code.
+
+This mapping is intended to provide a direct audit trail from the results reported in the manuscript to the machine-readable outputs and code stored in the repository.
+
+## Computational environment
+
+The manuscript experiments were executed using **Python 3.13.14**.
+
+The direct Python dependencies and the versions used in the manuscript-associated computational environment are recorded in `requirements.txt`.
+
+A compatible virtual environment can be created with:
+
+```bash
+python -m venv .venv
+```
+
+Activate the environment and install the required dependencies with:
+
+```bash
+python -m pip install -r requirements.txt
+```
+
+The archived numerical results in `results/` correspond to the manuscript-associated computational environment documented above.
+
+## Clean-clone workflow
+
+Instructions for verifying the repository from a clean clone are provided in:
+
+`reproducibility/CLEAN_CLONE_WORKFLOW.md`
+
+Because some experiments rely on external or third-party datasets that are not redistributed in this repository, the clean-clone workflow distinguishes between:
+
+1. auditing the archived manuscript results; and
+2. re-executing analyses after supplying the required external data.
 
 ## Supplementary material
 
-The LaTeX source for the Supplementary Material is available in `supplementary/`.
-
-## Software environment
-
-Exact package versions should be recorded before the public release in `reproducibility/environment.yml` or `reproducibility/requirements.txt`.
+The LaTeX source and supporting files for the Supplementary Material are available in `supplementary/`.
 
 ## Citation
 
-Citation metadata are provided in `CITATION.cff`. The archived release DOI can be added after creating a versioned release.
+Citation metadata for the FAME software and the associated manuscript are provided in `CITATION.cff`.
+
+The manuscript-associated software release is archived on Zenodo:
+
+**FAME v1.0.1**  
+**DOI: 10.5281/zenodo.22071478**
+
+The Zenodo concept DOI representing all versions of FAME is:
+
+**DOI: 10.5281/zenodo.22071477**
 
 ## License
 
-The original source code in this repository is released under the MIT License unless otherwise indicated. Third-party datasets, external software, and external test systems retain their original licenses and terms of use. The MIT License does **not** apply to third-party data.
+The original source code in this repository is released under the MIT License unless otherwise indicated.
+
+Third-party datasets, external software, and external test systems retain their original licenses and terms of use. The MIT License does not apply to third-party data.
