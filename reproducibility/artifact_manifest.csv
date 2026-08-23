@@ -1,20 +1,20 @@
 claim_id,manuscript_location,artifact_description,artifact_path,reproduction_code
-FF-M1,Methodology: temporal development,Temporal development folds,data/fantasy_football/splits/temporal_development_folds.csv,code/fantasy_football/FAME_fantasy_football_primary.ipynb
-FF-M2,Methodology: predictive freezing,Frozen hyperparameters,results/fantasy_football/model_selection/frozen_predictive_hyperparameters.csv,code/fantasy_football/FAME_fantasy_football_primary.ipynb
+FF-M1,Methodology: temporal development,Temporal development fold definitions,data/fantasy_football/splits/temporal_development_folds.csv,code/fantasy_football/FAME_fantasy_football_primary.ipynb
+FF-M2,Methodology: predictive freezing,Frozen predictive hyperparameters,results/fantasy_football/model_selection/frozen_predictive_hyperparameters.csv,code/fantasy_football/FAME_fantasy_football_primary.ipynb
 FF-M3,Methodology: ensemble,Frozen ensemble weights,results/fantasy_football/model_selection/frozen_ensemble_weights.csv,code/fantasy_football/FAME_fantasy_football_primary.ipynb
-FF-R1,Results: primary DOC,Frozen DOC weights,results/fantasy_football/calibration/frozen_doc_weights.csv,code/fantasy_football/FAME_fantasy_football_primary.ipynb
-FF-R2,Results: DOC calibration stability,Bootstrap selection stability,results/fantasy_football/calibration/doc_calibration_bootstrap_stability.csv,code/fantasy_football/FAME_fantasy_football_primary.ipynb
-FF-R3,Results: primary 2025 contrast,Operational summary,results/fantasy_football/evaluation/operational_summary_2025.csv,code/fantasy_football/FAME_fantasy_football_primary.ipynb
-FF-R4,Results: bootstrap inference,Bootstrap confidence intervals,results/fantasy_football/evaluation/strategy_bootstrap_ci_2025.csv,code/fantasy_football/FAME_fantasy_football_primary.ipynb
-FF-R5,Results: temporal replications,H1/H2/primary comparison,results/fantasy_football/evaluation/fame_temporal_replications_comparison.csv,code/fantasy_football/FAME_temporal_replications_comparison.ipynb
-FF-S1,Supplement S2: ablation,Component ablation,results/fantasy_football/robustness/ablation_summary_2025.csv,code/fantasy_football/FAME_fantasy_football_primary.ipynb
-FF-S2,Supplement S2: captain sensitivity,Captain-rule summary,results/fantasy_football/robustness/captain_summary.csv,code/fantasy_football/FAME_fantasy_football_primary.ipynb
+FF-R1,Results: primary DOC,Frozen DOC representation weights,results/fantasy_football/calibration/frozen_doc_weights.csv,code/fantasy_football/FAME_fantasy_football_primary.ipynb
+FF-R2,Results: DOC calibration stability,DOC bootstrap selection stability,results/fantasy_football/calibration/doc_calibration_bootstrap_stability.csv,code/fantasy_football/FAME_fantasy_football_primary.ipynb
+FF-R3,Results: primary 2025 contrast,Out-of-time 2025 operational summary,results/fantasy_football/evaluation/operational_summary_2025.csv,code/fantasy_football/FAME_fantasy_football_primary.ipynb
+FF-R4,Results: bootstrap inference,Strategy bootstrap confidence intervals for 2025,results/fantasy_football/evaluation/strategy_bootstrap_ci_2025.csv,code/fantasy_football/FAME_fantasy_football_primary.ipynb
+FF-R5,Results: temporal replications,Primary H1 and H2 temporal-replication comparison,results/fantasy_football/evaluation/fame_temporal_replications_comparison.csv,code/fantasy_football/FAME_temporal_replications_comparison.ipynb
+FF-S1,Supplement S2: ablation,Fantasy-football component ablation summary,results/fantasy_football/robustness/ablation_summary_2025.csv,code/fantasy_football/FAME_fantasy_football_primary.ipynb
+FF-S2,Supplement S2: captain sensitivity,Captain-selection sensitivity summary,results/fantasy_football/robustness/captain_summary.csv,code/fantasy_football/FAME_fantasy_football_primary.ipynb
 FF-S3,Supplement S2: target convention,Target-alignment audit,results/fantasy_football/audit/target_alignment_audit.csv,code/fantasy_football/FAME_fantasy_football_primary.ipynb
-FF-S4,Supplement S2: missing next market,Missing-next-market sensitivity,results/fantasy_football/robustness/missing_next_market_sensitivity_summary.csv,code/fantasy_football/FAME_fantasy_football_primary.ipynb
+FF-S4,Supplement S2: missing next market,Missing-next-market sensitivity summary,results/fantasy_football/robustness/missing_next_market_sensitivity_summary.csv,code/fantasy_football/FAME_fantasy_football_primary.ipynb
 FF-A1,Reproducibility: freeze audit,Experimental protocol freeze audit,results/fantasy_football/audit/experimental_protocol_freeze_audit.csv,code/fantasy_football/FAME_fantasy_football_primary.ipynb
 FF-A2,Reproducibility: leakage audit,Walk-forward leakage audit,results/fantasy_football/audit/walkforward_leakage_audit.csv,code/fantasy_football/FAME_fantasy_football_primary.ipynb
-EN-M1,Methodology: temporal replications,Energy temporal splits,data/energy/splits/temporal_replications.csv,code/energy/FAME_energy_temporal_replication.ipynb
-EN-R1,Results: frozen representations,All temporal freezes,results/energy/temporal_replications/all_freezes.json,code/energy/FAME_energy_temporal_replication.ipynb
-EN-R2,Results/Supplement: robustness,Model-level robustness summary,results/energy/robustness/global_robustness_summary_by_model.csv,code/energy/FAME_energy_temporal_replication.ipynb
-EN-R3,Results/Supplement: robustness grid,Margin × VOLL robustness,results/energy/robustness/robustness_margin_voll_summary.csv,code/energy/FAME_energy_temporal_replication.ipynb
-EN-R4,Results: theta stability,Frozen theta by margin/VOLL,results/energy/robustness/theta_freezes_margin_voll.csv,code/energy/FAME_energy_scientific_synthesis.ipynb
+EN-M1,Methodology: temporal replications,Energy temporal-replication definitions,data/energy/splits/temporal_replications.csv,code/energy/FAME_energy_temporal_replication.ipynb
+EN-R1,Results: frozen representations,Frozen representations across Energy temporal replications,results/energy/temporal_replications/all_freezes.json,code/energy/FAME_energy_temporal_replication.ipynb
+EN-R2,Results/Supplement: robustness,Model-level Energy robustness summary,results/energy/robustness/global_robustness_summary_by_model.csv,code/energy/FAME_energy_temporal_replication.ipynb
+EN-R3,Results/Supplement: robustness grid,Capacity-margin x VOLL robustness summary,results/energy/robustness/robustness_margin_voll_summary.csv,code/energy/FAME_energy_temporal_replication.ipynb
+EN-R4,Results: theta stability,Frozen representation parameters across margin and VOLL settings,results/energy/robustness/theta_freezes_margin_voll.csv,code/energy/FAME_energy_scientific_synthesis.ipynb
