@@ -44,7 +44,9 @@ FAME/
 
 The repository provides the curated numerical artifacts, temporal split definitions, frozen parameters, analysis code, and supporting documentation required to audit the empirical claims reported in the manuscript.
 
-The archived results can be inspected without access to the original raw datasets. End-to-end re-execution of analyses that depend on external or third-party data additionally requires the corresponding source data described in `data/README.md` and `data/SOURCES_AND_RECONSTRUCTION.md`.
+The archived results can be inspected without access to the original raw datasets. Re-execution of analyses that depend on external or third-party data additionally requires the corresponding analytical inputs described in `data/README.md` and `data/SOURCES_AND_RECONSTRUCTION.md`.
+
+The repository does not claim complete raw-source-to-result reconstruction for third-party analytical datasets whose full source-to-analysis transformations are not redistributed. These reproducibility boundaries are documented explicitly in `data/SOURCES_AND_RECONSTRUCTION.md`.
 
 The clean-clone verification procedure is documented in `reproducibility/CLEAN_CLONE_WORKFLOW.md`.
 
@@ -96,7 +98,7 @@ The repository includes:
 
 The file `reproducibility/artifact_manifest.csv` maps manuscript claims and analyses to the corresponding archived artifacts and analysis code.
 
-This mapping is intended to provide a direct audit trail from the results reported in the manuscript to the machine-readable outputs and code stored in the repository.
+This mapping provides a direct audit trail from the results reported in the manuscript to the machine-readable outputs and code stored in the repository.
 
 ## Computational environment
 
@@ -116,6 +118,8 @@ Activate the environment and install the required dependencies with:
 python -m pip install -r requirements.txt
 ```
 
+A clean-clone installation of the pinned dependencies was successfully verified under Python 3.13.
+
 The archived numerical results in `results/` correspond to the manuscript-associated computational environment documented above.
 
 ## Clean-clone workflow
@@ -127,7 +131,7 @@ Instructions for verifying the repository from a clean clone are provided in:
 Because some experiments rely on external or third-party datasets that are not redistributed in this repository, the clean-clone workflow distinguishes between:
 
 1. auditing the archived manuscript results; and
-2. re-executing analyses after supplying the required external data.
+2. re-executing analyses after supplying the required external analytical inputs.
 
 ## Supplementary material
 
@@ -137,14 +141,18 @@ The LaTeX source and supporting files for the Supplementary Material are availab
 
 Citation metadata for the FAME software and the associated manuscript are provided in `CITATION.cff`.
 
-The manuscript-associated software release is archived on Zenodo:
+The manuscript-associated reproducibility release is:
 
-**FAME v1.0.1**  
-**DOI: 10.5281/zenodo.22071478**
+**FAME v1.0.2 — Reproducibility Hardening Release**  
+**DOI: 10.5281/zenodo.22072076**
+
+This version-specific DOI identifies the archived software and reproducibility materials associated with the manuscript.
 
 The Zenodo concept DOI representing all versions of FAME is:
 
 **DOI: 10.5281/zenodo.22071477**
+
+The concept DOI resolves to the latest archived version of FAME.
 
 ## License
 
