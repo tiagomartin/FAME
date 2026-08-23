@@ -4,6 +4,7 @@ message: "If you use FAME, please cite the associated manuscript and this softwa
 title: "FAME: Prediction-to-Decision Representations for Constrained Resource Allocation"
 type: software
 version: "1.0.1"
+doi: "10.5281/zenodo.22071478"
 
 authors:
   - family-names: Pereira
