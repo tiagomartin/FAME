@@ -1,0 +1,438 @@
+%% Supplementary Material for FAME manuscript
+%% Target journal: Computers & Operations Research
+\documentclass[a4paper,fleqn]{cas-sc}
+
+\usepackage{amsmath,amssymb}
+\usepackage{booktabs}
+\usepackage{graphicx}
+\usepackage{array}
+\usepackage{multirow}
+\usepackage{enumitem}
+\usepackage{flafter}
+
+% Supplement-specific numbering
+\renewcommand{\thesection}{S\arabic{section}}
+\renewcommand{\thesubsection}{S\arabic{section}.\arabic{subsection}}
+\renewcommand{\thetable}{S\arabic{table}}
+\renewcommand{\thefigure}{S\arabic{figure}}
+\renewcommand{\theequation}{S\arabic{equation}}
+
+\begin{document}
+
+\shorttitle{Supplementary Material: FAME}
+\shortauthors{Pereira and Oliveira}
+
+% Keep tables/figures off the manual title area.
+\suppressfloats[t]
+
+\begin{center}
+{\LARGE\bfseries Supplementary Material for\par}
+\vspace{0.35em}
+{\Large Temporal Transferability of Prediction-to-Decision Representations\\
+in Constrained Resource Allocation\par}
+\vspace{1.1em}
+{\normalsize Tiago Martins Pereira$^{a,*}$ \quad Diana Campos de Oliveira$^{a}$\par}
+\vspace{0.55em}
+{\small\itshape
+$^{a}$Statistics Department, Federal University of Ouro Preto (UFOP),\\
+Campus Morro do Cruzeiro, Bauxita, Ouro Preto, 35402-136, Minas Gerais, Brazil\par}
+\vspace{0.35em}
+{\small $^{*}$Corresponding author: tiago.martin@ufop.edu.br\par}
+\end{center}
+
+\vspace{1.0em}
+\hrule
+\vspace{1.2em}
+
+\section{Purpose and Scope}
+\label{sec:supp_scope}
+
+This Supplementary Material reports diagnostic and robustness analyses that
+support the temporal transfer experiments presented in the main manuscript.
+None of the analyses reported here changes the primary
+development--calibration--freeze--evaluation protocol. In particular,
+evaluation-period outcomes are never used to reselect the representation whose
+future performance is reported in the main experiment.
+
+The supplementary analyses address the robustness checks referenced in the
+main manuscript. Section~S2 reports fantasy-football component ablation,
+captain-selection sensitivity, target-convention and missing-next-market
+sensitivity, calibration-surface stability, and moving-block bootstrap results.
+Section~S3 reports the Energy operational robustness grid and temporal stability
+of its calibrated representation. Section~S4 documents the reproducibility
+audit trail, and Section~S5 states the interpretive boundaries of all
+retrospective diagnostics.
+
+\section{Fantasy-Football Robustness Analyses}
+\label{sec:supp_fantasy}
+
+\subsection{Component Ablation}
+\label{sec:supp_ablation}
+
+The primary frozen DOC representation for 2025 uses
+$\widehat{\mathbf w}_{DOC}=(0.75,0.15,0.10)$ for expected performance,
+upside/dispersion, and economic efficiency, respectively. To examine the
+contribution of individual representation components, the 2025 evaluation was
+repeated under prespecified ablations.
+
+For the ``No upside'' and ``No economic efficiency'' variants, the corresponding
+component is removed from the frozen DOC representation and the remaining DOC
+weights are renormalized to sum to one. The ``No availability adjustment''
+variant replaces the availability-adjusted expected component by the
+conditional prediction and reconstructs the associated upside and economic
+components consistently, while retaining the frozen DOC weights. The remaining
+rows provide reference representations that isolate normalization, conditional
+prediction, and equal weighting.
+
+\begin{table}[!ht]
+\centering
+\caption{Fantasy-football component ablation in the out-of-time 2025
+evaluation period. Utility is realized lineup utility without captain bonus.}
+\label{tab:supp_ablation}
+\begin{tabular}{lrr}
+\toprule
+Strategy & Mean utility & Cumulative utility \\
+\midrule
+Availability-adjusted expected prediction & 59.092 & 2186.40 \\
+No upside & 56.853 & 2103.57 \\
+Expected-only normalized representation & 56.759 & 2100.08 \\
+Full FAME-DOC & 54.746 & 2025.61 \\
+Equal-weight representation & 53.901 & 1994.34 \\
+No economic efficiency & 53.860 & 1992.83 \\
+Pure conditional prediction & 52.279 & 1934.32 \\
+No availability adjustment & 48.417 & 1791.42 \\
+\bottomrule
+\end{tabular}
+\end{table}
+
+The ablation results show that the full three-component DOC representation is
+not uniformly superior in the 2025 environment. Removing the upside component
+raises mean utility from 54.746 to 56.853, whereas removing economic efficiency
+reduces mean utility slightly to 53.860. Eliminating availability adjustment
+produces the largest deterioration among the ablated FAME variants. These
+results are diagnostic and do not constitute a second model-selection stage:
+the representation evaluated prospectively remains the one frozen after 2024
+DOC calibration.
+
+\begin{figure}[!ht]
+\centering
+\includegraphics[width=.95\textwidth]{fig_2025_ablation.png}
+\caption{Out-of-time 2025 component-ablation analysis.}
+\label{fig:supp_ablation}
+\end{figure}
+
+\subsection{Captain-Selection Sensitivity}
+\label{sec:supp_captain}
+
+Captain assignment is evaluated as a secondary decision after the lineup has
+already been selected. The experiment applies a 50\% captain bonus to the
+realized score of the chosen non-coach player. Four captain rules are evaluated
+for all lineup strategies: highest market value, highest historical mean,
+highest expected performance, and highest conditional prediction. For FAME-DOC
+and the original FAME representation, a fifth rule selects the player with the
+highest corresponding FAME representation value.
+
+\begin{table}[!ht]
+\centering
+\caption{Captain-rule sensitivity for the frozen FAME-DOC lineup in 2025.}
+\label{tab:supp_captain}
+\begin{tabular}{lrrr}
+\toprule
+Captain rule & Mean bonus & Mean final utility & Oracle hit rate \\
+\midrule
+Highest market value & 3.495 & 58.241 & 16.22\% \\
+Highest historical mean & 3.330 & 58.076 & 16.22\% \\
+Highest expected performance & 3.314 & 58.060 & 13.51\% \\
+Highest conditional prediction & 2.861 & 57.607 & 5.41\% \\
+Highest FAME representation & 2.730 & 57.476 & 16.22\% \\
+\bottomrule
+\end{tabular}
+\end{table}
+
+The choice of captain rule changes the level of final team utility but does not
+alter the lineup generated by the frozen representation. Among the evaluated
+FAME-DOC captain rules, highest market value produces the largest mean final
+utility (58.241), while selecting the captain directly from the FAME
+representation produces 57.476. The analysis therefore supports treating
+captain selection as a distinct secondary decision rather than incorporating
+evaluation-period captain performance into DOC recalibration.
+
+\begin{figure}[!ht]
+\centering
+\includegraphics[width=.95\textwidth]{fig_2025_captain_selection.png}
+\caption{Sensitivity of final team utility to alternative captain-selection
+rules.}
+\label{fig:supp_captain}
+\end{figure}
+
+\subsection{Target-Convention Audit and Missing-Next-Market Sensitivity}
+\label{sec:supp_target}
+
+The target-construction audit shows that a valid next-market observation is
+available for more than 99.3\% of decision rows in every season from 2021 to
+2025. The proportion of rows without a next-market observation ranges from
+0.516\% to 0.623\%. Table~\ref{tab:supp_target_audit} summarizes the audit.
+
+\begin{table}[!ht]
+\centering
+\caption{Target-alignment audit by season.}
+\label{tab:supp_target_audit}
+\begin{tabular}{lrrr}
+\toprule
+Season & Decision rows & Next market available & Missing next market \\
+\midrule
+2021 & 29,284 & 99.484\% & 0.516\% \\
+2022 & 29,227 & 99.429\% & 0.571\% \\
+2023 & 28,290 & 99.413\% & 0.587\% \\
+2024 & 27,703 & 99.415\% & 0.585\% \\
+2025 & 27,770 & 99.377\% & 0.623\% \\
+\bottomrule
+\end{tabular}
+\end{table}
+
+To assess sensitivity to the convention used for these uncommon missing
+next-market rows, the 2025 operational analysis is repeated under two scenarios:
+treating the missing next-market target as zero and excluding such observations.
+The availability-adjusted expected-prediction reference is unchanged at 59.092
+mean utility. FAME-DOC changes from 54.746 under the zero convention to 55.352
+when the missing rows are excluded. The substantive conclusion of the primary
+2025 comparison is therefore unchanged.
+
+\begin{table}[!ht]
+\centering
+\caption{Sensitivity to the treatment of missing next-market observations.}
+\label{tab:supp_missing_market}
+\begin{tabular}{lrr}
+\toprule
+Missing-next-market convention & FAME-DOC & Expected prediction \\
+\midrule
+Missing target treated as zero & 54.746 & 59.092 \\
+Rows with missing target excluded & 55.352 & 59.092 \\
+\bottomrule
+\end{tabular}
+\end{table}
+
+\subsection{Calibration-Surface Stability}
+\label{sec:supp_stability}
+
+DOC is optimized on a finite calibration sample, so the exact maximizing vector
+need not be sharply identified. The 2024 DOC selection was therefore repeated
+over 5,000 bootstrap resamples of calibration-period decision origins. The
+original optimum, $(0.75,0.15,0.10)$, was selected in 1,200 resamples
+(24.00\%). The expected-only vector $(1,0,0)$ was selected in 14.88\%, and
+$(0.90,0.05,0.05)$ in 14.26\%. The distribution of bootstrap selections
+therefore supports the interpretation of a favorable region rather than a
+uniquely dominant representation.
+
+\begin{table}[!ht]
+\centering
+\caption{Most frequently selected vectors in the 2024 DOC bootstrap
+stability analysis.}
+\label{tab:supp_bootstrap_top}
+\begin{tabular}{lrr}
+\toprule
+Weight vector $(w_P,w_T,w_R)$ & Selection count & Frequency \\
+\midrule
+$(0.75,0.15,0.10)$ & 1200 & 24.00\% \\
+$(1.00,0.00,0.00)$ & 744 & 14.88\% \\
+$(0.90,0.05,0.05)$ & 713 & 14.26\% \\
+$(0.80,0.15,0.05)$ & 448 & 8.96\% \\
+$(0.85,0.00,0.15)$ & 333 & 6.66\% \\
+\bottomrule
+\end{tabular}
+\end{table}
+
+\begin{figure}[!ht]
+\centering
+\includegraphics[width=.95\textwidth]{fig_2024_doc_selection_stability.png}
+\caption{Bootstrap selection frequencies for the most frequently selected
+2024 DOC weight vectors.}
+\label{fig:supp_doc_stability}
+\end{figure}
+
+A complementary local sensitivity analysis evaluates all weight vectors within
+$L_1$ neighborhoods of the frozen 2024 solution. For radius 0.10, seven vectors
+are included and their mean 2025 utility is 54.246, with a range from 52.813 to
+55.814. For radius 0.20, 19 vectors are included and mean 2025 utility is
+54.680, ranging from 51.995 to 56.801. Thus, the precise frozen maximizer is
+only one member of a local region whose future performance is heterogeneous.
+
+\begin{table}[!ht]
+\centering
+\caption{Local sensitivity around the frozen 2024 DOC vector.}
+\label{tab:supp_local}
+\begin{tabular}{rrrrr}
+\toprule
+$L_1$ radius & Vectors & Mean 2024 & Mean 2025 & 2025 range \\
+\midrule
+0.10 & 7  & 56.317 & 54.246 & 52.813--55.814 \\
+0.20 & 19 & 56.051 & 54.680 & 51.995--56.801 \\
+\bottomrule
+\end{tabular}
+\end{table}
+
+\subsection{Calibration and Retrospective Utility Landscapes}
+\label{sec:supp_landscapes}
+
+The calibration and evaluation-period utility landscapes provide a geometric
+diagnostic of representation transfer. Figure~\ref{fig:supp_calibration_landscape}
+shows the 2024 DOC calibration surface from which the frozen vector was selected.
+Figure~\ref{fig:supp_posthoc_landscape} shows the corresponding 2025 surface
+computed retrospectively after the evaluation period. The latter is used only
+to diagnose displacement of the favorable region and is never used to modify
+the prospective 2025 decision rule.
+
+\begin{figure}[!ht]
+\centering
+\includegraphics[width=.95\textwidth]{fig_2024_doc_calibration_landscape.png}
+\caption{DOC calibration landscape in 2024. The selected representation is
+frozen before the 2025 evaluation.}
+\label{fig:supp_calibration_landscape}
+\end{figure}
+
+\begin{figure}[!ht]
+\centering
+\includegraphics[width=.95\textwidth]{fig_2025_posthoc_landscape.png}
+\caption{Retrospective 2025 utility landscape. This diagnostic uses realized
+2025 outcomes only after prospective evaluation and is not a deployable
+selection rule.}
+\label{fig:supp_posthoc_landscape}
+\end{figure}
+
+\subsection{Moving-Block Bootstrap}
+\label{sec:supp_block_bootstrap}
+
+The primary paired contrast contains 37 round-level observations and may exhibit
+short-range temporal dependence. A circular moving-block bootstrap was therefore
+computed for block lengths from two to six rounds. All resulting 95\% intervals
+contain zero, matching the conclusion from the paired iid bootstrap.
+
+\begin{table}[!ht]
+\centering
+\caption{Bootstrap sensitivity for FAME-DOC minus the normalized expected-only
+representation in the primary 2024--2025 transition.}
+\label{tab:supp_mbb}
+\begin{tabular}{lrr}
+\toprule
+Method / block length & Lower 95\% limit & Upper 95\% limit \\
+\midrule
+Paired iid bootstrap & -6.253 & 1.924 \\
+Moving block, 2 & -6.746 & 2.207 \\
+Moving block, 3 & -6.963 & 2.410 \\
+Moving block, 4 & -6.633 & 2.303 \\
+Moving block, 5 & -6.715 & 2.300 \\
+Moving block, 6 & -6.713 & 2.468 \\
+\bottomrule
+\end{tabular}
+\end{table}
+
+\section{Energy Robustness Analyses}
+\label{sec:supp_energy}
+
+\subsection{Operational Robustness Grid}
+\label{sec:supp_energy_grid}
+
+The Energy robustness analysis evaluates five capacity-margin settings and four
+shortage-penalty multipliers,
+\[
+M\in\{1.00,1.10,1.20,1.30,1.40\},
+\qquad
+\lambda_{\mathrm{VOLL}}\in\{0.5,1,2,5\},
+\]
+for each of nine temporal replications and each predictive source. This yields
+180 replication--condition combinations per predictive source. These operating
+conditions are structured sensitivity settings, not statistically independent
+observations.
+
+\begin{table}[!ht]
+\centering
+\caption{Aggregate operational transfer across the Energy robustness grid.}
+\label{tab:supp_energy_transfer}
+\begin{tabular}{lrrrr}
+\toprule
+Source & Positive / total & Transfer rate & Mean gain & Minimum gain \\
+\midrule
+ENTSO-E & 152/180 & 84.44\% & 42.44\% & -60.30\% \\
+SARIMAX & 180/180 & 100.00\% & 70.16\% & 3.26\% \\
+LSTM    & 180/180 & 100.00\% & 66.47\% & 7.65\% \\
+\bottomrule
+\end{tabular}
+\end{table}
+
+SARIMAX and LSTM retain positive future DOC gains throughout the complete
+robustness grid. ENTSO-E is less stable: 152 of 180 conditions remain positive,
+and the minimum observed gain reaches -60.30\%. Because the robustness grid
+changes the operational environment while retaining the chronological
+calibration--freeze--evaluation logic, these results assess operational
+sensitivity rather than provide additional independent replications.
+
+\subsection{Temporal Stability of the Energy Representation}
+\label{sec:supp_energy_theta}
+
+The Energy representation is
+\[
+V_d^{(m)}(\theta)=\widehat D_d^{(m)}\exp(\theta).
+\]
+Across the nine temporal replications, mean calibrated $\widehat{\theta}$ is
+0.085 for ENTSO-E, 0.132 for SARIMAX, and 0.108 for LSTM. The corresponding
+temporal standard deviations are 0.054, 0.014, and 0.016, respectively.
+ENTSO-E therefore exhibits substantially larger temporal variation in the
+prediction-to-capacity transformation than the two internally estimated
+forecast models.
+
+\begin{table}[!ht]
+\centering
+\caption{Temporal stability of the calibrated Energy representation.}
+\label{tab:supp_theta}
+\begin{tabular}{lrr}
+\toprule
+Source & Mean $\widehat{\theta}$ & Temporal SD \\
+\midrule
+ENTSO-E & 0.085 & 0.054 \\
+SARIMAX & 0.132 & 0.014 \\
+LSTM & 0.108 & 0.016 \\
+\bottomrule
+\end{tabular}
+\end{table}
+
+The extended search domain
+$\Theta=\{-0.30,-0.275,\ldots,0.275,0.30\}$
+also provides a boundary diagnostic. The final calibrated solutions are
+predominantly interior, so the reported transfer pattern is not explained by
+systematic truncation at the upper calibration boundary.
+
+\section{Reproducibility and Audit Trail}
+\label{sec:supp_repro}
+
+The experimental outputs retain a machine-readable audit trail spanning
+predictive development, DOC calibration, frozen representations, future
+decisions, and operational comparisons. In the fantasy-football pipeline, the
+freeze audit confirms that predictive hyperparameters, ensemble weights, DOC
+weights, budget and admissible formations were specified without using 2025
+outcomes; 2025 is used only for sequential out-of-time evaluation.
+
+The supplementary evidence package includes temporal-development folds,
+predictive search candidates and selected hyperparameters, out-of-fold
+predictions, walk-forward predictions, DOC calibration surfaces, bootstrap
+selection frequencies, frozen DOC weights, round-level operational outputs,
+post-hoc utility surfaces, ablation and captain analyses, target-convention
+audits, and leakage/freeze audits. The Energy package analogously contains
+temporal protocol definitions, calibration surfaces, frozen parameters,
+replication-level results, and the complete operational robustness grid.
+
+\section{Interpretive Boundaries}
+\label{sec:supp_boundaries}
+
+The analyses in this supplement are robustness and diagnostic analyses. They
+should not be interpreted as additional opportunities to optimize the reported
+2025 strategy after observing 2025 outcomes. In particular, the superior 2025
+performance of some ablated or reference strategies is retrospective evidence
+about representation transfer, not a replacement for the frozen DOC result.
+
+Similarly, the retrospective utility landscape and local-neighborhood analyses
+are used to characterize displacement of the favorable representation after
+deployment. They are not implementable prospective policies. This distinction
+preserves the information boundary required by the primary temporal
+transferability claim.
+
+\end{document}

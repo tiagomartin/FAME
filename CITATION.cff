@@ -1,0 +1,22 @@
+cff-version: 1.2.0
+message: "If you use FAME, please cite the associated manuscript and this software."
+title: "FAME: Prediction-to-Decision Representations for Constrained Resource Allocation"
+type: software
+authors:
+  - family-names: Pereira
+    given-names: Tiago Martins
+  - family-names: Oliveira
+    given-names: Diana Campos de
+year: 2026
+repository-code: "https://github.com/tiagomartin/FAME"
+license: MIT
+preferred-citation:
+  type: article
+  title: "Temporal Transferability of Prediction-to-Decision Representations in Constrained Resource Allocation"
+  authors:
+    - family-names: Pereira
+      given-names: Tiago Martins
+    - family-names: Oliveira
+      given-names: Diana Campos de
+  year: 2026
+  notes: "Journal citation and DOI to be added after acceptance/publication."

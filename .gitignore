@@ -1,0 +1,47 @@
+# Python
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+.venv/
+venv/
+env/
+
+# OS / editors
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# Secrets
+.env
+*.key
+*.pem
+credentials*
+token*
+secrets*
+
+# Large/transient files
+cache/
+tmp/
+temp/
+checkpoints/
+*.npy
+*.npz
+*.pkl
+*.pickle
+*.joblib
+
+# Raw third-party data are not committed by default
+data/raw/
+raw_data/
+
+# LaTeX build files
+*.aux
+*.bbl
+*.blg
+*.log
+*.out
+*.synctex.gz
+
+# Fresh reproduction outputs
+reproduced/

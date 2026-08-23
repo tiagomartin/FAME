@@ -1,0 +1,13 @@
+﻿position_id,position,model,params_json
+1,goleiro,RF,"{""max_depth"": 2, ""max_features"": ""sqrt"", ""min_samples_leaf"": 75, ""n_estimators"": 1500}"
+1,goleiro,XGB,"{""colsample_bytree"": 0.6204433687962592, ""learning_rate"": 0.001090790035319715, ""max_depth"": 4, ""n_estimators"": 300, ""reg_alpha"": 18.706628843514043, ""reg_lambda"": 0.00790461735887091, ""subsample"": 0.9653586409986019}"
+2,lateral,RF,"{""max_depth"": 8, ""max_features"": ""sqrt"", ""min_samples_leaf"": 20, ""n_estimators"": 500}"
+2,lateral,XGB,"{""colsample_bytree"": 0.8746695355512202, ""learning_rate"": 0.0018398171995602861, ""max_depth"": 4, ""n_estimators"": 1400, ""reg_alpha"": 0.00014290338823853393, ""reg_lambda"": 0.08051163426115664, ""subsample"": 0.672683147713542}"
+3,zagueiro,RF,"{""max_depth"": 2, ""max_features"": 1.0, ""min_samples_leaf"": 10, ""n_estimators"": 900}"
+3,zagueiro,XGB,"{""colsample_bytree"": 0.7374551789835095, ""learning_rate"": 0.008400449652882712, ""max_depth"": 2, ""n_estimators"": 250, ""reg_alpha"": 0.0001568007746195425, ""reg_lambda"": 1.2109870044864097, ""subsample"": 0.7307628551498055}"
+4,meia,RF,"{""max_depth"": 8, ""max_features"": ""sqrt"", ""min_samples_leaf"": 5, ""n_estimators"": 1300}"
+4,meia,XGB,"{""colsample_bytree"": 0.5519214449450374, ""learning_rate"": 0.01285055226681729, ""max_depth"": 3, ""n_estimators"": 350, ""reg_alpha"": 0.0003430101828087219, ""reg_lambda"": 4.282157839548478, ""subsample"": 0.6602999758906662}"
+5,atacante,RF,"{""max_depth"": 5, ""max_features"": 0.3, ""min_samples_leaf"": 10, ""n_estimators"": 1800}"
+5,atacante,XGB,"{""colsample_bytree"": 0.9920489201322198, ""learning_rate"": 0.004490724301900747, ""max_depth"": 2, ""n_estimators"": 1250, ""reg_alpha"": 9.628490946412484, ""reg_lambda"": 26.337947323259108, ""subsample"": 0.8750924048945308}"
+6,tecnico,RF,"{""max_depth"": 3, ""max_features"": 0.8, ""min_samples_leaf"": 2, ""n_estimators"": 1600}"
+6,tecnico,XGB,"{""colsample_bytree"": 0.5081904069520533, ""learning_rate"": 0.0014889294596340775, ""max_depth"": 2, ""n_estimators"": 1550, ""reg_alpha"": 0.004037281769150291, ""reg_lambda"": 0.025470630483935896, ""subsample"": 0.6068074083887041}"

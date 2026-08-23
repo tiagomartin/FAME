@@ -1,0 +1,13 @@
+# Draft dependency list inferred from the final notebooks.
+# Before the public v1.0.0 release, replace this file with exact versions
+# exported from the environment used to reproduce the final manuscript results.
+numpy
+pandas
+scipy
+matplotlib
+scikit-learn
+xgboost
+pulp
+statsmodels
+tensorflow
+jupyter

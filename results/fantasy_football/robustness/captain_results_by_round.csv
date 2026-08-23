@@ -1,0 +1,519 @@
+﻿temporada,rodada_target,lineup_strategy,captain_rule,captain_player_id,captain_realized_score,captain_bonus,final_team_utility_with_captain,oracle_realized_score,captain_regret_score,is_oracle
+2025,2,FAME-DOC,Highest Market Value,99228,3.5,1.75,34.53,7.7,4.2,False
+2025,2,FAME-DOC,Highest Historical Mean,70916,0.0,0.0,32.78,7.7,7.7,False
+2025,2,FAME-DOC,Highest Expected Performance,82627,7.7,3.85,36.63,7.7,0.0,True
+2025,2,FAME-DOC,Highest Conditional Prediction,81881,4.2,2.1,34.88,7.7,3.5,False
+2025,2,FAME-DOC,Highest FAME Representation,82627,7.7,3.85,36.63,7.7,0.0,True
+2025,3,FAME-DOC,Highest Market Value,94509,0.0,0.0,54.37,10.7,10.7,False
+2025,3,FAME-DOC,Highest Historical Mean,93879,0.0,0.0,54.37,10.7,10.7,False
+2025,3,FAME-DOC,Highest Expected Performance,94509,0.0,0.0,54.37,10.7,10.7,False
+2025,3,FAME-DOC,Highest Conditional Prediction,94509,0.0,0.0,54.37,10.7,10.7,False
+2025,3,FAME-DOC,Highest FAME Representation,93879,0.0,0.0,54.37,10.7,10.7,False
+2025,4,FAME-DOC,Highest Market Value,87999,1.9,0.95,40.480000000000004,10.7,8.799999999999999,False
+2025,4,FAME-DOC,Highest Historical Mean,102975,10.7,5.35,44.88,10.7,0.0,True
+2025,4,FAME-DOC,Highest Expected Performance,91607,1.9,0.95,40.480000000000004,10.7,8.799999999999999,False
+2025,4,FAME-DOC,Highest Conditional Prediction,91607,1.9,0.95,40.480000000000004,10.7,8.799999999999999,False
+2025,4,FAME-DOC,Highest FAME Representation,91607,1.9,0.95,40.480000000000004,10.7,8.799999999999999,False
+2025,5,FAME-DOC,Highest Market Value,99815,5.8,2.9,55.18,12.4,6.6000000000000005,False
+2025,5,FAME-DOC,Highest Historical Mean,101290,12.4,6.2,58.480000000000004,12.4,0.0,True
+2025,5,FAME-DOC,Highest Expected Performance,99815,5.8,2.9,55.18,12.4,6.6000000000000005,False
+2025,5,FAME-DOC,Highest Conditional Prediction,99815,5.8,2.9,55.18,12.4,6.6000000000000005,False
+2025,5,FAME-DOC,Highest FAME Representation,105811,5.3,2.65,54.93,12.4,7.1000000000000005,False
+2025,6,FAME-DOC,Highest Market Value,99815,3.9,1.95,73.05,12.2,8.299999999999999,False
+2025,6,FAME-DOC,Highest Historical Mean,103445,8.9,4.45,75.55,12.2,3.299999999999999,False
+2025,6,FAME-DOC,Highest Expected Performance,103445,8.9,4.45,75.55,12.2,3.299999999999999,False
+2025,6,FAME-DOC,Highest Conditional Prediction,98672,8.3,4.15,75.25,12.2,3.8999999999999986,False
+2025,6,FAME-DOC,Highest FAME Representation,98672,8.3,4.15,75.25,12.2,3.8999999999999986,False
+2025,7,FAME-DOC,Highest Market Value,99815,14.5,7.25,53.41,14.5,0.0,True
+2025,7,FAME-DOC,Highest Historical Mean,90703,1.4,0.7,46.86,14.5,13.1,False
+2025,7,FAME-DOC,Highest Expected Performance,70360,1.7,0.85,47.01,14.5,12.8,False
+2025,7,FAME-DOC,Highest Conditional Prediction,70360,1.7,0.85,47.01,14.5,12.8,False
+2025,7,FAME-DOC,Highest FAME Representation,78850,0.0,0.0,46.16,14.5,14.5,False
+2025,8,FAME-DOC,Highest Market Value,96610,25.6,12.8,82.72999999999999,25.6,0.0,True
+2025,8,FAME-DOC,Highest Historical Mean,104528,8.0,4.0,73.92999999999999,25.6,17.6,False
+2025,8,FAME-DOC,Highest Expected Performance,96610,25.6,12.8,82.72999999999999,25.6,0.0,True
+2025,8,FAME-DOC,Highest Conditional Prediction,104528,8.0,4.0,73.92999999999999,25.6,17.6,False
+2025,8,FAME-DOC,Highest FAME Representation,70360,3.8,1.9,71.83,25.6,21.8,False
+2025,9,FAME-DOC,Highest Market Value,104528,0.4,0.2,61.00000000000001,12.4,12.0,False
+2025,9,FAME-DOC,Highest Historical Mean,104528,0.4,0.2,61.00000000000001,12.4,12.0,False
+2025,9,FAME-DOC,Highest Expected Performance,99815,3.3,1.65,62.45,12.4,9.100000000000001,False
+2025,9,FAME-DOC,Highest Conditional Prediction,99815,3.3,1.65,62.45,12.4,9.100000000000001,False
+2025,9,FAME-DOC,Highest FAME Representation,99815,3.3,1.65,62.45,12.4,9.100000000000001,False
+2025,10,FAME-DOC,Highest Market Value,99267,3.6,1.8,59.91999999999999,18.3,14.700000000000001,False
+2025,10,FAME-DOC,Highest Historical Mean,99267,3.6,1.8,59.91999999999999,18.3,14.700000000000001,False
+2025,10,FAME-DOC,Highest Expected Performance,99815,3.1,1.55,59.66999999999999,18.3,15.200000000000001,False
+2025,10,FAME-DOC,Highest Conditional Prediction,99815,3.1,1.55,59.66999999999999,18.3,15.200000000000001,False
+2025,10,FAME-DOC,Highest FAME Representation,78850,18.3,9.15,67.27,18.3,0.0,True
+2025,11,FAME-DOC,Highest Market Value,99815,8.2,4.1,44.830000000000005,16.0,7.800000000000001,False
+2025,11,FAME-DOC,Highest Historical Mean,78850,16.0,8.0,48.730000000000004,16.0,0.0,True
+2025,11,FAME-DOC,Highest Expected Performance,78850,16.0,8.0,48.730000000000004,16.0,0.0,True
+2025,11,FAME-DOC,Highest Conditional Prediction,78850,16.0,8.0,48.730000000000004,16.0,0.0,True
+2025,11,FAME-DOC,Highest FAME Representation,78850,16.0,8.0,48.730000000000004,16.0,0.0,True
+2025,12,FAME-DOC,Highest Market Value,96610,3.2,1.6,49.49,14.5,11.3,False
+2025,12,FAME-DOC,Highest Historical Mean,99267,4.6,2.3,50.19,14.5,9.9,False
+2025,12,FAME-DOC,Highest Expected Performance,96610,3.2,1.6,49.49,14.5,11.3,False
+2025,12,FAME-DOC,Highest Conditional Prediction,107554,10.2,5.1,52.99,14.5,4.300000000000001,False
+2025,12,FAME-DOC,Highest FAME Representation,107554,10.2,5.1,52.99,14.5,4.300000000000001,False
+2025,13,FAME-DOC,Highest Market Value,96610,16.7,8.35,50.35,16.7,0.0,True
+2025,13,FAME-DOC,Highest Historical Mean,96610,16.7,8.35,50.35,16.7,0.0,True
+2025,13,FAME-DOC,Highest Expected Performance,96610,16.7,8.35,50.35,16.7,0.0,True
+2025,13,FAME-DOC,Highest Conditional Prediction,99815,0.0,0.0,42.0,16.7,16.7,False
+2025,13,FAME-DOC,Highest FAME Representation,107554,2.0,1.0,43.0,16.7,14.7,False
+2025,14,FAME-DOC,Highest Market Value,96610,13.8,6.9,96.77,19.4,5.599999999999998,False
+2025,14,FAME-DOC,Highest Historical Mean,96610,13.8,6.9,96.77,19.4,5.599999999999998,False
+2025,14,FAME-DOC,Highest Expected Performance,96610,13.8,6.9,96.77,19.4,5.599999999999998,False
+2025,14,FAME-DOC,Highest Conditional Prediction,96610,13.8,6.9,96.77,19.4,5.599999999999998,False
+2025,14,FAME-DOC,Highest FAME Representation,78850,0.7,0.35,90.21999999999998,19.4,18.7,False
+2025,15,FAME-DOC,Highest Market Value,96610,0.5,0.25,50.029999999999994,15.0,14.5,False
+2025,15,FAME-DOC,Highest Historical Mean,96610,0.5,0.25,50.029999999999994,15.0,14.5,False
+2025,15,FAME-DOC,Highest Expected Performance,96610,0.5,0.25,50.029999999999994,15.0,14.5,False
+2025,15,FAME-DOC,Highest Conditional Prediction,96610,0.5,0.25,50.029999999999994,15.0,14.5,False
+2025,15,FAME-DOC,Highest FAME Representation,96610,0.5,0.25,50.029999999999994,15.0,14.5,False
+2025,16,FAME-DOC,Highest Market Value,96610,5.1,2.55,47.949999999999996,11.2,6.1,False
+2025,16,FAME-DOC,Highest Historical Mean,96610,5.1,2.55,47.949999999999996,11.2,6.1,False
+2025,16,FAME-DOC,Highest Expected Performance,96610,5.1,2.55,47.949999999999996,11.2,6.1,False
+2025,16,FAME-DOC,Highest Conditional Prediction,96610,5.1,2.55,47.949999999999996,11.2,6.1,False
+2025,16,FAME-DOC,Highest FAME Representation,78850,6.5,3.25,48.65,11.2,4.699999999999999,False
+2025,17,FAME-DOC,Highest Market Value,68685,3.9,1.95,54.190000000000005,16.8,12.9,False
+2025,17,FAME-DOC,Highest Historical Mean,80287,4.4,2.2,54.440000000000005,16.8,12.4,False
+2025,17,FAME-DOC,Highest Expected Performance,80287,4.4,2.2,54.440000000000005,16.8,12.4,False
+2025,17,FAME-DOC,Highest Conditional Prediction,80287,4.4,2.2,54.440000000000005,16.8,12.4,False
+2025,17,FAME-DOC,Highest FAME Representation,80287,4.4,2.2,54.440000000000005,16.8,12.4,False
+2025,18,FAME-DOC,Highest Market Value,96610,9.7,4.85,76.97,17.8,8.100000000000001,False
+2025,18,FAME-DOC,Highest Historical Mean,96610,9.7,4.85,76.97,17.8,8.100000000000001,False
+2025,18,FAME-DOC,Highest Expected Performance,96610,9.7,4.85,76.97,17.8,8.100000000000001,False
+2025,18,FAME-DOC,Highest Conditional Prediction,96610,9.7,4.85,76.97,17.8,8.100000000000001,False
+2025,18,FAME-DOC,Highest FAME Representation,80287,1.8,0.9,73.02000000000001,17.8,16.0,False
+2025,19,FAME-DOC,Highest Market Value,96610,0.9,0.45,33.81,8.1,7.199999999999999,False
+2025,19,FAME-DOC,Highest Historical Mean,96610,0.9,0.45,33.81,8.1,7.199999999999999,False
+2025,19,FAME-DOC,Highest Expected Performance,96610,0.9,0.45,33.81,8.1,7.199999999999999,False
+2025,19,FAME-DOC,Highest Conditional Prediction,96610,0.9,0.45,33.81,8.1,7.199999999999999,False
+2025,19,FAME-DOC,Highest FAME Representation,78850,4.1,2.05,35.41,8.1,4.0,False
+2025,20,FAME-DOC,Highest Market Value,63007,1.0,0.5,33.669999999999995,9.4,8.4,False
+2025,20,FAME-DOC,Highest Historical Mean,96610,9.4,4.7,37.87,9.4,0.0,True
+2025,20,FAME-DOC,Highest Expected Performance,63007,1.0,0.5,33.669999999999995,9.4,8.4,False
+2025,20,FAME-DOC,Highest Conditional Prediction,63007,1.0,0.5,33.669999999999995,9.4,8.4,False
+2025,20,FAME-DOC,Highest FAME Representation,63007,1.0,0.5,33.669999999999995,9.4,8.4,False
+2025,21,FAME-DOC,Highest Market Value,96610,13.9,6.95,81.89000000000001,18.4,4.499999999999998,False
+2025,21,FAME-DOC,Highest Historical Mean,96610,13.9,6.95,81.89000000000001,18.4,4.499999999999998,False
+2025,21,FAME-DOC,Highest Expected Performance,96610,13.9,6.95,81.89000000000001,18.4,4.499999999999998,False
+2025,21,FAME-DOC,Highest Conditional Prediction,96610,13.9,6.95,81.89000000000001,18.4,4.499999999999998,False
+2025,21,FAME-DOC,Highest FAME Representation,78850,5.7,2.85,77.79,18.4,12.7,False
+2025,22,FAME-DOC,Highest Market Value,96610,10.9,5.45,78.54,12.9,2.0,False
+2025,22,FAME-DOC,Highest Historical Mean,96610,10.9,5.45,78.54,12.9,2.0,False
+2025,22,FAME-DOC,Highest Expected Performance,96610,10.9,5.45,78.54,12.9,2.0,False
+2025,22,FAME-DOC,Highest Conditional Prediction,96610,10.9,5.45,78.54,12.9,2.0,False
+2025,22,FAME-DOC,Highest FAME Representation,78850,12.9,6.45,79.54,12.9,0.0,True
+2025,23,FAME-DOC,Highest Market Value,96610,3.7,1.85,50.95000000000001,14.3,10.600000000000001,False
+2025,23,FAME-DOC,Highest Historical Mean,96610,3.7,1.85,50.95000000000001,14.3,10.600000000000001,False
+2025,23,FAME-DOC,Highest Expected Performance,96610,3.7,1.85,50.95000000000001,14.3,10.600000000000001,False
+2025,23,FAME-DOC,Highest Conditional Prediction,96610,3.7,1.85,50.95000000000001,14.3,10.600000000000001,False
+2025,23,FAME-DOC,Highest FAME Representation,96610,3.7,1.85,50.95000000000001,14.3,10.600000000000001,False
+2025,24,FAME-DOC,Highest Market Value,96610,1.2,0.6,44.19,16.1,14.900000000000002,False
+2025,24,FAME-DOC,Highest Historical Mean,96610,1.2,0.6,44.19,16.1,14.900000000000002,False
+2025,24,FAME-DOC,Highest Expected Performance,96610,1.2,0.6,44.19,16.1,14.900000000000002,False
+2025,24,FAME-DOC,Highest Conditional Prediction,96610,1.2,0.6,44.19,16.1,14.900000000000002,False
+2025,24,FAME-DOC,Highest FAME Representation,78850,16.1,8.05,51.64,16.1,0.0,True
+2025,25,FAME-DOC,Highest Market Value,114802,1.6,0.8,21.06,4.5,2.9,False
+2025,25,FAME-DOC,Highest Historical Mean,114802,1.6,0.8,21.06,4.5,2.9,False
+2025,25,FAME-DOC,Highest Expected Performance,114802,1.6,0.8,21.06,4.5,2.9,False
+2025,25,FAME-DOC,Highest Conditional Prediction,114802,1.6,0.8,21.06,4.5,2.9,False
+2025,25,FAME-DOC,Highest FAME Representation,114802,1.6,0.8,21.06,4.5,2.9,False
+2025,26,FAME-DOC,Highest Market Value,96610,6.2,3.1,66.30999999999999,13.0,6.8,False
+2025,26,FAME-DOC,Highest Historical Mean,96610,6.2,3.1,66.30999999999999,13.0,6.8,False
+2025,26,FAME-DOC,Highest Expected Performance,96610,6.2,3.1,66.30999999999999,13.0,6.8,False
+2025,26,FAME-DOC,Highest Conditional Prediction,96610,6.2,3.1,66.30999999999999,13.0,6.8,False
+2025,26,FAME-DOC,Highest FAME Representation,96610,6.2,3.1,66.30999999999999,13.0,6.8,False
+2025,27,FAME-DOC,Highest Market Value,68685,8.2,4.1,62.660000000000004,20.6,12.400000000000002,False
+2025,27,FAME-DOC,Highest Historical Mean,78850,-1.2,-0.6,57.96,20.6,21.8,False
+2025,27,FAME-DOC,Highest Expected Performance,68685,8.2,4.1,62.660000000000004,20.6,12.400000000000002,False
+2025,27,FAME-DOC,Highest Conditional Prediction,68685,8.2,4.1,62.660000000000004,20.6,12.400000000000002,False
+2025,27,FAME-DOC,Highest FAME Representation,78850,-1.2,-0.6,57.96,20.6,21.8,False
+2025,28,FAME-DOC,Highest Market Value,114802,25.8,12.9,75.92,25.8,0.0,True
+2025,28,FAME-DOC,Highest Historical Mean,78850,15.1,7.55,70.57,25.8,10.700000000000001,False
+2025,28,FAME-DOC,Highest Expected Performance,114802,25.8,12.9,75.92,25.8,0.0,True
+2025,28,FAME-DOC,Highest Conditional Prediction,114802,25.8,12.9,75.92,25.8,0.0,True
+2025,28,FAME-DOC,Highest FAME Representation,78850,15.1,7.55,70.57,25.8,10.700000000000001,False
+2025,29,FAME-DOC,Highest Market Value,78850,21.0,10.5,75.2,21.0,0.0,True
+2025,29,FAME-DOC,Highest Historical Mean,78850,21.0,10.5,75.2,21.0,0.0,True
+2025,29,FAME-DOC,Highest Expected Performance,122486,10.9,5.45,70.15,21.0,10.1,False
+2025,29,FAME-DOC,Highest Conditional Prediction,122486,10.9,5.45,70.15,21.0,10.1,False
+2025,29,FAME-DOC,Highest FAME Representation,122486,10.9,5.45,70.15,21.0,10.1,False
+2025,30,FAME-DOC,Highest Market Value,96610,4.0,2.0,57.42000000000001,12.3,8.3,False
+2025,30,FAME-DOC,Highest Historical Mean,122486,0.0,0.0,55.42000000000001,12.3,12.3,False
+2025,30,FAME-DOC,Highest Expected Performance,96610,4.0,2.0,57.42000000000001,12.3,8.3,False
+2025,30,FAME-DOC,Highest Conditional Prediction,96610,4.0,2.0,57.42000000000001,12.3,8.3,False
+2025,30,FAME-DOC,Highest FAME Representation,122486,0.0,0.0,55.42000000000001,12.3,12.3,False
+2025,31,FAME-DOC,Highest Market Value,96610,4.9,2.45,63.33,17.4,12.499999999999998,False
+2025,31,FAME-DOC,Highest Historical Mean,106708,5.4,2.7,63.58,17.4,11.999999999999998,False
+2025,31,FAME-DOC,Highest Expected Performance,96610,4.9,2.45,63.33,17.4,12.499999999999998,False
+2025,31,FAME-DOC,Highest Conditional Prediction,96610,4.9,2.45,63.33,17.4,12.499999999999998,False
+2025,31,FAME-DOC,Highest FAME Representation,113103,0.0,0.0,60.879999999999995,17.4,17.4,False
+2025,32,FAME-DOC,Highest Market Value,96610,0.2,0.1,62.550000000000004,17.0,16.8,False
+2025,32,FAME-DOC,Highest Historical Mean,78850,2.2,1.1,63.550000000000004,17.0,14.8,False
+2025,32,FAME-DOC,Highest Expected Performance,96610,0.2,0.1,62.550000000000004,17.0,16.8,False
+2025,32,FAME-DOC,Highest Conditional Prediction,96610,0.2,0.1,62.550000000000004,17.0,16.8,False
+2025,32,FAME-DOC,Highest FAME Representation,78850,2.2,1.1,63.550000000000004,17.0,14.8,False
+2025,33,FAME-DOC,Highest Market Value,96610,6.0,3.0,66.57,14.6,8.6,False
+2025,33,FAME-DOC,Highest Historical Mean,104084,6.3,3.15,66.71999999999998,14.6,8.3,False
+2025,33,FAME-DOC,Highest Expected Performance,122486,9.2,4.6,68.16999999999999,14.6,5.4,False
+2025,33,FAME-DOC,Highest Conditional Prediction,122486,9.2,4.6,68.16999999999999,14.6,5.4,False
+2025,33,FAME-DOC,Highest FAME Representation,122486,9.2,4.6,68.16999999999999,14.6,5.4,False
+2025,34,FAME-DOC,Highest Market Value,68685,8.7,4.35,79.56,17.8,9.100000000000001,False
+2025,34,FAME-DOC,Highest Historical Mean,78850,11.2,5.6,80.81,17.8,6.600000000000001,False
+2025,34,FAME-DOC,Highest Expected Performance,122486,1.7,0.85,76.06,17.8,16.1,False
+2025,34,FAME-DOC,Highest Conditional Prediction,122486,1.7,0.85,76.06,17.8,16.1,False
+2025,34,FAME-DOC,Highest FAME Representation,122486,1.7,0.85,76.06,17.8,16.1,False
+2025,35,FAME-DOC,Highest Market Value,96610,4.7,2.35,66.3,13.5,8.8,False
+2025,35,FAME-DOC,Highest Historical Mean,78850,13.2,6.6,70.55,13.5,0.3000000000000007,False
+2025,35,FAME-DOC,Highest Expected Performance,96610,4.7,2.35,66.3,13.5,8.8,False
+2025,35,FAME-DOC,Highest Conditional Prediction,122486,2.6,1.3,65.25,13.5,10.9,False
+2025,35,FAME-DOC,Highest FAME Representation,122486,2.6,1.3,65.25,13.5,10.9,False
+2025,36,FAME-DOC,Highest Market Value,96610,4.2,2.1,57.97,19.5,15.3,False
+2025,36,FAME-DOC,Highest Historical Mean,78850,2.9,1.45,57.32,19.5,16.6,False
+2025,36,FAME-DOC,Highest Expected Performance,78850,2.9,1.45,57.32,19.5,16.6,False
+2025,36,FAME-DOC,Highest Conditional Prediction,78850,2.9,1.45,57.32,19.5,16.6,False
+2025,36,FAME-DOC,Highest FAME Representation,122486,19.5,9.75,65.62,19.5,0.0,True
+2025,37,FAME-DOC,Highest Market Value,96610,11.2,5.6,53.099999999999994,11.2,0.0,True
+2025,37,FAME-DOC,Highest Historical Mean,78850,0.0,0.0,47.49999999999999,11.2,11.2,False
+2025,37,FAME-DOC,Highest Expected Performance,122486,5.9,2.95,50.449999999999996,11.2,5.299999999999999,False
+2025,37,FAME-DOC,Highest Conditional Prediction,122486,5.9,2.95,50.449999999999996,11.2,5.299999999999999,False
+2025,37,FAME-DOC,Highest FAME Representation,78850,0.0,0.0,47.49999999999999,11.2,11.2,False
+2025,38,FAME-DOC,Highest Market Value,96610,0.0,0.0,38.660000000000004,9.7,9.7,False
+2025,38,FAME-DOC,Highest Historical Mean,106708,6.3,3.15,41.81,9.7,3.3999999999999995,False
+2025,38,FAME-DOC,Highest Expected Performance,122486,0.0,0.0,38.660000000000004,9.7,9.7,False
+2025,38,FAME-DOC,Highest Conditional Prediction,122486,0.0,0.0,38.660000000000004,9.7,9.7,False
+2025,38,FAME-DOC,Highest FAME Representation,122486,0.0,0.0,38.660000000000004,9.7,9.7,False
+2025,2,Availability-adjusted expected prediction,Highest Market Value,87258,1.2,0.6,48.379999999999995,10.6,9.4,False
+2025,2,Availability-adjusted expected prediction,Highest Historical Mean,81952,3.7,1.85,49.629999999999995,10.6,6.8999999999999995,False
+2025,2,Availability-adjusted expected prediction,Highest Expected Performance,104666,8.9,4.45,52.23,10.6,1.6999999999999993,False
+2025,2,Availability-adjusted expected prediction,Highest Conditional Prediction,104666,8.9,4.45,52.23,10.6,1.6999999999999993,False
+2025,3,Availability-adjusted expected prediction,Highest Market Value,94509,0.0,0.0,39.269999999999996,10.0,10.0,False
+2025,3,Availability-adjusted expected prediction,Highest Historical Mean,91607,6.9,3.45,42.72,10.0,3.0999999999999996,False
+2025,3,Availability-adjusted expected prediction,Highest Expected Performance,94509,0.0,0.0,39.269999999999996,10.0,10.0,False
+2025,3,Availability-adjusted expected prediction,Highest Conditional Prediction,94509,0.0,0.0,39.269999999999996,10.0,10.0,False
+2025,4,Availability-adjusted expected prediction,Highest Market Value,87999,1.9,0.95,62.49,13.0,11.1,False
+2025,4,Availability-adjusted expected prediction,Highest Historical Mean,91607,1.9,0.95,62.49,13.0,11.1,False
+2025,4,Availability-adjusted expected prediction,Highest Expected Performance,91607,1.9,0.95,62.49,13.0,11.1,False
+2025,4,Availability-adjusted expected prediction,Highest Conditional Prediction,91607,1.9,0.95,62.49,13.0,11.1,False
+2025,5,Availability-adjusted expected prediction,Highest Market Value,104528,2.3,1.15,38.93000000000001,11.4,9.100000000000001,False
+2025,5,Availability-adjusted expected prediction,Highest Historical Mean,104528,2.3,1.15,38.93000000000001,11.4,9.100000000000001,False
+2025,5,Availability-adjusted expected prediction,Highest Expected Performance,104528,2.3,1.15,38.93000000000001,11.4,9.100000000000001,False
+2025,5,Availability-adjusted expected prediction,Highest Conditional Prediction,104528,2.3,1.15,38.93000000000001,11.4,9.100000000000001,False
+2025,6,Availability-adjusted expected prediction,Highest Market Value,99815,3.9,1.95,78.03,12.2,8.299999999999999,False
+2025,6,Availability-adjusted expected prediction,Highest Historical Mean,102975,9.8,4.9,80.98,12.2,2.3999999999999986,False
+2025,6,Availability-adjusted expected prediction,Highest Expected Performance,99815,3.9,1.95,78.03,12.2,8.299999999999999,False
+2025,6,Availability-adjusted expected prediction,Highest Conditional Prediction,102975,9.8,4.9,80.98,12.2,2.3999999999999986,False
+2025,7,Availability-adjusted expected prediction,Highest Market Value,96610,9.2,4.6,52.35000000000001,14.5,5.300000000000001,False
+2025,7,Availability-adjusted expected prediction,Highest Historical Mean,70360,1.7,0.85,48.60000000000001,14.5,12.8,False
+2025,7,Availability-adjusted expected prediction,Highest Expected Performance,91607,-0.6,-0.3,47.45000000000001,14.5,15.1,False
+2025,7,Availability-adjusted expected prediction,Highest Conditional Prediction,70360,1.7,0.85,48.60000000000001,14.5,12.8,False
+2025,8,Availability-adjusted expected prediction,Highest Market Value,39148,8.3,4.15,68.28,25.6,17.3,False
+2025,8,Availability-adjusted expected prediction,Highest Historical Mean,99815,2.2,1.1,65.22999999999999,25.6,23.400000000000002,False
+2025,8,Availability-adjusted expected prediction,Highest Expected Performance,39148,8.3,4.15,68.28,25.6,17.3,False
+2025,8,Availability-adjusted expected prediction,Highest Conditional Prediction,39148,8.3,4.15,68.28,25.6,17.3,False
+2025,9,Availability-adjusted expected prediction,Highest Market Value,96610,3.7,1.85,51.25,9.7,5.999999999999999,False
+2025,9,Availability-adjusted expected prediction,Highest Historical Mean,96610,3.7,1.85,51.25,9.7,5.999999999999999,False
+2025,9,Availability-adjusted expected prediction,Highest Expected Performance,96610,3.7,1.85,51.25,9.7,5.999999999999999,False
+2025,9,Availability-adjusted expected prediction,Highest Conditional Prediction,96610,3.7,1.85,51.25,9.7,5.999999999999999,False
+2025,10,Availability-adjusted expected prediction,Highest Market Value,87863,9.7,4.85,78.39999999999999,18.3,8.600000000000001,False
+2025,10,Availability-adjusted expected prediction,Highest Historical Mean,87863,9.7,4.85,78.39999999999999,18.3,8.600000000000001,False
+2025,10,Availability-adjusted expected prediction,Highest Expected Performance,87863,9.7,4.85,78.39999999999999,18.3,8.600000000000001,False
+2025,10,Availability-adjusted expected prediction,Highest Conditional Prediction,87863,9.7,4.85,78.39999999999999,18.3,8.600000000000001,False
+2025,11,Availability-adjusted expected prediction,Highest Market Value,99815,8.2,4.1,97.06,16.0,7.800000000000001,False
+2025,11,Availability-adjusted expected prediction,Highest Historical Mean,78850,16.0,8.0,100.96000000000001,16.0,0.0,True
+2025,11,Availability-adjusted expected prediction,Highest Expected Performance,78850,16.0,8.0,100.96000000000001,16.0,0.0,True
+2025,11,Availability-adjusted expected prediction,Highest Conditional Prediction,78850,16.0,8.0,100.96000000000001,16.0,0.0,True
+2025,12,Availability-adjusted expected prediction,Highest Market Value,103445,2.9,1.45,66.8,12.4,9.5,False
+2025,12,Availability-adjusted expected prediction,Highest Historical Mean,103445,2.9,1.45,66.8,12.4,9.5,False
+2025,12,Availability-adjusted expected prediction,Highest Expected Performance,103445,2.9,1.45,66.8,12.4,9.5,False
+2025,12,Availability-adjusted expected prediction,Highest Conditional Prediction,103445,2.9,1.45,66.8,12.4,9.5,False
+2025,13,Availability-adjusted expected prediction,Highest Market Value,87863,2.6,1.3,39.9,16.7,14.1,False
+2025,13,Availability-adjusted expected prediction,Highest Historical Mean,87863,2.6,1.3,39.9,16.7,14.1,False
+2025,13,Availability-adjusted expected prediction,Highest Expected Performance,87863,2.6,1.3,39.9,16.7,14.1,False
+2025,13,Availability-adjusted expected prediction,Highest Conditional Prediction,87863,2.6,1.3,39.9,16.7,14.1,False
+2025,14,Availability-adjusted expected prediction,Highest Market Value,96610,13.8,6.9,84.05,19.4,5.599999999999998,False
+2025,14,Availability-adjusted expected prediction,Highest Historical Mean,96610,13.8,6.9,84.05,19.4,5.599999999999998,False
+2025,14,Availability-adjusted expected prediction,Highest Expected Performance,96610,13.8,6.9,84.05,19.4,5.599999999999998,False
+2025,14,Availability-adjusted expected prediction,Highest Conditional Prediction,96610,13.8,6.9,84.05,19.4,5.599999999999998,False
+2025,15,Availability-adjusted expected prediction,Highest Market Value,96610,0.5,0.25,60.43,13.6,13.1,False
+2025,15,Availability-adjusted expected prediction,Highest Historical Mean,103445,13.6,6.8,66.98,13.6,0.0,True
+2025,15,Availability-adjusted expected prediction,Highest Expected Performance,96610,0.5,0.25,60.43,13.6,13.1,False
+2025,15,Availability-adjusted expected prediction,Highest Conditional Prediction,103445,13.6,6.8,66.98,13.6,0.0,True
+2025,16,Availability-adjusted expected prediction,Highest Market Value,96610,5.1,2.55,49.599999999999994,9.2,4.1,False
+2025,16,Availability-adjusted expected prediction,Highest Historical Mean,96610,5.1,2.55,49.599999999999994,9.2,4.1,False
+2025,16,Availability-adjusted expected prediction,Highest Expected Performance,96610,5.1,2.55,49.599999999999994,9.2,4.1,False
+2025,16,Availability-adjusted expected prediction,Highest Conditional Prediction,96610,5.1,2.55,49.599999999999994,9.2,4.1,False
+2025,17,Availability-adjusted expected prediction,Highest Market Value,39148,-0.1,-0.05,34.00000000000001,10.8,10.9,False
+2025,17,Availability-adjusted expected prediction,Highest Historical Mean,103445,10.8,5.4,39.45,10.8,0.0,True
+2025,17,Availability-adjusted expected prediction,Highest Expected Performance,39148,-0.1,-0.05,34.00000000000001,10.8,10.9,False
+2025,17,Availability-adjusted expected prediction,Highest Conditional Prediction,39148,-0.1,-0.05,34.00000000000001,10.8,10.9,False
+2025,18,Availability-adjusted expected prediction,Highest Market Value,96610,9.7,4.85,69.47999999999999,17.8,8.100000000000001,False
+2025,18,Availability-adjusted expected prediction,Highest Historical Mean,96610,9.7,4.85,69.47999999999999,17.8,8.100000000000001,False
+2025,18,Availability-adjusted expected prediction,Highest Expected Performance,39148,2.1,1.05,65.67999999999999,17.8,15.700000000000001,False
+2025,18,Availability-adjusted expected prediction,Highest Conditional Prediction,39148,2.1,1.05,65.67999999999999,17.8,15.700000000000001,False
+2025,19,Availability-adjusted expected prediction,Highest Market Value,103445,0.6,0.3,54.72,11.0,10.4,False
+2025,19,Availability-adjusted expected prediction,Highest Historical Mean,103445,0.6,0.3,54.72,11.0,10.4,False
+2025,19,Availability-adjusted expected prediction,Highest Expected Performance,103445,0.6,0.3,54.72,11.0,10.4,False
+2025,19,Availability-adjusted expected prediction,Highest Conditional Prediction,103445,0.6,0.3,54.72,11.0,10.4,False
+2025,20,Availability-adjusted expected prediction,Highest Market Value,103445,9.7,4.85,42.99999999999999,9.7,0.0,True
+2025,20,Availability-adjusted expected prediction,Highest Historical Mean,103445,9.7,4.85,42.99999999999999,9.7,0.0,True
+2025,20,Availability-adjusted expected prediction,Highest Expected Performance,63007,1.0,0.5,38.64999999999999,9.7,8.7,False
+2025,20,Availability-adjusted expected prediction,Highest Conditional Prediction,63007,1.0,0.5,38.64999999999999,9.7,8.7,False
+2025,21,Availability-adjusted expected prediction,Highest Market Value,87863,20.8,10.4,109.81000000000002,20.8,0.0,True
+2025,21,Availability-adjusted expected prediction,Highest Historical Mean,103445,13.5,6.75,106.16000000000001,20.8,7.300000000000001,False
+2025,21,Availability-adjusted expected prediction,Highest Expected Performance,87863,20.8,10.4,109.81000000000002,20.8,0.0,True
+2025,21,Availability-adjusted expected prediction,Highest Conditional Prediction,87863,20.8,10.4,109.81000000000002,20.8,0.0,True
+2025,22,Availability-adjusted expected prediction,Highest Market Value,87863,9.0,4.5,77.72999999999999,13.2,4.199999999999999,False
+2025,22,Availability-adjusted expected prediction,Highest Historical Mean,103445,-0.3,-0.15,73.07999999999998,13.2,13.5,False
+2025,22,Availability-adjusted expected prediction,Highest Expected Performance,87863,9.0,4.5,77.72999999999999,13.2,4.199999999999999,False
+2025,22,Availability-adjusted expected prediction,Highest Conditional Prediction,87863,9.0,4.5,77.72999999999999,13.2,4.199999999999999,False
+2025,23,Availability-adjusted expected prediction,Highest Market Value,87863,14.0,7.0,69.68,14.0,0.0,True
+2025,23,Availability-adjusted expected prediction,Highest Historical Mean,87863,14.0,7.0,69.68,14.0,0.0,True
+2025,23,Availability-adjusted expected prediction,Highest Expected Performance,87863,14.0,7.0,69.68,14.0,0.0,True
+2025,23,Availability-adjusted expected prediction,Highest Conditional Prediction,87863,14.0,7.0,69.68,14.0,0.0,True
+2025,24,Availability-adjusted expected prediction,Highest Market Value,87863,-0.5,-0.25,55.559999999999995,11.9,12.4,False
+2025,24,Availability-adjusted expected prediction,Highest Historical Mean,87863,-0.5,-0.25,55.559999999999995,11.9,12.4,False
+2025,24,Availability-adjusted expected prediction,Highest Expected Performance,87863,-0.5,-0.25,55.559999999999995,11.9,12.4,False
+2025,24,Availability-adjusted expected prediction,Highest Conditional Prediction,87863,-0.5,-0.25,55.559999999999995,11.9,12.4,False
+2025,25,Availability-adjusted expected prediction,Highest Market Value,87863,13.2,6.6,42.95,13.2,0.0,True
+2025,25,Availability-adjusted expected prediction,Highest Historical Mean,87863,13.2,6.6,42.95,13.2,0.0,True
+2025,25,Availability-adjusted expected prediction,Highest Expected Performance,87863,13.2,6.6,42.95,13.2,0.0,True
+2025,25,Availability-adjusted expected prediction,Highest Conditional Prediction,87863,13.2,6.6,42.95,13.2,0.0,True
+2025,26,Availability-adjusted expected prediction,Highest Market Value,96610,6.2,3.1,62.949999999999996,11.7,5.499999999999999,False
+2025,26,Availability-adjusted expected prediction,Highest Historical Mean,112709,7.9,3.95,63.8,11.7,3.799999999999999,False
+2025,26,Availability-adjusted expected prediction,Highest Expected Performance,112709,7.9,3.95,63.8,11.7,3.799999999999999,False
+2025,26,Availability-adjusted expected prediction,Highest Conditional Prediction,112709,7.9,3.95,63.8,11.7,3.799999999999999,False
+2025,27,Availability-adjusted expected prediction,Highest Market Value,87863,1.5,0.75,61.300000000000004,20.6,19.1,False
+2025,27,Availability-adjusted expected prediction,Highest Historical Mean,87863,1.5,0.75,61.300000000000004,20.6,19.1,False
+2025,27,Availability-adjusted expected prediction,Highest Expected Performance,87863,1.5,0.75,61.300000000000004,20.6,19.1,False
+2025,27,Availability-adjusted expected prediction,Highest Conditional Prediction,87863,1.5,0.75,61.300000000000004,20.6,19.1,False
+2025,28,Availability-adjusted expected prediction,Highest Market Value,96610,10.2,5.1,90.18,25.8,15.600000000000001,False
+2025,28,Availability-adjusted expected prediction,Highest Historical Mean,103445,2.0,1.0,86.08000000000001,25.8,23.8,False
+2025,28,Availability-adjusted expected prediction,Highest Expected Performance,103445,2.0,1.0,86.08000000000001,25.8,23.8,False
+2025,28,Availability-adjusted expected prediction,Highest Conditional Prediction,103445,2.0,1.0,86.08000000000001,25.8,23.8,False
+2025,29,Availability-adjusted expected prediction,Highest Market Value,96610,2.0,1.0,82.39000000000001,21.0,19.0,False
+2025,29,Availability-adjusted expected prediction,Highest Historical Mean,114802,12.9,6.45,87.84000000000002,21.0,8.1,False
+2025,29,Availability-adjusted expected prediction,Highest Expected Performance,114802,12.9,6.45,87.84000000000002,21.0,8.1,False
+2025,29,Availability-adjusted expected prediction,Highest Conditional Prediction,114802,12.9,6.45,87.84000000000002,21.0,8.1,False
+2025,30,Availability-adjusted expected prediction,Highest Market Value,96610,4.0,2.0,42.43,12.3,8.3,False
+2025,30,Availability-adjusted expected prediction,Highest Historical Mean,114802,3.1,1.55,41.98,12.3,9.200000000000001,False
+2025,30,Availability-adjusted expected prediction,Highest Expected Performance,114802,3.1,1.55,41.98,12.3,9.200000000000001,False
+2025,30,Availability-adjusted expected prediction,Highest Conditional Prediction,114802,3.1,1.55,41.98,12.3,9.200000000000001,False
+2025,31,Availability-adjusted expected prediction,Highest Market Value,103445,19.7,9.85,72.3,19.7,0.0,True
+2025,31,Availability-adjusted expected prediction,Highest Historical Mean,103445,19.7,9.85,72.3,19.7,0.0,True
+2025,31,Availability-adjusted expected prediction,Highest Expected Performance,114802,0.0,0.0,62.45,19.7,19.7,False
+2025,31,Availability-adjusted expected prediction,Highest Conditional Prediction,114802,0.0,0.0,62.45,19.7,19.7,False
+2025,32,Availability-adjusted expected prediction,Highest Market Value,96610,0.2,0.1,73.89,20.2,20.0,False
+2025,32,Availability-adjusted expected prediction,Highest Historical Mean,78850,2.2,1.1,74.89,20.2,18.0,False
+2025,32,Availability-adjusted expected prediction,Highest Expected Performance,96610,0.2,0.1,73.89,20.2,20.0,False
+2025,32,Availability-adjusted expected prediction,Highest Conditional Prediction,114802,20.2,10.1,83.89,20.2,0.0,True
+2025,33,Availability-adjusted expected prediction,Highest Market Value,103445,3.3,1.65,69.58000000000001,13.7,10.399999999999999,False
+2025,33,Availability-adjusted expected prediction,Highest Historical Mean,103445,3.3,1.65,69.58000000000001,13.7,10.399999999999999,False
+2025,33,Availability-adjusted expected prediction,Highest Expected Performance,103445,3.3,1.65,69.58000000000001,13.7,10.399999999999999,False
+2025,33,Availability-adjusted expected prediction,Highest Conditional Prediction,103445,3.3,1.65,69.58000000000001,13.7,10.399999999999999,False
+2025,34,Availability-adjusted expected prediction,Highest Market Value,103445,17.6,8.8,71.35000000000001,17.6,0.0,True
+2025,34,Availability-adjusted expected prediction,Highest Historical Mean,103445,17.6,8.8,71.35000000000001,17.6,0.0,True
+2025,34,Availability-adjusted expected prediction,Highest Expected Performance,103445,17.6,8.8,71.35000000000001,17.6,0.0,True
+2025,34,Availability-adjusted expected prediction,Highest Conditional Prediction,103445,17.6,8.8,71.35000000000001,17.6,0.0,True
+2025,35,Availability-adjusted expected prediction,Highest Market Value,96610,4.7,2.35,66.63999999999999,13.2,8.5,False
+2025,35,Availability-adjusted expected prediction,Highest Historical Mean,114802,6.4,3.2,67.49,13.2,6.799999999999999,False
+2025,35,Availability-adjusted expected prediction,Highest Expected Performance,114802,6.4,3.2,67.49,13.2,6.799999999999999,False
+2025,35,Availability-adjusted expected prediction,Highest Conditional Prediction,114802,6.4,3.2,67.49,13.2,6.799999999999999,False
+2025,36,Availability-adjusted expected prediction,Highest Market Value,103445,0.0,0.0,52.400000000000006,19.5,19.5,False
+2025,36,Availability-adjusted expected prediction,Highest Historical Mean,103445,0.0,0.0,52.400000000000006,19.5,19.5,False
+2025,36,Availability-adjusted expected prediction,Highest Expected Performance,103445,0.0,0.0,52.400000000000006,19.5,19.5,False
+2025,36,Availability-adjusted expected prediction,Highest Conditional Prediction,103445,0.0,0.0,52.400000000000006,19.5,19.5,False
+2025,37,Availability-adjusted expected prediction,Highest Market Value,96610,11.2,5.6,55.099999999999994,11.5,0.3000000000000007,False
+2025,37,Availability-adjusted expected prediction,Highest Historical Mean,78850,0.0,0.0,49.49999999999999,11.5,11.5,False
+2025,37,Availability-adjusted expected prediction,Highest Expected Performance,122486,5.9,2.95,52.449999999999996,11.5,5.6,False
+2025,37,Availability-adjusted expected prediction,Highest Conditional Prediction,122486,5.9,2.95,52.449999999999996,11.5,5.6,False
+2025,38,Availability-adjusted expected prediction,Highest Market Value,63007,3.3,1.65,30.54,7.7,4.4,False
+2025,38,Availability-adjusted expected prediction,Highest Historical Mean,103445,0.0,0.0,28.89,7.7,7.7,False
+2025,38,Availability-adjusted expected prediction,Highest Expected Performance,103445,0.0,0.0,28.89,7.7,7.7,False
+2025,38,Availability-adjusted expected prediction,Highest Conditional Prediction,103445,0.0,0.0,28.89,7.7,7.7,False
+2025,2,FAME-Original 70/20/10,Highest Market Value,99228,3.5,1.75,34.53,7.7,4.2,False
+2025,2,FAME-Original 70/20/10,Highest Historical Mean,70916,0.0,0.0,32.78,7.7,7.7,False
+2025,2,FAME-Original 70/20/10,Highest Expected Performance,82627,7.7,3.85,36.63,7.7,0.0,True
+2025,2,FAME-Original 70/20/10,Highest Conditional Prediction,81881,4.2,2.1,34.88,7.7,3.5,False
+2025,2,FAME-Original 70/20/10,Highest FAME Representation,82627,7.7,3.85,36.63,7.7,0.0,True
+2025,3,FAME-Original 70/20/10,Highest Market Value,94509,0.0,0.0,54.37,10.7,10.7,False
+2025,3,FAME-Original 70/20/10,Highest Historical Mean,93879,0.0,0.0,54.37,10.7,10.7,False
+2025,3,FAME-Original 70/20/10,Highest Expected Performance,94509,0.0,0.0,54.37,10.7,10.7,False
+2025,3,FAME-Original 70/20/10,Highest Conditional Prediction,94509,0.0,0.0,54.37,10.7,10.7,False
+2025,3,FAME-Original 70/20/10,Highest FAME Representation,93879,0.0,0.0,54.37,10.7,10.7,False
+2025,4,FAME-Original 70/20/10,Highest Market Value,87999,1.9,0.95,40.480000000000004,10.7,8.799999999999999,False
+2025,4,FAME-Original 70/20/10,Highest Historical Mean,102975,10.7,5.35,44.88,10.7,0.0,True
+2025,4,FAME-Original 70/20/10,Highest Expected Performance,91607,1.9,0.95,40.480000000000004,10.7,8.799999999999999,False
+2025,4,FAME-Original 70/20/10,Highest Conditional Prediction,91607,1.9,0.95,40.480000000000004,10.7,8.799999999999999,False
+2025,4,FAME-Original 70/20/10,Highest FAME Representation,91607,1.9,0.95,40.480000000000004,10.7,8.799999999999999,False
+2025,5,FAME-Original 70/20/10,Highest Market Value,99815,5.8,2.9,58.08,12.4,6.6000000000000005,False
+2025,5,FAME-Original 70/20/10,Highest Historical Mean,103445,6.5,3.25,58.43,12.4,5.9,False
+2025,5,FAME-Original 70/20/10,Highest Expected Performance,99815,5.8,2.9,58.08,12.4,6.6000000000000005,False
+2025,5,FAME-Original 70/20/10,Highest Conditional Prediction,99815,5.8,2.9,58.08,12.4,6.6000000000000005,False
+2025,5,FAME-Original 70/20/10,Highest FAME Representation,103445,6.5,3.25,58.43,12.4,5.9,False
+2025,6,FAME-Original 70/20/10,Highest Market Value,99815,3.9,1.95,73.05,12.2,8.299999999999999,False
+2025,6,FAME-Original 70/20/10,Highest Historical Mean,103445,8.9,4.45,75.55,12.2,3.299999999999999,False
+2025,6,FAME-Original 70/20/10,Highest Expected Performance,103445,8.9,4.45,75.55,12.2,3.299999999999999,False
+2025,6,FAME-Original 70/20/10,Highest Conditional Prediction,98672,8.3,4.15,75.25,12.2,3.8999999999999986,False
+2025,6,FAME-Original 70/20/10,Highest FAME Representation,98672,8.3,4.15,75.25,12.2,3.8999999999999986,False
+2025,7,FAME-Original 70/20/10,Highest Market Value,99815,14.5,7.25,56.01,14.5,0.0,True
+2025,7,FAME-Original 70/20/10,Highest Historical Mean,90703,1.4,0.7,49.46,14.5,13.1,False
+2025,7,FAME-Original 70/20/10,Highest Expected Performance,70360,1.7,0.85,49.61,14.5,12.8,False
+2025,7,FAME-Original 70/20/10,Highest Conditional Prediction,70360,1.7,0.85,49.61,14.5,12.8,False
+2025,7,FAME-Original 70/20/10,Highest FAME Representation,78850,0.0,0.0,48.76,14.5,14.5,False
+2025,8,FAME-Original 70/20/10,Highest Market Value,96610,25.6,12.8,72.99000000000001,25.6,0.0,True
+2025,8,FAME-Original 70/20/10,Highest Historical Mean,101290,5.2,2.6,62.790000000000006,25.6,20.400000000000002,False
+2025,8,FAME-Original 70/20/10,Highest Expected Performance,96610,25.6,12.8,72.99000000000001,25.6,0.0,True
+2025,8,FAME-Original 70/20/10,Highest Conditional Prediction,96610,25.6,12.8,72.99000000000001,25.6,0.0,True
+2025,8,FAME-Original 70/20/10,Highest FAME Representation,70360,3.8,1.9,62.09,25.6,21.8,False
+2025,9,FAME-Original 70/20/10,Highest Market Value,104528,0.4,0.2,56.10000000000001,12.4,12.0,False
+2025,9,FAME-Original 70/20/10,Highest Historical Mean,113397,0.0,0.0,55.900000000000006,12.4,12.4,False
+2025,9,FAME-Original 70/20/10,Highest Expected Performance,99815,3.3,1.65,57.550000000000004,12.4,9.100000000000001,False
+2025,9,FAME-Original 70/20/10,Highest Conditional Prediction,99815,3.3,1.65,57.550000000000004,12.4,9.100000000000001,False
+2025,9,FAME-Original 70/20/10,Highest FAME Representation,99815,3.3,1.65,57.550000000000004,12.4,9.100000000000001,False
+2025,10,FAME-Original 70/20/10,Highest Market Value,99267,3.6,1.8,72.01999999999998,18.3,14.700000000000001,False
+2025,10,FAME-Original 70/20/10,Highest Historical Mean,99267,3.6,1.8,72.01999999999998,18.3,14.700000000000001,False
+2025,10,FAME-Original 70/20/10,Highest Expected Performance,99815,3.1,1.55,71.76999999999998,18.3,15.200000000000001,False
+2025,10,FAME-Original 70/20/10,Highest Conditional Prediction,99815,3.1,1.55,71.76999999999998,18.3,15.200000000000001,False
+2025,10,FAME-Original 70/20/10,Highest FAME Representation,78850,18.3,9.15,79.36999999999999,18.3,0.0,True
+2025,11,FAME-Original 70/20/10,Highest Market Value,99815,8.2,4.1,44.830000000000005,16.0,7.800000000000001,False
+2025,11,FAME-Original 70/20/10,Highest Historical Mean,78850,16.0,8.0,48.730000000000004,16.0,0.0,True
+2025,11,FAME-Original 70/20/10,Highest Expected Performance,78850,16.0,8.0,48.730000000000004,16.0,0.0,True
+2025,11,FAME-Original 70/20/10,Highest Conditional Prediction,78850,16.0,8.0,48.730000000000004,16.0,0.0,True
+2025,11,FAME-Original 70/20/10,Highest FAME Representation,78850,16.0,8.0,48.730000000000004,16.0,0.0,True
+2025,12,FAME-Original 70/20/10,Highest Market Value,96610,3.2,1.6,36.39000000000001,10.2,6.999999999999999,False
+2025,12,FAME-Original 70/20/10,Highest Historical Mean,99267,4.6,2.3,37.09,10.2,5.6,False
+2025,12,FAME-Original 70/20/10,Highest Expected Performance,96610,3.2,1.6,36.39000000000001,10.2,6.999999999999999,False
+2025,12,FAME-Original 70/20/10,Highest Conditional Prediction,107554,10.2,5.1,39.89000000000001,10.2,0.0,True
+2025,12,FAME-Original 70/20/10,Highest FAME Representation,107554,10.2,5.1,39.89000000000001,10.2,0.0,True
+2025,13,FAME-Original 70/20/10,Highest Market Value,96610,16.7,8.35,46.65,16.7,0.0,True
+2025,13,FAME-Original 70/20/10,Highest Historical Mean,96610,16.7,8.35,46.65,16.7,0.0,True
+2025,13,FAME-Original 70/20/10,Highest Expected Performance,96610,16.7,8.35,46.65,16.7,0.0,True
+2025,13,FAME-Original 70/20/10,Highest Conditional Prediction,99815,0.0,0.0,38.3,16.7,16.7,False
+2025,13,FAME-Original 70/20/10,Highest FAME Representation,107554,2.0,1.0,39.3,16.7,14.7,False
+2025,14,FAME-Original 70/20/10,Highest Market Value,96610,13.8,6.9,96.77,19.4,5.599999999999998,False
+2025,14,FAME-Original 70/20/10,Highest Historical Mean,96610,13.8,6.9,96.77,19.4,5.599999999999998,False
+2025,14,FAME-Original 70/20/10,Highest Expected Performance,96610,13.8,6.9,96.77,19.4,5.599999999999998,False
+2025,14,FAME-Original 70/20/10,Highest Conditional Prediction,96610,13.8,6.9,96.77,19.4,5.599999999999998,False
+2025,14,FAME-Original 70/20/10,Highest FAME Representation,78850,0.7,0.35,90.21999999999998,19.4,18.7,False
+2025,15,FAME-Original 70/20/10,Highest Market Value,96610,0.5,0.25,50.029999999999994,15.0,14.5,False
+2025,15,FAME-Original 70/20/10,Highest Historical Mean,96610,0.5,0.25,50.029999999999994,15.0,14.5,False
+2025,15,FAME-Original 70/20/10,Highest Expected Performance,96610,0.5,0.25,50.029999999999994,15.0,14.5,False
+2025,15,FAME-Original 70/20/10,Highest Conditional Prediction,96610,0.5,0.25,50.029999999999994,15.0,14.5,False
+2025,15,FAME-Original 70/20/10,Highest FAME Representation,96610,0.5,0.25,50.029999999999994,15.0,14.5,False
+2025,16,FAME-Original 70/20/10,Highest Market Value,96610,5.1,2.55,45.57999999999999,11.2,6.1,False
+2025,16,FAME-Original 70/20/10,Highest Historical Mean,96610,5.1,2.55,45.57999999999999,11.2,6.1,False
+2025,16,FAME-Original 70/20/10,Highest Expected Performance,96610,5.1,2.55,45.57999999999999,11.2,6.1,False
+2025,16,FAME-Original 70/20/10,Highest Conditional Prediction,96610,5.1,2.55,45.57999999999999,11.2,6.1,False
+2025,16,FAME-Original 70/20/10,Highest FAME Representation,78850,6.5,3.25,46.279999999999994,11.2,4.699999999999999,False
+2025,17,FAME-Original 70/20/10,Highest Market Value,68685,3.9,1.95,54.190000000000005,16.8,12.9,False
+2025,17,FAME-Original 70/20/10,Highest Historical Mean,80287,4.4,2.2,54.440000000000005,16.8,12.4,False
+2025,17,FAME-Original 70/20/10,Highest Expected Performance,80287,4.4,2.2,54.440000000000005,16.8,12.4,False
+2025,17,FAME-Original 70/20/10,Highest Conditional Prediction,80287,4.4,2.2,54.440000000000005,16.8,12.4,False
+2025,17,FAME-Original 70/20/10,Highest FAME Representation,80287,4.4,2.2,54.440000000000005,16.8,12.4,False
+2025,18,FAME-Original 70/20/10,Highest Market Value,96610,9.7,4.85,86.47,17.8,8.100000000000001,False
+2025,18,FAME-Original 70/20/10,Highest Historical Mean,96610,9.7,4.85,86.47,17.8,8.100000000000001,False
+2025,18,FAME-Original 70/20/10,Highest Expected Performance,96610,9.7,4.85,86.47,17.8,8.100000000000001,False
+2025,18,FAME-Original 70/20/10,Highest Conditional Prediction,96610,9.7,4.85,86.47,17.8,8.100000000000001,False
+2025,18,FAME-Original 70/20/10,Highest FAME Representation,80287,1.8,0.9,82.52000000000001,17.8,16.0,False
+2025,19,FAME-Original 70/20/10,Highest Market Value,96610,0.9,0.45,33.81,8.1,7.199999999999999,False
+2025,19,FAME-Original 70/20/10,Highest Historical Mean,96610,0.9,0.45,33.81,8.1,7.199999999999999,False
+2025,19,FAME-Original 70/20/10,Highest Expected Performance,96610,0.9,0.45,33.81,8.1,7.199999999999999,False
+2025,19,FAME-Original 70/20/10,Highest Conditional Prediction,96610,0.9,0.45,33.81,8.1,7.199999999999999,False
+2025,19,FAME-Original 70/20/10,Highest FAME Representation,78850,4.1,2.05,35.41,8.1,4.0,False
+2025,20,FAME-Original 70/20/10,Highest Market Value,63007,1.0,0.5,33.169999999999995,9.4,8.4,False
+2025,20,FAME-Original 70/20/10,Highest Historical Mean,96610,9.4,4.7,37.37,9.4,0.0,True
+2025,20,FAME-Original 70/20/10,Highest Expected Performance,63007,1.0,0.5,33.169999999999995,9.4,8.4,False
+2025,20,FAME-Original 70/20/10,Highest Conditional Prediction,63007,1.0,0.5,33.169999999999995,9.4,8.4,False
+2025,20,FAME-Original 70/20/10,Highest FAME Representation,63007,1.0,0.5,33.169999999999995,9.4,8.4,False
+2025,21,FAME-Original 70/20/10,Highest Market Value,96610,13.9,6.95,78.19,18.4,4.499999999999998,False
+2025,21,FAME-Original 70/20/10,Highest Historical Mean,96610,13.9,6.95,78.19,18.4,4.499999999999998,False
+2025,21,FAME-Original 70/20/10,Highest Expected Performance,96610,13.9,6.95,78.19,18.4,4.499999999999998,False
+2025,21,FAME-Original 70/20/10,Highest Conditional Prediction,96610,13.9,6.95,78.19,18.4,4.499999999999998,False
+2025,21,FAME-Original 70/20/10,Highest FAME Representation,78850,5.7,2.85,74.08999999999999,18.4,12.7,False
+2025,22,FAME-Original 70/20/10,Highest Market Value,96610,10.9,5.45,68.83999999999999,12.9,2.0,False
+2025,22,FAME-Original 70/20/10,Highest Historical Mean,96610,10.9,5.45,68.83999999999999,12.9,2.0,False
+2025,22,FAME-Original 70/20/10,Highest Expected Performance,96610,10.9,5.45,68.83999999999999,12.9,2.0,False
+2025,22,FAME-Original 70/20/10,Highest Conditional Prediction,96610,10.9,5.45,68.83999999999999,12.9,2.0,False
+2025,22,FAME-Original 70/20/10,Highest FAME Representation,78850,12.9,6.45,69.83999999999999,12.9,0.0,True
+2025,23,FAME-Original 70/20/10,Highest Market Value,96610,3.7,1.85,50.95000000000001,14.3,10.600000000000001,False
+2025,23,FAME-Original 70/20/10,Highest Historical Mean,96610,3.7,1.85,50.95000000000001,14.3,10.600000000000001,False
+2025,23,FAME-Original 70/20/10,Highest Expected Performance,96610,3.7,1.85,50.95000000000001,14.3,10.600000000000001,False
+2025,23,FAME-Original 70/20/10,Highest Conditional Prediction,96610,3.7,1.85,50.95000000000001,14.3,10.600000000000001,False
+2025,23,FAME-Original 70/20/10,Highest FAME Representation,96610,3.7,1.85,50.95000000000001,14.3,10.600000000000001,False
+2025,24,FAME-Original 70/20/10,Highest Market Value,96610,1.2,0.6,44.19,16.1,14.900000000000002,False
+2025,24,FAME-Original 70/20/10,Highest Historical Mean,96610,1.2,0.6,44.19,16.1,14.900000000000002,False
+2025,24,FAME-Original 70/20/10,Highest Expected Performance,96610,1.2,0.6,44.19,16.1,14.900000000000002,False
+2025,24,FAME-Original 70/20/10,Highest Conditional Prediction,96610,1.2,0.6,44.19,16.1,14.900000000000002,False
+2025,24,FAME-Original 70/20/10,Highest FAME Representation,78850,16.1,8.05,51.64,16.1,0.0,True
+2025,25,FAME-Original 70/20/10,Highest Market Value,78850,4.1,2.05,26.110000000000003,4.9,0.8000000000000007,False
+2025,25,FAME-Original 70/20/10,Highest Historical Mean,78850,4.1,2.05,26.110000000000003,4.9,0.8000000000000007,False
+2025,25,FAME-Original 70/20/10,Highest Expected Performance,78850,4.1,2.05,26.110000000000003,4.9,0.8000000000000007,False
+2025,25,FAME-Original 70/20/10,Highest Conditional Prediction,78850,4.1,2.05,26.110000000000003,4.9,0.8000000000000007,False
+2025,25,FAME-Original 70/20/10,Highest FAME Representation,78850,4.1,2.05,26.110000000000003,4.9,0.8000000000000007,False
+2025,26,FAME-Original 70/20/10,Highest Market Value,96610,6.2,3.1,66.30999999999999,13.0,6.8,False
+2025,26,FAME-Original 70/20/10,Highest Historical Mean,96610,6.2,3.1,66.30999999999999,13.0,6.8,False
+2025,26,FAME-Original 70/20/10,Highest Expected Performance,96610,6.2,3.1,66.30999999999999,13.0,6.8,False
+2025,26,FAME-Original 70/20/10,Highest Conditional Prediction,96610,6.2,3.1,66.30999999999999,13.0,6.8,False
+2025,26,FAME-Original 70/20/10,Highest FAME Representation,96610,6.2,3.1,66.30999999999999,13.0,6.8,False
+2025,27,FAME-Original 70/20/10,Highest Market Value,68685,8.2,4.1,62.660000000000004,20.6,12.400000000000002,False
+2025,27,FAME-Original 70/20/10,Highest Historical Mean,78850,-1.2,-0.6,57.96,20.6,21.8,False
+2025,27,FAME-Original 70/20/10,Highest Expected Performance,68685,8.2,4.1,62.660000000000004,20.6,12.400000000000002,False
+2025,27,FAME-Original 70/20/10,Highest Conditional Prediction,68685,8.2,4.1,62.660000000000004,20.6,12.400000000000002,False
+2025,27,FAME-Original 70/20/10,Highest FAME Representation,78850,-1.2,-0.6,57.96,20.6,21.8,False
+2025,28,FAME-Original 70/20/10,Highest Market Value,114802,25.8,12.9,75.92,25.8,0.0,True
+2025,28,FAME-Original 70/20/10,Highest Historical Mean,78850,15.1,7.55,70.57,25.8,10.700000000000001,False
+2025,28,FAME-Original 70/20/10,Highest Expected Performance,114802,25.8,12.9,75.92,25.8,0.0,True
+2025,28,FAME-Original 70/20/10,Highest Conditional Prediction,114802,25.8,12.9,75.92,25.8,0.0,True
+2025,28,FAME-Original 70/20/10,Highest FAME Representation,78850,15.1,7.55,70.57,25.8,10.700000000000001,False
+2025,29,FAME-Original 70/20/10,Highest Market Value,96610,2.0,1.0,62.8,11.0,9.0,False
+2025,29,FAME-Original 70/20/10,Highest Historical Mean,96610,2.0,1.0,62.8,11.0,9.0,False
+2025,29,FAME-Original 70/20/10,Highest Expected Performance,96610,2.0,1.0,62.8,11.0,9.0,False
+2025,29,FAME-Original 70/20/10,Highest Conditional Prediction,96610,2.0,1.0,62.8,11.0,9.0,False
+2025,29,FAME-Original 70/20/10,Highest FAME Representation,122486,10.9,5.45,67.25,11.0,0.09999999999999964,False
+2025,30,FAME-Original 70/20/10,Highest Market Value,96610,4.0,2.0,57.42000000000001,12.3,8.3,False
+2025,30,FAME-Original 70/20/10,Highest Historical Mean,122486,0.0,0.0,55.42000000000001,12.3,12.3,False
+2025,30,FAME-Original 70/20/10,Highest Expected Performance,96610,4.0,2.0,57.42000000000001,12.3,8.3,False
+2025,30,FAME-Original 70/20/10,Highest Conditional Prediction,96610,4.0,2.0,57.42000000000001,12.3,8.3,False
+2025,30,FAME-Original 70/20/10,Highest FAME Representation,122486,0.0,0.0,55.42000000000001,12.3,12.3,False
+2025,31,FAME-Original 70/20/10,Highest Market Value,96610,4.9,2.45,63.33,17.4,12.499999999999998,False
+2025,31,FAME-Original 70/20/10,Highest Historical Mean,106708,5.4,2.7,63.58,17.4,11.999999999999998,False
+2025,31,FAME-Original 70/20/10,Highest Expected Performance,96610,4.9,2.45,63.33,17.4,12.499999999999998,False
+2025,31,FAME-Original 70/20/10,Highest Conditional Prediction,96610,4.9,2.45,63.33,17.4,12.499999999999998,False
+2025,31,FAME-Original 70/20/10,Highest FAME Representation,113103,0.0,0.0,60.879999999999995,17.4,17.4,False
+2025,32,FAME-Original 70/20/10,Highest Market Value,96610,0.2,0.1,62.550000000000004,17.0,16.8,False
+2025,32,FAME-Original 70/20/10,Highest Historical Mean,78850,2.2,1.1,63.550000000000004,17.0,14.8,False
+2025,32,FAME-Original 70/20/10,Highest Expected Performance,96610,0.2,0.1,62.550000000000004,17.0,16.8,False
+2025,32,FAME-Original 70/20/10,Highest Conditional Prediction,96610,0.2,0.1,62.550000000000004,17.0,16.8,False
+2025,32,FAME-Original 70/20/10,Highest FAME Representation,78850,2.2,1.1,63.550000000000004,17.0,14.8,False
+2025,33,FAME-Original 70/20/10,Highest Market Value,96610,6.0,3.0,66.57,14.6,8.6,False
+2025,33,FAME-Original 70/20/10,Highest Historical Mean,104084,6.3,3.15,66.71999999999998,14.6,8.3,False
+2025,33,FAME-Original 70/20/10,Highest Expected Performance,122486,9.2,4.6,68.16999999999999,14.6,5.4,False
+2025,33,FAME-Original 70/20/10,Highest Conditional Prediction,122486,9.2,4.6,68.16999999999999,14.6,5.4,False
+2025,33,FAME-Original 70/20/10,Highest FAME Representation,122486,9.2,4.6,68.16999999999999,14.6,5.4,False
+2025,34,FAME-Original 70/20/10,Highest Market Value,68685,8.7,4.35,79.56,17.8,9.100000000000001,False
+2025,34,FAME-Original 70/20/10,Highest Historical Mean,78850,11.2,5.6,80.81,17.8,6.600000000000001,False
+2025,34,FAME-Original 70/20/10,Highest Expected Performance,122486,1.7,0.85,76.06,17.8,16.1,False
+2025,34,FAME-Original 70/20/10,Highest Conditional Prediction,122486,1.7,0.85,76.06,17.8,16.1,False
+2025,34,FAME-Original 70/20/10,Highest FAME Representation,122486,1.7,0.85,76.06,17.8,16.1,False
+2025,35,FAME-Original 70/20/10,Highest Market Value,96610,4.7,2.35,66.3,13.5,8.8,False
+2025,35,FAME-Original 70/20/10,Highest Historical Mean,78850,13.2,6.6,70.55,13.5,0.3000000000000007,False
+2025,35,FAME-Original 70/20/10,Highest Expected Performance,96610,4.7,2.35,66.3,13.5,8.8,False
+2025,35,FAME-Original 70/20/10,Highest Conditional Prediction,122486,2.6,1.3,65.25,13.5,10.9,False
+2025,35,FAME-Original 70/20/10,Highest FAME Representation,122486,2.6,1.3,65.25,13.5,10.9,False
+2025,36,FAME-Original 70/20/10,Highest Market Value,96610,4.2,2.1,55.43,19.5,15.3,False
+2025,36,FAME-Original 70/20/10,Highest Historical Mean,78850,2.9,1.45,54.78,19.5,16.6,False
+2025,36,FAME-Original 70/20/10,Highest Expected Performance,78850,2.9,1.45,54.78,19.5,16.6,False
+2025,36,FAME-Original 70/20/10,Highest Conditional Prediction,78850,2.9,1.45,54.78,19.5,16.6,False
+2025,36,FAME-Original 70/20/10,Highest FAME Representation,78850,2.9,1.45,54.78,19.5,16.6,False
+2025,37,FAME-Original 70/20/10,Highest Market Value,93716,9.4,4.7,55.5,11.1,1.6999999999999993,False
+2025,37,FAME-Original 70/20/10,Highest Historical Mean,78850,0.0,0.0,50.8,11.1,11.1,False
+2025,37,FAME-Original 70/20/10,Highest Expected Performance,122486,5.9,2.95,53.75,11.1,5.199999999999999,False
+2025,37,FAME-Original 70/20/10,Highest Conditional Prediction,122486,5.9,2.95,53.75,11.1,5.199999999999999,False
+2025,37,FAME-Original 70/20/10,Highest FAME Representation,78850,0.0,0.0,50.8,11.1,11.1,False
+2025,38,FAME-Original 70/20/10,Highest Market Value,96610,0.0,0.0,38.660000000000004,9.7,9.7,False
+2025,38,FAME-Original 70/20/10,Highest Historical Mean,106708,6.3,3.15,41.81,9.7,3.3999999999999995,False
+2025,38,FAME-Original 70/20/10,Highest Expected Performance,122486,0.0,0.0,38.660000000000004,9.7,9.7,False
+2025,38,FAME-Original 70/20/10,Highest Conditional Prediction,122486,0.0,0.0,38.660000000000004,9.7,9.7,False
+2025,38,FAME-Original 70/20/10,Highest FAME Representation,122486,0.0,0.0,38.660000000000004,9.7,9.7,False

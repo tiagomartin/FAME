@@ -1,0 +1,5 @@
+﻿missing_next_market_scenario,strategy,n_rounds,mean_utility
+exclude_missing_next_market,Availability-adjusted expected prediction,37,59.0918918918919
+exclude_missing_next_market,FAME-DOC,37,55.35189189189189
+missing_next_market_as_zero,Availability-adjusted expected prediction,37,59.0918918918919
+missing_next_market_as_zero,FAME-DOC,37,54.74621621621621

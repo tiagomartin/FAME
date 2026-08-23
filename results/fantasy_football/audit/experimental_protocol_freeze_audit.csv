@@ -1,0 +1,10 @@
+﻿item,value,uses_2025
+development/tuning period,2021-2023 expanding-window temporal validation,False
+availability regularization,0.03162277660168379,False
+predictive hyperparameters,Sobol temporal CV 2021-2023,False
+ensemble weights,OOF SSE minimization 2021-2023,False
+DOC weights,"(0.75, 0.15, 0.1)",False
+budget,110.0,False
+formations,3-4-3;4-3-3;4-4-2;3-5-2;4-5-1;5-3-2;5-4-1,False
+primary contrast,FAME-DOC vs Expected-only normalized representation,False
+2025 role,sequential out-of-time evaluation; DOC not recalibrated,False

@@ -1,0 +1,7 @@
+﻿contrast,n_rounds,mean_difference,median_difference,ci_method,block_length,ci95_low,ci95_high,wilcoxon_stat,wilcoxon_p_unadjusted_scientific_contrast
+FAME-DOC minus Expected-only normalized representation,37,-2.0127027027027014,1.7199999999999918,paired_iid_bootstrap,,-6.2526824324324295,1.9244797297297231,312.0,0.9608097754501559
+FAME-DOC minus Expected-only normalized representation,37,-2.0127027027027014,1.7199999999999918,circular_moving_block_bootstrap,2.0,-6.746391891891888,2.206648648648646,,
+FAME-DOC minus Expected-only normalized representation,37,-2.0127027027027014,1.7199999999999918,circular_moving_block_bootstrap,3.0,-6.963398648648648,2.4098851351351347,,
+FAME-DOC minus Expected-only normalized representation,37,-2.0127027027027014,1.7199999999999918,circular_moving_block_bootstrap,4.0,-6.633094594594591,2.302844594594593,,
+FAME-DOC minus Expected-only normalized representation,37,-2.0127027027027014,1.7199999999999918,circular_moving_block_bootstrap,5.0,-6.715222972972969,2.2999189189189146,,
+FAME-DOC minus Expected-only normalized representation,37,-2.0127027027027014,1.7199999999999918,circular_moving_block_bootstrap,6.0,-6.713189189189184,2.468391891891893,,

@@ -1,0 +1,9 @@
+﻿season,estimand,sample,model,n,MAE,RMSE,R2,correlation
+2024,conditional_performance_given_participation,common_baseline_vs_model,Historical conditional mean baseline,10289,2.8342360126254933,3.8021048043954306,-0.06575202781419587,0.1971080281397564
+2024,conditional_performance_given_participation,common_baseline_vs_model,OOF-weighted RF/XGB ensemble,10289,2.6198835954629747,3.534094291481012,0.07920221734485178,0.28872668646196503
+2024,unconditional_realized_points,common_baseline_vs_model,Historical unconditional mean baseline,26760,1.5687702180456486,2.7164988821807112,0.09830748095728914,0.3675579425623886
+2024,unconditional_realized_points,common_baseline_vs_model,Availability-adjusted expected prediction,26760,1.4124073392191374,2.4980498710609855,0.23749689947614117,0.4889028374941133
+2025,conditional_performance_given_participation,common_baseline_vs_model,Historical conditional mean baseline,10302,3.050404085781638,4.06242004280059,-0.041711019761627055,0.2321722864532666
+2025,conditional_performance_given_participation,common_baseline_vs_model,OOF-weighted RF/XGB ensemble,10302,2.8298361962291714,3.8079122720627536,0.08472526419527171,0.3055688892623475
+2025,unconditional_realized_points,common_baseline_vs_model,Historical unconditional mean baseline,26803,1.6711068918821501,2.897608728511076,0.12839477115762188,0.38767213627861036
+2025,unconditional_realized_points,common_baseline_vs_model,Availability-adjusted expected prediction,26803,1.562329384662657,2.7058403236359747,0.2399456067877912,0.4910404390013026

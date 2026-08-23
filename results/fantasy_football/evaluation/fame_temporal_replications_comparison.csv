@@ -1,0 +1,4 @@
+﻿experiment,development,calibration,test,role,w_doc_expected,w_doc_dispersion,w_doc_economic,doc_bootstrap_selection_pct,doc_test_mean,expected_norm_test_mean,delta_doc_minus_expected_norm,paired_ci95_low,paired_ci95_high,posthoc_best_expected,posthoc_best_dispersion,posthoc_best_economic,l1_doc_to_posthoc,l2_doc_to_posthoc
+H1,2021,2022,2023,exploratory,0.95,0.05,0.0,70.66,51.3754054054054,49.83864864864865,1.536756756756752,-1.936324324324324,5.043851351351352,0.95,0.05,0.0,0.0,0.0
+H2,2021-2022,2023,2024,historical replication,0.95,0.0,0.05,54.36,56.44864864864864,55.02594594594595,1.4227027027026935,0.1366756756756765,2.873831081081081,0.8,0.15,0.05,0.29999999999999993,0.2121320343559642
+PRIMARY,2021-2023,2024,2025,primary frozen experiment,0.75,0.15,0.1,24.0,54.74621621621621,56.75891891891892,-2.012702702702711,-6.2526824324324295,1.9244797297297231,0.7,0.0,0.3,0.4,0.25495097567963926

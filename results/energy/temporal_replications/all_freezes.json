@@ -1,0 +1,371 @@
+[
+  {
+    "replication_id": "E2017",
+    "development_start": 2015,
+    "development_end": 2015,
+    "calibration_year": 2016,
+    "test_year": 2017,
+    "scale_factor": 0.9360619542156694,
+    "sarimax_order": [
+      1,
+      0,
+      1
+    ],
+    "sarimax_seasonal_order": [
+      0,
+      0,
+      0,
+      7
+    ],
+    "lstm_config": {
+      "lookback": 7,
+      "units": 16,
+      "lr": 0.001
+    },
+    "theta_doc": {
+      "ENTSOE": 0.075,
+      "SARIMAX": 0.1,
+      "LSTM": 0.05
+    },
+    "theta_grid": [
+      -0.1,
+      -0.075,
+      -0.05,
+      -0.025,
+      0.0,
+      0.025,
+      0.05,
+      0.075,
+      0.1
+    ],
+    "test_opened_after_freeze": true
+  },
+  {
+    "replication_id": "E2018",
+    "development_start": 2015,
+    "development_end": 2016,
+    "calibration_year": 2017,
+    "test_year": 2018,
+    "scale_factor": 0.9390550343038095,
+    "sarimax_order": [
+      1,
+      0,
+      0
+    ],
+    "sarimax_seasonal_order": [
+      1,
+      0,
+      0,
+      7
+    ],
+    "lstm_config": {
+      "lookback": 14,
+      "units": 32,
+      "lr": 0.001
+    },
+    "theta_doc": {
+      "ENTSOE": 0.075,
+      "SARIMAX": 0.1,
+      "LSTM": 0.05
+    },
+    "theta_grid": [
+      -0.1,
+      -0.075,
+      -0.05,
+      -0.025,
+      0.0,
+      0.025,
+      0.05,
+      0.075,
+      0.1
+    ],
+    "test_opened_after_freeze": true
+  },
+  {
+    "replication_id": "E2019",
+    "development_start": 2015,
+    "development_end": 2017,
+    "calibration_year": 2018,
+    "test_year": 2019,
+    "scale_factor": 0.9407571407735229,
+    "sarimax_order": [
+      1,
+      0,
+      0
+    ],
+    "sarimax_seasonal_order": [
+      1,
+      0,
+      0,
+      7
+    ],
+    "lstm_config": {
+      "lookback": 14,
+      "units": 32,
+      "lr": 0.001
+    },
+    "theta_doc": {
+      "ENTSOE": 0.075,
+      "SARIMAX": 0.1,
+      "LSTM": 0.05
+    },
+    "theta_grid": [
+      -0.1,
+      -0.075,
+      -0.05,
+      -0.025,
+      0.0,
+      0.025,
+      0.05,
+      0.075,
+      0.1
+    ],
+    "test_opened_after_freeze": true
+  },
+  {
+    "replication_id": "E2020",
+    "development_start": 2015,
+    "development_end": 2018,
+    "calibration_year": 2019,
+    "test_year": 2020,
+    "scale_factor": 0.9442830833921414,
+    "sarimax_order": [
+      1,
+      0,
+      0
+    ],
+    "sarimax_seasonal_order": [
+      1,
+      0,
+      0,
+      7
+    ],
+    "lstm_config": {
+      "lookback": 14,
+      "units": 32,
+      "lr": 0.001
+    },
+    "theta_doc": {
+      "ENTSOE": 0.1,
+      "SARIMAX": 0.075,
+      "LSTM": 0.025
+    },
+    "theta_grid": [
+      -0.1,
+      -0.075,
+      -0.05,
+      -0.025,
+      0.0,
+      0.025,
+      0.05,
+      0.075,
+      0.1
+    ],
+    "test_opened_after_freeze": true
+  },
+  {
+    "replication_id": "E2021",
+    "development_start": 2015,
+    "development_end": 2019,
+    "calibration_year": 2020,
+    "test_year": 2021,
+    "scale_factor": 0.9496476780725117,
+    "sarimax_order": [
+      1,
+      0,
+      1
+    ],
+    "sarimax_seasonal_order": [
+      1,
+      0,
+      0,
+      7
+    ],
+    "lstm_config": {
+      "lookback": 14,
+      "units": 16,
+      "lr": 0.001
+    },
+    "theta_doc": {
+      "ENTSOE": 0.05,
+      "SARIMAX": 0.05,
+      "LSTM": 0.075
+    },
+    "theta_grid": [
+      -0.1,
+      -0.075,
+      -0.05,
+      -0.025,
+      0.0,
+      0.025,
+      0.05,
+      0.075,
+      0.1
+    ],
+    "test_opened_after_freeze": true
+  },
+  {
+    "replication_id": "E2022",
+    "development_start": 2015,
+    "development_end": 2020,
+    "calibration_year": 2021,
+    "test_year": 2022,
+    "scale_factor": 0.9594105157487242,
+    "sarimax_order": [
+      2,
+      0,
+      0
+    ],
+    "sarimax_seasonal_order": [
+      0,
+      0,
+      0,
+      7
+    ],
+    "lstm_config": {
+      "lookback": 14,
+      "units": 16,
+      "lr": 0.001
+    },
+    "theta_doc": {
+      "ENTSOE": 0.0,
+      "SARIMAX": 0.1,
+      "LSTM": 0.05
+    },
+    "theta_grid": [
+      -0.1,
+      -0.075,
+      -0.05,
+      -0.025,
+      0.0,
+      0.025,
+      0.05,
+      0.075,
+      0.1
+    ],
+    "test_opened_after_freeze": true
+  },
+  {
+    "replication_id": "E2023",
+    "development_start": 2015,
+    "development_end": 2021,
+    "calibration_year": 2022,
+    "test_year": 2023,
+    "scale_factor": 0.9633133161455646,
+    "sarimax_order": [
+      1,
+      0,
+      1
+    ],
+    "sarimax_seasonal_order": [
+      1,
+      0,
+      0,
+      7
+    ],
+    "lstm_config": {
+      "lookback": 21,
+      "units": 32,
+      "lr": 0.0005
+    },
+    "theta_doc": {
+      "ENTSOE": -0.025,
+      "SARIMAX": 0.05,
+      "LSTM": 0.05
+    },
+    "theta_grid": [
+      -0.1,
+      -0.075,
+      -0.05,
+      -0.025,
+      0.0,
+      0.025,
+      0.05,
+      0.075,
+      0.1
+    ],
+    "test_opened_after_freeze": true
+  },
+  {
+    "replication_id": "E2024",
+    "development_start": 2015,
+    "development_end": 2022,
+    "calibration_year": 2023,
+    "test_year": 2024,
+    "scale_factor": 0.9695648272841954,
+    "sarimax_order": [
+      2,
+      0,
+      0
+    ],
+    "sarimax_seasonal_order": [
+      0,
+      0,
+      0,
+      7
+    ],
+    "lstm_config": {
+      "lookback": 14,
+      "units": 16,
+      "lr": 0.001
+    },
+    "theta_doc": {
+      "ENTSOE": 0.0,
+      "SARIMAX": 0.075,
+      "LSTM": 0.05
+    },
+    "theta_grid": [
+      -0.1,
+      -0.075,
+      -0.05,
+      -0.025,
+      0.0,
+      0.025,
+      0.05,
+      0.075,
+      0.1
+    ],
+    "test_opened_after_freeze": true
+  },
+  {
+    "replication_id": "E2025",
+    "development_start": 2015,
+    "development_end": 2023,
+    "calibration_year": 2024,
+    "test_year": 2025,
+    "scale_factor": 0.9785514850150213,
+    "sarimax_order": [
+      1,
+      0,
+      0
+    ],
+    "sarimax_seasonal_order": [
+      0,
+      0,
+      0,
+      7
+    ],
+    "lstm_config": {
+      "lookback": 7,
+      "units": 16,
+      "lr": 0.001
+    },
+    "theta_doc": {
+      "ENTSOE": 0.0,
+      "SARIMAX": 0.1,
+      "LSTM": 0.075
+    },
+    "theta_grid": [
+      -0.1,
+      -0.075,
+      -0.05,
+      -0.025,
+      0.0,
+      0.025,
+      0.05,
+      0.075,
+      0.1
+    ],
+    "test_opened_after_freeze": true
+  }
+]
