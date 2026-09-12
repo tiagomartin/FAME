@@ -1,5 +1,73 @@
 # FAME
 
+## FAME v1.1.0 — Companion research tracks
+
+Version 1.1.0 extends the FAME reproducibility repository to support two
+complementary research tracks built around prediction-to-decision
+representations.
+
+### FAME/DOC — temporal transferability
+
+This track studies the learning, calibration stability, and temporal
+transferability of prediction-to-decision representations.
+
+Main question:
+
+> Do historically decision-calibrated representations preserve operational
+> value when transferred to future environments?
+
+Reproducibility materials:
+
+- [Manuscript scope](docs/MANUSCRIPTS.md)
+- [Reproducibility map](docs/REPRODUCIBILITY_MAP.md)
+- [
+eproducibility/fame_doc/](reproducibility/fame_doc/)
+
+### DRR/DRVM — post-deployment validity monitoring
+
+This track studies the continued validity of a frozen prediction-to-decision
+representation after deployment.
+
+It introduces Decision-Representation Regret (DRR) and the
+Decision-Representation Validity Monitor (DRVM), together with
+reference-risk robustness, monitorability analysis, and post-alert
+representation renewal.
+
+Main question:
+
+> When has a frozen representation accumulated enough downstream evidence to
+> warrant operational review?
+
+Reproducibility materials:
+
+- [Manuscript scope](docs/MANUSCRIPTS.md)
+- [Reproducibility map](docs/REPRODUCIBILITY_MAP.md)
+- [
+eproducibility/drvm/](reproducibility/drvm/)
+
+### Versioning and archive
+
+The previously archived release is:
+
+**FAME v1.0.2**
+DOI: 10.5281/zenodo.22072076
+
+The new 1.1.0 release preserves the v1.0.2 reproducibility infrastructure
+and adds the companion-manuscript organization and DRR/DRVM computational
+artifacts.
+
+A new version-specific Zenodo DOI will be added after the v1.1.0 archive is
+published.
+
+See also:
+
+- [CHANGELOG.md](CHANGELOG.md)
+- [
+elease/RELEASE_NOTES_v1.1.0.md](release/RELEASE_NOTES_v1.1.0.md)
+
+---
+
+
 FAME is a modular prediction-to-decision framework for constrained resource allocation.
 
 This repository contains the curated code, processed experimental artifacts, robustness analyses, figures, and supplementary material accompanying the manuscript:
@@ -16,28 +84,28 @@ Future-period outcomes are not used to reselect the representation evaluated pro
 
 ```text
 FAME/
-├── code/
-│   ├── fantasy_football/
-│   └── energy/
-├── data/
-│   ├── fantasy_football/splits/
-│   └── energy/splits/
-├── results/
-│   ├── fantasy_football/
-│   │   ├── model_selection/
-│   │   ├── calibration/
-│   │   ├── evaluation/
-│   │   ├── robustness/
-│   │   └── audit/
-│   └── energy/
-│       ├── temporal_replications/
-│       ├── robustness/
-│       └── audit/
-├── figures/
-│   ├── main/
-│   └── supplementary/
-├── supplementary/
-└── reproducibility/
+Ôö£ÔöÇÔöÇ code/
+Ôöé   Ôö£ÔöÇÔöÇ fantasy_football/
+Ôöé   ÔööÔöÇÔöÇ energy/
+Ôö£ÔöÇÔöÇ data/
+Ôöé   Ôö£ÔöÇÔöÇ fantasy_football/splits/
+Ôöé   ÔööÔöÇÔöÇ energy/splits/
+Ôö£ÔöÇÔöÇ results/
+Ôöé   Ôö£ÔöÇÔöÇ fantasy_football/
+Ôöé   Ôöé   Ôö£ÔöÇÔöÇ model_selection/
+Ôöé   Ôöé   Ôö£ÔöÇÔöÇ calibration/
+Ôöé   Ôöé   Ôö£ÔöÇÔöÇ evaluation/
+Ôöé   Ôöé   Ôö£ÔöÇÔöÇ robustness/
+Ôöé   Ôöé   ÔööÔöÇÔöÇ audit/
+Ôöé   ÔööÔöÇÔöÇ energy/
+Ôöé       Ôö£ÔöÇÔöÇ temporal_replications/
+Ôöé       Ôö£ÔöÇÔöÇ robustness/
+Ôöé       ÔööÔöÇÔöÇ audit/
+Ôö£ÔöÇÔöÇ figures/
+Ôöé   Ôö£ÔöÇÔöÇ main/
+Ôöé   ÔööÔöÇÔöÇ supplementary/
+Ôö£ÔöÇÔöÇ supplementary/
+ÔööÔöÇÔöÇ reproducibility/
 ```
 
 ## Reproducibility status
@@ -91,7 +159,7 @@ The repository includes:
 - temporal replication definitions;
 - frozen representation parameters;
 - extended-theta robustness experiments;
-- capacity-margin × VOLL robustness summaries; and
+- capacity-margin ├ù VOLL robustness summaries; and
 - replication-level and model-level summaries.
 
 ## Reproducing paper claims
@@ -143,7 +211,7 @@ Citation metadata for the FAME software and the associated manuscript are provid
 
 The manuscript-associated reproducibility release is:
 
-**FAME v1.0.2 — Reproducibility Hardening Release**  
+**FAME v1.0.2 ÔÇö Reproducibility Hardening Release**
 **DOI: 10.5281/zenodo.22072076**
 
 This version-specific DOI identifies the archived software and reproducibility materials associated with the manuscript.
