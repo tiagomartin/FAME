@@ -1,24 +1,24 @@
 # External data sources and reconstruction
 
-This document records the external data dependencies required for an end-to-end
-reproduction of the FAME experiments. Raw third-party data are intentionally not
-committed to this repository by default.
+This document describes the external data dependencies of the FAME experiments, their provenance, the analytical inputs expected by the public code, and the current redistribution policy.
+
+Raw third-party data are not included in this repository unless redistribution rights have been established. The repository instead provides the source information, expected input structures, temporal split definitions, frozen model and representation parameters, and archived numerical outputs required to audit the empirical results reported in the manuscript.
+
+The availability of archived results should be distinguished from end-to-end re-execution. Analyses depending on external data can be re-executed only after the corresponding external inputs have been obtained and prepared as described below.
 
 ## 1. Fantasy-football study
 
 ### Required analytical input
 
-The final fantasy-football notebooks expect a file named:
+The final fantasy-football notebooks expect the analytical dataset:
 
 ```text
-cartola_base_modelagem_YYYY_YYYY.csv
+data/raw/fantasy_football/cartola_base_modelagem_2021_2026.csv
 ```
 
-For the primary experiment, the analytical source used during development covered
-2021--2026, while the reported experiment filters the data to 2021--2025 and explicitly
-uses no 2026 rows.
+The analytical source used during development covered 2021--2026. The experiments reported in the manuscript use observations from 2021--2025; no 2026 observations are used in the reported prospective evaluation.
 
-The notebooks require at least these core fields:
+The analytical dataset contains player-round observations and requires at least the following core fields:
 
 ```text
 temporada
@@ -31,22 +31,19 @@ media_num
 jogos_num
 ```
 
-Additional historical, scouting, market, contextual, and engineered variables are used by
-the predictive pipeline. The exact features selected by the final code can be inspected in
-the notebook and the model-selection artifacts under `results/fantasy_football/`.
+The predictive pipeline additionally uses historical, scouting, market, contextual, and engineered variables. The public notebooks provide the executable specification of the variables consumed by each analysis, while the archived model-selection artifacts under `results/fantasy_football/` document the frozen predictive configurations used for the reported experiments.
 
-### Public source / historical archive
+### External source and provenance
 
-A public historical source commonly used for Cartola FC research is:
+Historical Cartola FC data can be obtained from publicly accessible historical archives and Cartola FC data interfaces.
 
-- caRtola project: https://github.com/henriquepgomide/caRtola
+One historical source used in academic and analytical applications is the caRtola project:
 
-The caRtola repository states that it provides historical raw Cartola FC data and extraction /
-processing code. Its repository software is distributed under the MIT License. The underlying
-Cartola FC platform data may remain subject to the original provider's terms.
+`https://github.com/henriquepgomide/caRtola`
 
-The Cartola FC public API endpoints have also historically been used to collect round-level
-market and player information, for example:
+The caRtola repository provides historical Cartola FC data together with extraction and processing code. The software distributed by that repository is licensed separately from the underlying Cartola FC data.
+
+Cartola FC public API endpoints have also historically provided round-level market, player, match, and club information, including endpoints such as:
 
 ```text
 https://api.cartolafc.globo.com/mercado/status
@@ -55,89 +52,121 @@ https://api.cartolafc.globo.com/partidas/{rodada}
 https://api.cartolafc.globo.com/clubes
 ```
 
-### Redistribution decision
+Availability and behavior of external APIs may change independently of this repository.
 
-**Current public-repository policy:** do not redistribute the complete raw Cartola FC data
-or the authors' full analytical player-level dataset until the applicable source/provider terms
-have been verified for redistribution.
+### Redistribution and reproducibility status
 
-Instead, this repository publishes:
+The complete raw Cartola FC data and the authors' full player-level analytical dataset are not redistributed in FAME because redistribution rights for all underlying source data have not been established.
 
-- temporal split definitions;
-- frozen hyperparameters and representation parameters;
+The repository therefore provides the components that can be shared independently of the raw third-party observations, including:
+
+- temporal development, calibration, and evaluation definitions;
+- frozen predictive hyperparameters;
+- frozen ensemble weights;
+- DOC candidate grids and frozen DOC parameters;
 - model-selection summaries;
 - out-of-time aggregate and round-level experimental results;
-- robustness analyses;
-- leakage/freeze audits.
+- temporal replication results;
+- robustness and sensitivity analyses; and
+- leakage, target-alignment, missing-market, and freeze audits.
 
-This is sufficient to audit the numerical claims reported in the manuscript, but not yet to
-retrain the complete predictive pipeline from a clean clone.
+These artifacts allow the numerical claims reported in the manuscript to be audited against the archived experimental outputs.
+
+Full retraining of the fantasy-football predictive pipeline additionally requires reconstruction of the player-level analytical dataset from the external Cartola FC sources. Because the complete transformation from the external raw sources to the authors' analytical player-level dataset is not distributed in the current repository, the fantasy-football study should not be interpreted as providing source-to-result end-to-end reproducibility from a clean clone.
 
 ## 2. Energy study: TransnetBW load data
 
 ### Required analytical input
 
-The final temporal-replication notebook expects:
+The final Energy temporal-replication analysis expects:
 
 ```text
 data/raw/energy/transnetbw_actual_forecast_hourly_utc_2015_2025.csv
 ```
 
-The file must contain the hourly actual-load and day-ahead forecast information used to
-construct daily peak demand over 2015--2025.
+This analytical input contains the historical actual-load and day-ahead load-forecast series used to construct the daily peak-demand quantities required by the Energy experiments over 2015--2025.
+
+The temporal development, calibration, and evaluation definitions derived for the manuscript experiments are archived separately under:
+
+```text
+data/energy/splits/
+```
 
 ### Official source
 
-TransnetBW publishes historical market/transparency data and provides downloadable load
-series through its Market Data / Key Figures pages:
+TransnetBW publishes historical electricity-system and market data through its transparency and market-data services.
 
-https://www.transnetbw.de/en/transparency/market-data/key-figures
+The source page used to identify the historical load data is:
 
-The public page provides historical downloads extending back through the study period.
+`https://www.transnetbw.de/en/transparency/market-data/key-figures`
 
-### Redistribution decision
+Historical availability, file organization, naming conventions, and download interfaces are controlled by TransnetBW and may change independently of FAME.
 
-The repository does **not** currently redistribute the authors' compiled 2015--2025
-TransnetBW CSV. The final public release should either:
+### Reconstruction and redistribution status
 
-1. document the precise monthly files and reconstruction code used to build the compiled
-   CSV; or
-2. redistribute the compiled dataset only after confirming that TransnetBW's applicable
-   data-use terms permit that form of redistribution.
+The authors' compiled 2015--2025 TransnetBW analytical CSV is not redistributed in this repository.
 
-Until that check is completed, the reproducible and conservative option is source citation +
-reconstruction instructions.
+Re-execution of the Energy temporal-replication analysis therefore requires the user to obtain the corresponding historical actual-load and day-ahead forecast observations from the official TransnetBW source and construct the analytical input expected by the notebook.
+
+The required destination is:
+
+```text
+data/raw/energy/transnetbw_actual_forecast_hourly_utc_2015_2025.csv
+```
+
+The compiled input must represent the study period 2015--2025 and contain the actual-load and day-ahead forecast information required by the public Energy notebook.
+
+The repository archives the temporal split definitions, frozen representation parameters, robustness results, and numerical outputs used in the manuscript. These artifacts permit auditing of the reported Energy results independently of redistribution of the compiled third-party load dataset.
+
+The current repository does not claim raw-source-to-analytical-file reproducibility for the TransnetBW component because the precise historical download manifest and complete source-to-CSV transformation used to construct the compiled analytical input are not currently distributed.
 
 ## 3. Energy study: RTS-GMLC generation fleet
 
 ### Required input
 
-The final Energy notebook expects the RTS-GMLC generator table corresponding to:
+The Energy analysis uses the RTS-GMLC generator table:
 
 ```text
 RTS_Data/SourceData/gen.csv
 ```
 
+Within the FAME external-data directory, the expected location is:
+
+```text
+data/raw/energy/RTS-GMLC/RTS_Data/SourceData/gen.csv
+```
+
 ### Official source
 
-Official repository:
+The RTS-GMLC test system is publicly available from the official repository:
 
-https://github.com/GridMod/RTS-GMLC
+`https://github.com/GridMod/RTS-GMLC`
 
-The RTS-GMLC repository states that the SourceData folder contains the open CSV
-representation of the test system.
+The `RTS_Data/SourceData/` directory of that repository contains the CSV representation of the test system used by the FAME Energy analysis.
 
-The repository's data-use notice grants the right to use, copy, and distribute the data,
-provided that the complete notice accompanies copies and DOE/NREL/Alliance are credited
-in publications resulting from use of the data.
+Users should consult the RTS-GMLC repository for the applicable data-use notice, attribution requirements, and current distribution terms.
 
-### Redistribution decision
+### Reconstruction
 
-For maximum provenance clarity, FAME does not need to vendor the RTS-GMLC source data.
-The recommended workflow is to retrieve `gen.csv` directly from the official repository
-during setup. A helper script is provided in `scripts/prepare_external_data.py`.
+FAME does not vendor a duplicate copy of the RTS-GMLC source data. The generator table should instead be retrieved from the official RTS-GMLC repository.
 
-## 4. Directory expected after external-data setup
+The external-data preparation helper is:
+
+```text
+scripts/prepare_external_data.py
+```
+
+After preparation, the required generator table should be available at:
+
+```text
+data/raw/energy/RTS-GMLC/RTS_Data/SourceData/gen.csv
+```
+
+This component is therefore externally sourced but reconstructible from the identified public repository.
+
+## 4. Expected external-data directory
+
+After all required external inputs have been supplied, the expected directory structure is:
 
 ```text
 data/
@@ -156,4 +185,26 @@ data/
     └── splits/
 ```
 
-The `data/raw/` directory is ignored by Git by default.
+The `data/raw/` directory is excluded from version control by default.
+
+## 5. Reproducibility boundaries
+
+The FAME repository distinguishes three levels of reproducibility support.
+
+### Archived-result auditability
+
+The numerical artifacts stored under `results/`, together with `reproducibility/artifact_manifest.csv`, allow the principal empirical claims reported in the manuscript to be traced to archived machine-readable outputs and the corresponding analysis code.
+
+### Re-execution with supplied external inputs
+
+The public notebooks can be used with the external analytical inputs placed at the expected paths documented above.
+
+### Raw-source-to-result reproduction
+
+Raw-source-to-result reproduction additionally requires a fully specified transformation from each external source to the analytical inputs consumed by the notebooks.
+
+This level is currently supported for externally retrievable components for which the complete acquisition/preparation procedure is distributed, such as the RTS-GMLC generator input.
+
+For the fantasy-football analytical dataset and the compiled TransnetBW load dataset, the repository provides provenance, input expectations, archived experimental artifacts, and analysis code, but does not currently claim complete raw-source-to-result reproducibility.
+
+These boundaries are stated explicitly to distinguish the auditability of the manuscript-associated archived results from stronger claims of end-to-end reconstruction of third-party analytical datasets.

@@ -1,25 +1,36 @@
 cff-version: 1.2.0
+
 message: >-
-  If you use the FAME software or reproducibility materials, please cite this
-  repository release and the relevant companion manuscript when bibliographic
-  metadata become available.
-title: "FAME: Framework for Allocation with Modular Evaluation"
+  If you use FAME or its reproducibility materials, please cite this software
+  release and the relevant companion manuscript when manuscript-specific
+  bibliographic metadata become available.
+
+title: "FAME: Prediction-to-Decision Representations for Constrained Resource Allocation"
+
 type: software
+
 authors:
   - family-names: Pereira
     given-names: Tiago Martins
   - family-names: Oliveira
     given-names: Diana Campos de
+
 version: 1.1.0
+
 date-released: 2026-09-12
+
 repository-code: "https://github.com/tiagomartin/FAME"
+
 url: "https://github.com/tiagomartin/FAME"
+
+license: MIT
+
 keywords:
   - predictive-prescriptive analytics
   - predict-then-optimize
   - constrained optimization
   - decision-oriented calibration
   - temporal transferability
-  - decision representation
+  - prediction-to-decision representation
   - post-deployment monitoring
   - anytime-valid inference
