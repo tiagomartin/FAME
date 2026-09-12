@@ -1,0 +1,34 @@
+{
+  "title": "FAME: Framework for Allocation with Modular Evaluation",
+  "upload_type": "software",
+  "description": "Version 1.1.0 of the FAME reproducibility archive. This release organizes the project into two companion research tracks: (1) FAME/DOC temporal transferability of learned prediction-to-decision representations, and (2) DRR/DRVM post-deployment validity monitoring of frozen prediction-to-decision representations. The release adds controlled DRVM Monte Carlo validation, real historical deployment replays in fantasy football and Energy, temporal reference-risk stress tests, baseline-uplift sensitivity outputs, and an explicit manuscript/reproducibility map. Existing third-party-data redistribution boundaries remain unchanged.",
+  "creators": [
+    {
+      "name": "Pereira, Tiago Martins",
+      "affiliation": "Universidade Federal de Ouro Preto (UFOP)"
+    },
+    {
+      "name": "Oliveira, Diana Campos de",
+      "affiliation": "Universidade Federal de Ouro Preto (UFOP)"
+    }
+  ],
+  "keywords": [
+    "predictive-prescriptive analytics",
+    "predict-then-optimize",
+    "constrained optimization",
+    "decision-oriented calibration",
+    "temporal transferability",
+    "prediction-to-decision representation",
+    "post-deployment monitoring",
+    "anytime-valid inference"
+  ],
+  "version": "1.1.0",
+  "language": "eng",
+  "related_identifiers": [
+    {
+      "identifier": "https://github.com/tiagomartin/FAME",
+      "relation": "isSupplementTo",
+      "scheme": "url"
+    }
+  ]
+}

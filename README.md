@@ -1,98 +1,158 @@
-# FAME
+# FAME — Framework for Allocation with Modular Evaluation
 
-FAME is a modular prediction-to-decision framework for constrained resource allocation.
+FAME is a modular predictive-prescriptive research framework for learning,
+evaluating, and monitoring **prediction-to-decision representations** in
+constrained optimization systems.
 
-This repository contains the curated code, processed experimental artifacts, robustness analyses, figures, and supplementary material accompanying the manuscript:
+The repository now supports two complementary research tracks:
 
-**Temporal Transferability of Prediction-to-Decision Representations in Constrained Resource Allocation**
+1. **FAME/DOC — temporal transferability**
+   - learns an intermediate prediction-to-decision representation using
+     downstream realized utility;
+   - freezes that representation before future evaluation;
+   - studies whether decision-calibrated representations transfer across time.
 
-## Repository purpose
+2. **DRR/DRVM — post-deployment validity monitoring**
+   - defines Decision-Representation Regret (DRR);
+   - monitors a frozen representation using an anytime-valid
+     Decision-Representation Validity Monitor (DRVM);
+   - studies representation separability, monitorability, temporal
+     reference-risk robustness, and post-alert representation renewal.
 
-The repository is organized to make the paper's empirical claims auditable. It separates predictive development, decision-oriented calibration (DOC), frozen prediction-to-decision representations, future out-of-time evaluation, and retrospective robustness/diagnostic analyses.
+These tracks are scientifically complementary but use distinct empirical
+outputs and distinct inferential questions. See
+[`docs/MANUSCRIPTS.md`](docs/MANUSCRIPTS.md) and
+[`docs/REPRODUCIBILITY_MAP.md`](docs/REPRODUCIBILITY_MAP.md).
 
-Future-period outcomes are not used to reselect the representation evaluated prospectively.
+## Repository
 
-## Repository structure
+Source repository:
+
+https://github.com/tiagomartin/FAME
+
+## Current public archive
+
+The most recent previously archived release is:
+
+**FAME v1.0.2**
+DOI: **10.5281/zenodo.22072076**
+
+Release **v1.1.0** extends the public reproducibility archive with the two
+companion manuscript tracks described above. After the new Zenodo version is
+published, the version-specific v1.1.0 DOI should be added here.
+
+## Research architecture
+
+The core FAME architecture separates:
 
 ```text
-FAME/
-├── code/
-│   ├── fantasy_football/
-│   └── energy/
-├── data/
-│   ├── fantasy_football/splits/
-│   └── energy/splits/
-├── results/
-│   ├── fantasy_football/
-│   │   ├── model_selection/
-│   │   ├── calibration/
-│   │   ├── evaluation/
-│   │   ├── robustness/
-│   │   └── audit/
-│   └── energy/
-│       ├── temporal_replications/
-│       ├── robustness/
-│       └── audit/
-├── figures/
-│   ├── main/
-│   └── supplementary/
-├── supplementary/
-└── reproducibility/
+prediction
+    ↓
+prediction-to-decision representation
+    ↓
+constrained optimization
+    ↓
+realized downstream utility
 ```
 
+A parameterized representation may be written as
 
-## Reproducibility status
+```text
+v_t(phi) = g_phi(theta_hat_t, z_t)
+```
 
-For the current verification level, see `reproducibility/REPRODUCIBILITY_STATUS.md`. The archived results are fully auditable; a clean-clone end-to-end rerun remains pending until the documented external datasets are supplied.
+and DOC estimates `phi` using downstream realized utility in a chronological
+calibration period. The selected representation is then frozen before future
+evaluation.
 
+The DRVM companion work begins after freezing: it asks whether the same
+representation remains operationally valid as predictive inputs, contexts,
+and operating conditions evolve.
 
-The repository currently provides the curated numerical artifacts required to audit the
-manuscript. Full end-to-end execution from a clean clone additionally requires the external/raw
-data sources described in `data/README.md`. See `reproducibility/NOTEBOOK_AUDIT.md` before
-running the notebooks.
+## Companion manuscripts
 
-## Code
+### A. Temporal transferability of learned prediction-to-decision representations
 
-The `code/` directory contains the notebooks used for the final fantasy-football and Energy experiments reported in the manuscript. Development/debug notebooks and obsolete intermediate versions were intentionally excluded from the public repository.
+**Working title**
 
+*Temporal Transferability of Learned Prediction-to-Decision Representations in
+Predictive-Prescriptive Systems*
 
-## Notebook format
+Main scientific question:
 
-All public notebooks in `code/` contain executable code cells only. Markdown/raw cells,
-inline comments, standalone comments, outputs, and execution counts were removed from the
-public copies. Scientific documentation is kept in the repository Markdown files and in the
-manuscript rather than inside the notebooks.
+> Do historically decision-calibrated prediction-to-decision representations
+> preserve operational value when transferred to future environments?
 
-## Data
+Reproducibility materials:
 
-Raw third-party data are **not redistributed by default** in this repository. The repository includes temporal split definitions and processed experimental artifacts that can be shared. See `data/README.md` and `data/SOURCES_AND_RECONSTRUCTION.md` for the data policy, provenance, and reconstruction guidance.
+[`reproducibility/fame_doc/`](reproducibility/fame_doc/)
 
-## Main reproducibility artifacts
+Primary analyses include:
 
-### Fantasy football
+- three fantasy-football calibration-to-evaluation transitions;
+- DOC calibration stability;
+- retrospective displacement of favorable representation regions;
+- nine expanding-window Energy transfer replications;
+- predictive-versus-operational transfer analysis.
 
-The repository includes temporal development folds, frozen predictive hyperparameters and ensemble weights, DOC weight grid and frozen DOC weights, bootstrap stability results, out-of-time 2025 operational summaries, temporal replication comparisons, component ablation, captain-selection sensitivity, target-alignment and missing-next-market audits, local calibration sensitivity, and leakage/freeze audits.
+### B. Continuous validity monitoring of frozen prediction-to-decision representations
 
-### Energy
+**Working title**
 
-The repository includes temporal replication definitions, frozen representation parameters, the extended-theta robustness experiment, capacity-margin × VOLL robustness summaries, and replication-level/model-level summaries.
+*Continuous Validity Monitoring of Frozen Prediction-to-Decision
+Representations for Constrained Optimization*
 
-## Reproducing paper claims
+Main scientific question:
 
-See `reproducibility/artifact_manifest.csv`, which maps manuscript claims and analyses to the corresponding repository artifacts and code.
+> When has a frozen representation accumulated enough downstream evidence to
+> warrant operational review?
 
-## Supplementary material
+Reproducibility materials:
 
-The LaTeX source for the Supplementary Material is available in `supplementary/`.
+[`reproducibility/drvm/`](reproducibility/drvm/)
 
-## Software environment
+Primary analyses include:
 
-Exact package versions should be recorded before the public release in `reproducibility/environment.yml` or `reproducibility/requirements.txt`.
+- controlled null/power Monte Carlo experiments;
+- monitorability calculations;
+- fantasy-football and Energy historical deployment replays;
+- temporal reference-risk stress tests;
+- baseline-uplift sensitivity;
+- post-alert representation-renewal design.
+
+## Reproducibility boundaries
+
+The repository provides analysis code, processed experimental artifacts,
+temporal protocol definitions, frozen parameters, robustness analyses, and
+machine-readable outputs. Raw third-party data are not redistributed when
+redistribution rights have not been established.
+
+Archived numerical outputs are intended to permit auditing of manuscript
+claims without redistribution of restricted raw data. Full re-execution of
+analyses that depend on external third-party data requires the corresponding
+external analytical inputs described in the repository documentation.
+
+## Versioning
+
+- `v1.0.2` — reproducibility archive for the original FAME temporal-transfer study.
+- `v1.1.0` — companion-manuscript release separating:
+  - FAME/DOC temporal transferability;
+  - DRR/DRVM post-deployment monitoring and renewal.
+
+See [`CHANGELOG.md`](CHANGELOG.md).
 
 ## Citation
 
-Citation metadata are provided in `CITATION.cff`. The archived release DOI can be added after creating a versioned release.
+Until article-specific DOIs become available, cite the software/reproducibility
+archive using [`CITATION.cff`](CITATION.cff). Manuscript-specific citation
+metadata will be added after acceptance/publication.
 
 ## License
 
-The original source code in this repository is released under the MIT License unless otherwise indicated. Third-party datasets, external software, and external test systems retain their original licenses and terms of use. The MIT License does **not** apply to third-party data.
+This update does not change the repository's existing license. See the
+repository `LICENSE` file.
+
+## Authors
+
+- Tiago Martins Pereira — Universidade Federal de Ouro Preto (UFOP)
+- Diana Campos de Oliveira — Universidade Federal de Ouro Preto (UFOP)
