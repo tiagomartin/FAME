@@ -52,18 +52,20 @@ The previously archived release is:
 **FAME v1.0.2**
 DOI: 10.5281/zenodo.22072076
 
-The new 1.1.0 release preserves the v1.0.2 reproducibility infrastructure
+The new v1.1.0 release preserves the v1.0.2 reproducibility infrastructure
 and adds the companion-manuscript organization and DRR/DRVM computational
 artifacts.
 
-A new version-specific Zenodo DOI will be added after the v1.1.0 archive is
-published.
+## Current release
 
-See also:
+**FAME v1.1.0**
 
-- [CHANGELOG.md](CHANGELOG.md)
-- [
-elease/RELEASE_NOTES_v1.1.0.md](release/RELEASE_NOTES_v1.1.0.md)
+Version-specific DOI:  
+https://doi.org/10.5281/zenodo.22730680
+
+Concept DOI — all FAME versions:  
+https://doi.org/10.5281/zenodo.22071477
+
 
 ---
 
@@ -84,28 +86,57 @@ Future-period outcomes are not used to reselect the representation evaluated pro
 
 ```text
 FAME/
-Ôö£ÔöÇÔöÇ code/
-Ôöé   Ôö£ÔöÇÔöÇ fantasy_football/
-Ôöé   ÔööÔöÇÔöÇ energy/
-Ôö£ÔöÇÔöÇ data/
-Ôöé   Ôö£ÔöÇÔöÇ fantasy_football/splits/
-Ôöé   ÔööÔöÇÔöÇ energy/splits/
-Ôö£ÔöÇÔöÇ results/
-Ôöé   Ôö£ÔöÇÔöÇ fantasy_football/
-Ôöé   Ôöé   Ôö£ÔöÇÔöÇ model_selection/
-Ôöé   Ôöé   Ôö£ÔöÇÔöÇ calibration/
-Ôöé   Ôöé   Ôö£ÔöÇÔöÇ evaluation/
-Ôöé   Ôöé   Ôö£ÔöÇÔöÇ robustness/
-Ôöé   Ôöé   ÔööÔöÇÔöÇ audit/
-Ôöé   ÔööÔöÇÔöÇ energy/
-Ôöé       Ôö£ÔöÇÔöÇ temporal_replications/
-Ôöé       Ôö£ÔöÇÔöÇ robustness/
-Ôöé       ÔööÔöÇÔöÇ audit/
-Ôö£ÔöÇÔöÇ figures/
-Ôöé   Ôö£ÔöÇÔöÇ main/
-Ôöé   ÔööÔöÇÔöÇ supplementary/
-Ôö£ÔöÇÔöÇ supplementary/
-ÔööÔöÇÔöÇ reproducibility/
+|-- code/
+|   |-- fantasy_football/
+|   `-- energy/
+|
+|-- data/
+|   |-- fantasy_football/
+|   |   `-- splits/
+|   `-- energy/
+|       `-- splits/
+|
+|-- results/
+|   |-- fantasy_football/
+|   |   |-- model_selection/
+|   |   |-- calibration/
+|   |   |-- evaluation/
+|   |   |-- robustness/
+|   |   `-- audit/
+|   `-- energy/
+|       |-- temporal_replications/
+|       |-- robustness/
+|       `-- audit/
+|
+|-- figures/
+|   |-- main/
+|   `-- supplementary/
+|
+|-- supplementary/
+|
+|-- reproducibility/
+|   |-- fame_doc/
+|   |-- drvm/
+|   |-- CLEAN_CLONE_WORKFLOW.md
+|   |-- artifact_manifest.csv
+|   |-- artifact_manifest_v1.1.0.csv
+|   `-- checksums.sha256
+|
+|-- docs/
+|   |-- MANUSCRIPTS.md
+|   `-- REPRODUCIBILITY_MAP.md
+|
+|-- release/
+|   |-- RELEASE_NOTES_v1.1.0.md
+|   |-- GITHUB_UPDATE_PLAN.md
+|   `-- ZENODO_METADATA_v1.1.0.md
+|
+|-- scripts/
+|-- README.md
+|-- CITATION.cff
+|-- CHANGELOG.md
+|-- requirements.txt
+`-- .zenodo.json
 ```
 
 ## Reproducibility status
