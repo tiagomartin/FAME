@@ -1,0 +1,29 @@
+{
+  "git_head": "e998d5453e626a0b743b3fd5137c54c987db780b",
+  "replications": [
+    "R05",
+    "R06",
+    "R07",
+    "R08",
+    "R09"
+  ],
+  "seeds": [
+    2026,
+    2027,
+    2028
+  ],
+  "workers": 2,
+  "torch_threads_per_branch": 5,
+  "use_gpu": false,
+  "train_epochs": 10,
+  "patience": 3,
+  "batch_size": 32,
+  "dataloader_workers": 0,
+  "guarantee_rate": 0.9,
+  "guarantee_hour": [
+    1
+  ],
+  "FastExactDataset": true,
+  "FastExact_validation": "FAST_EXACT_EQUIVALENCE_OK",
+  "matched_origin": true
+}

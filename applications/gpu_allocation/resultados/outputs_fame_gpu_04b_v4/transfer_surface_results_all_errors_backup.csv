@@ -1,0 +1,1621 @@
+replication,q,H,run_id,elapsed_s,return_code,status,console_tail
+R04,0.8,1,R04_q0.80_H1,7.623390197753906,1,error,"Traceback (most recent call last):
+  File [35m""C:\Users\tiago\AppData\Local\Temp\fame_gpu_04b_zt2opz1g\26ASPLOS-Spot-FAME\transfer_worker.py""[0m, line [35m319[0m, in [35m<module>[0m
+    [31mmain[0m[1;31m()[0m
+    [31m~~~~[0m[1;31m^^[0m
+  File [35m""C:\Users\tiago\AppData\Local\Temp\fame_gpu_04b_zt2opz1g\26ASPLOS-Spot-FAME\transfer_worker.py""[0m, line [35m217[0m, in [35mmain[0m
+    [31mreset_segment_metrics[0m[1;31m([0m
+    [31m~~~~~~~~~~~~~~~~~~~~~[0m[1;31m^[0m
+        [1;31msched,[0m
+        [1;31m^^^^^^[0m
+        [1;31mPath(args_cli.out_json).parent/""C""[0m
+        [1;31m^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^[0m
+    [1;31m)[0m
+    [1;31m^[0m
+  File [35m""C:\Users\tiago\AppData\Local\Temp\fame_gpu_04b_zt2opz1g\26ASPLOS-Spot-FAME\transfer_worker.py""[0m, line [35m102[0m, in [35mreset_segment_metrics[0m
+    sched.recorder=[1;31mRecorder[0m(
+                   [1;31m^^^^^^^^[0m
+[1;35mNameError[0m: [35mname 'Recorder' is not defined[0m
+"
+R04,0.5,4,R04_q0.50_H4,7.7131688594818115,1,error,"Traceback (most recent call last):
+  File [35m""C:\Users\tiago\AppData\Local\Temp\fame_gpu_04b_zt2opz1g\26ASPLOS-Spot-FAME\transfer_worker.py""[0m, line [35m319[0m, in [35m<module>[0m
+    [31mmain[0m[1;31m()[0m
+    [31m~~~~[0m[1;31m^^[0m
+  File [35m""C:\Users\tiago\AppData\Local\Temp\fame_gpu_04b_zt2opz1g\26ASPLOS-Spot-FAME\transfer_worker.py""[0m, line [35m217[0m, in [35mmain[0m
+    [31mreset_segment_metrics[0m[1;31m([0m
+    [31m~~~~~~~~~~~~~~~~~~~~~[0m[1;31m^[0m
+        [1;31msched,[0m
+        [1;31m^^^^^^[0m
+        [1;31mPath(args_cli.out_json).parent/""C""[0m
+        [1;31m^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^[0m
+    [1;31m)[0m
+    [1;31m^[0m
+  File [35m""C:\Users\tiago\AppData\Local\Temp\fame_gpu_04b_zt2opz1g\26ASPLOS-Spot-FAME\transfer_worker.py""[0m, line [35m102[0m, in [35mreset_segment_metrics[0m
+    sched.recorder=[1;31mRecorder[0m(
+                   [1;31m^^^^^^^^[0m
+[1;35mNameError[0m: [35mname 'Recorder' is not defined[0m
+"
+R04,0.5,1,R04_q0.50_H1,7.7445387840271,1,error,"Traceback (most recent call last):
+  File [35m""C:\Users\tiago\AppData\Local\Temp\fame_gpu_04b_zt2opz1g\26ASPLOS-Spot-FAME\transfer_worker.py""[0m, line [35m319[0m, in [35m<module>[0m
+    [31mmain[0m[1;31m()[0m
+    [31m~~~~[0m[1;31m^^[0m
+  File [35m""C:\Users\tiago\AppData\Local\Temp\fame_gpu_04b_zt2opz1g\26ASPLOS-Spot-FAME\transfer_worker.py""[0m, line [35m217[0m, in [35mmain[0m
+    [31mreset_segment_metrics[0m[1;31m([0m
+    [31m~~~~~~~~~~~~~~~~~~~~~[0m[1;31m^[0m
+        [1;31msched,[0m
+        [1;31m^^^^^^[0m
+        [1;31mPath(args_cli.out_json).parent/""C""[0m
+        [1;31m^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^[0m
+    [1;31m)[0m
+    [1;31m^[0m
+  File [35m""C:\Users\tiago\AppData\Local\Temp\fame_gpu_04b_zt2opz1g\26ASPLOS-Spot-FAME\transfer_worker.py""[0m, line [35m102[0m, in [35mreset_segment_metrics[0m
+    sched.recorder=[1;31mRecorder[0m(
+                   [1;31m^^^^^^^^[0m
+[1;35mNameError[0m: [35mname 'Recorder' is not defined[0m
+"
+R04,0.8,2,R04_q0.80_H2,7.763007640838623,1,error,"Traceback (most recent call last):
+  File [35m""C:\Users\tiago\AppData\Local\Temp\fame_gpu_04b_zt2opz1g\26ASPLOS-Spot-FAME\transfer_worker.py""[0m, line [35m319[0m, in [35m<module>[0m
+    [31mmain[0m[1;31m()[0m
+    [31m~~~~[0m[1;31m^^[0m
+  File [35m""C:\Users\tiago\AppData\Local\Temp\fame_gpu_04b_zt2opz1g\26ASPLOS-Spot-FAME\transfer_worker.py""[0m, line [35m217[0m, in [35mmain[0m
+    [31mreset_segment_metrics[0m[1;31m([0m
+    [31m~~~~~~~~~~~~~~~~~~~~~[0m[1;31m^[0m
+        [1;31msched,[0m
+        [1;31m^^^^^^[0m
+        [1;31mPath(args_cli.out_json).parent/""C""[0m
+        [1;31m^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^[0m
+    [1;31m)[0m
+    [1;31m^[0m
+  File [35m""C:\Users\tiago\AppData\Local\Temp\fame_gpu_04b_zt2opz1g\26ASPLOS-Spot-FAME\transfer_worker.py""[0m, line [35m102[0m, in [35mreset_segment_metrics[0m
+    sched.recorder=[1;31mRecorder[0m(
+                   [1;31m^^^^^^^^[0m
+[1;35mNameError[0m: [35mname 'Recorder' is not defined[0m
+"
+R04,0.5,2,R04_q0.50_H2,7.825751543045044,1,error,"Traceback (most recent call last):
+  File [35m""C:\Users\tiago\AppData\Local\Temp\fame_gpu_04b_zt2opz1g\26ASPLOS-Spot-FAME\transfer_worker.py""[0m, line [35m319[0m, in [35m<module>[0m
+    [31mmain[0m[1;31m()[0m
+    [31m~~~~[0m[1;31m^^[0m
+  File [35m""C:\Users\tiago\AppData\Local\Temp\fame_gpu_04b_zt2opz1g\26ASPLOS-Spot-FAME\transfer_worker.py""[0m, line [35m217[0m, in [35mmain[0m
+    [31mreset_segment_metrics[0m[1;31m([0m
+    [31m~~~~~~~~~~~~~~~~~~~~~[0m[1;31m^[0m
+        [1;31msched,[0m
+        [1;31m^^^^^^[0m
+        [1;31mPath(args_cli.out_json).parent/""C""[0m
+        [1;31m^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^[0m
+    [1;31m)[0m
+    [1;31m^[0m
+  File [35m""C:\Users\tiago\AppData\Local\Temp\fame_gpu_04b_zt2opz1g\26ASPLOS-Spot-FAME\transfer_worker.py""[0m, line [35m102[0m, in [35mreset_segment_metrics[0m
+    sched.recorder=[1;31mRecorder[0m(
+                   [1;31m^^^^^^^^[0m
+[1;35mNameError[0m: [35mname 'Recorder' is not defined[0m
+"
+R04,0.8,4,R04_q0.80_H4,7.829521894454956,1,error,"Traceback (most recent call last):
+  File [35m""C:\Users\tiago\AppData\Local\Temp\fame_gpu_04b_zt2opz1g\26ASPLOS-Spot-FAME\transfer_worker.py""[0m, line [35m319[0m, in [35m<module>[0m
+    [31mmain[0m[1;31m()[0m
+    [31m~~~~[0m[1;31m^^[0m
+  File [35m""C:\Users\tiago\AppData\Local\Temp\fame_gpu_04b_zt2opz1g\26ASPLOS-Spot-FAME\transfer_worker.py""[0m, line [35m217[0m, in [35mmain[0m
+    [31mreset_segment_metrics[0m[1;31m([0m
+    [31m~~~~~~~~~~~~~~~~~~~~~[0m[1;31m^[0m
+        [1;31msched,[0m
+        [1;31m^^^^^^[0m
+        [1;31mPath(args_cli.out_json).parent/""C""[0m
+        [1;31m^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^[0m
+    [1;31m)[0m
+    [1;31m^[0m
+  File [35m""C:\Users\tiago\AppData\Local\Temp\fame_gpu_04b_zt2opz1g\26ASPLOS-Spot-FAME\transfer_worker.py""[0m, line [35m102[0m, in [35mreset_segment_metrics[0m
+    sched.recorder=[1;31mRecorder[0m(
+                   [1;31m^^^^^^^^[0m
+[1;35mNameError[0m: [35mname 'Recorder' is not defined[0m
+"
+R04,0.9,1,R04_q0.90_H1,6.9620325565338135,1,error,"Traceback (most recent call last):
+  File [35m""C:\Users\tiago\AppData\Local\Temp\fame_gpu_04b_zt2opz1g\26ASPLOS-Spot-FAME\transfer_worker.py""[0m, line [35m319[0m, in [35m<module>[0m
+    [31mmain[0m[1;31m()[0m
+    [31m~~~~[0m[1;31m^^[0m
+  File [35m""C:\Users\tiago\AppData\Local\Temp\fame_gpu_04b_zt2opz1g\26ASPLOS-Spot-FAME\transfer_worker.py""[0m, line [35m217[0m, in [35mmain[0m
+    [31mreset_segment_metrics[0m[1;31m([0m
+    [31m~~~~~~~~~~~~~~~~~~~~~[0m[1;31m^[0m
+        [1;31msched,[0m
+        [1;31m^^^^^^[0m
+        [1;31mPath(args_cli.out_json).parent/""C""[0m
+        [1;31m^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^[0m
+    [1;31m)[0m
+    [1;31m^[0m
+  File [35m""C:\Users\tiago\AppData\Local\Temp\fame_gpu_04b_zt2opz1g\26ASPLOS-Spot-FAME\transfer_worker.py""[0m, line [35m102[0m, in [35mreset_segment_metrics[0m
+    sched.recorder=[1;31mRecorder[0m(
+                   [1;31m^^^^^^^^[0m
+[1;35mNameError[0m: [35mname 'Recorder' is not defined[0m
+"
+R04,0.9,2,R04_q0.90_H2,6.944149971008301,1,error,"Traceback (most recent call last):
+  File [35m""C:\Users\tiago\AppData\Local\Temp\fame_gpu_04b_zt2opz1g\26ASPLOS-Spot-FAME\transfer_worker.py""[0m, line [35m319[0m, in [35m<module>[0m
+    [31mmain[0m[1;31m()[0m
+    [31m~~~~[0m[1;31m^^[0m
+  File [35m""C:\Users\tiago\AppData\Local\Temp\fame_gpu_04b_zt2opz1g\26ASPLOS-Spot-FAME\transfer_worker.py""[0m, line [35m217[0m, in [35mmain[0m
+    [31mreset_segment_metrics[0m[1;31m([0m
+    [31m~~~~~~~~~~~~~~~~~~~~~[0m[1;31m^[0m
+        [1;31msched,[0m
+        [1;31m^^^^^^[0m
+        [1;31mPath(args_cli.out_json).parent/""C""[0m
+        [1;31m^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^[0m
+    [1;31m)[0m
+    [1;31m^[0m
+  File [35m""C:\Users\tiago\AppData\Local\Temp\fame_gpu_04b_zt2opz1g\26ASPLOS-Spot-FAME\transfer_worker.py""[0m, line [35m102[0m, in [35mreset_segment_metrics[0m
+    sched.recorder=[1;31mRecorder[0m(
+                   [1;31m^^^^^^^^[0m
+[1;35mNameError[0m: [35mname 'Recorder' is not defined[0m
+"
+R04,0.95,4,R04_q0.95_H4,7.060569763183594,1,error,"Traceback (most recent call last):
+  File [35m""C:\Users\tiago\AppData\Local\Temp\fame_gpu_04b_zt2opz1g\26ASPLOS-Spot-FAME\transfer_worker.py""[0m, line [35m319[0m, in [35m<module>[0m
+    [31mmain[0m[1;31m()[0m
+    [31m~~~~[0m[1;31m^^[0m
+  File [35m""C:\Users\tiago\AppData\Local\Temp\fame_gpu_04b_zt2opz1g\26ASPLOS-Spot-FAME\transfer_worker.py""[0m, line [35m217[0m, in [35mmain[0m
+    [31mreset_segment_metrics[0m[1;31m([0m
+    [31m~~~~~~~~~~~~~~~~~~~~~[0m[1;31m^[0m
+        [1;31msched,[0m
+        [1;31m^^^^^^[0m
+        [1;31mPath(args_cli.out_json).parent/""C""[0m
+        [1;31m^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^[0m
+    [1;31m)[0m
+    [1;31m^[0m
+  File [35m""C:\Users\tiago\AppData\Local\Temp\fame_gpu_04b_zt2opz1g\26ASPLOS-Spot-FAME\transfer_worker.py""[0m, line [35m102[0m, in [35mreset_segment_metrics[0m
+    sched.recorder=[1;31mRecorder[0m(
+                   [1;31m^^^^^^^^[0m
+[1;35mNameError[0m: [35mname 'Recorder' is not defined[0m
+"
+R04,0.95,2,R04_q0.95_H2,7.125629425048828,1,error,"Traceback (most recent call last):
+  File [35m""C:\Users\tiago\AppData\Local\Temp\fame_gpu_04b_zt2opz1g\26ASPLOS-Spot-FAME\transfer_worker.py""[0m, line [35m319[0m, in [35m<module>[0m
+    [31mmain[0m[1;31m()[0m
+    [31m~~~~[0m[1;31m^^[0m
+  File [35m""C:\Users\tiago\AppData\Local\Temp\fame_gpu_04b_zt2opz1g\26ASPLOS-Spot-FAME\transfer_worker.py""[0m, line [35m217[0m, in [35mmain[0m
+    [31mreset_segment_metrics[0m[1;31m([0m
+    [31m~~~~~~~~~~~~~~~~~~~~~[0m[1;31m^[0m
+        [1;31msched,[0m
+        [1;31m^^^^^^[0m
+        [1;31mPath(args_cli.out_json).parent/""C""[0m
+        [1;31m^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^[0m
+    [1;31m)[0m
+    [1;31m^[0m
+  File [35m""C:\Users\tiago\AppData\Local\Temp\fame_gpu_04b_zt2opz1g\26ASPLOS-Spot-FAME\transfer_worker.py""[0m, line [35m102[0m, in [35mreset_segment_metrics[0m
+    sched.recorder=[1;31mRecorder[0m(
+                   [1;31m^^^^^^^^[0m
+[1;35mNameError[0m: [35mname 'Recorder' is not defined[0m
+"
+R04,0.95,1,R04_q0.95_H1,7.193627119064331,1,error,"Traceback (most recent call last):
+  File [35m""C:\Users\tiago\AppData\Local\Temp\fame_gpu_04b_zt2opz1g\26ASPLOS-Spot-FAME\transfer_worker.py""[0m, line [35m319[0m, in [35m<module>[0m
+    [31mmain[0m[1;31m()[0m
+    [31m~~~~[0m[1;31m^^[0m
+  File [35m""C:\Users\tiago\AppData\Local\Temp\fame_gpu_04b_zt2opz1g\26ASPLOS-Spot-FAME\transfer_worker.py""[0m, line [35m217[0m, in [35mmain[0m
+    [31mreset_segment_metrics[0m[1;31m([0m
+    [31m~~~~~~~~~~~~~~~~~~~~~[0m[1;31m^[0m
+        [1;31msched,[0m
+        [1;31m^^^^^^[0m
+        [1;31mPath(args_cli.out_json).parent/""C""[0m
+        [1;31m^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^[0m
+    [1;31m)[0m
+    [1;31m^[0m
+  File [35m""C:\Users\tiago\AppData\Local\Temp\fame_gpu_04b_zt2opz1g\26ASPLOS-Spot-FAME\transfer_worker.py""[0m, line [35m102[0m, in [35mreset_segment_metrics[0m
+    sched.recorder=[1;31mRecorder[0m(
+                   [1;31m^^^^^^^^[0m
+[1;35mNameError[0m: [35mname 'Recorder' is not defined[0m
+"
+R04,0.9,4,R04_q0.90_H4,7.213708162307739,1,error,"Traceback (most recent call last):
+  File [35m""C:\Users\tiago\AppData\Local\Temp\fame_gpu_04b_zt2opz1g\26ASPLOS-Spot-FAME\transfer_worker.py""[0m, line [35m319[0m, in [35m<module>[0m
+    [31mmain[0m[1;31m()[0m
+    [31m~~~~[0m[1;31m^^[0m
+  File [35m""C:\Users\tiago\AppData\Local\Temp\fame_gpu_04b_zt2opz1g\26ASPLOS-Spot-FAME\transfer_worker.py""[0m, line [35m217[0m, in [35mmain[0m
+    [31mreset_segment_metrics[0m[1;31m([0m
+    [31m~~~~~~~~~~~~~~~~~~~~~[0m[1;31m^[0m
+        [1;31msched,[0m
+        [1;31m^^^^^^[0m
+        [1;31mPath(args_cli.out_json).parent/""C""[0m
+        [1;31m^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^[0m
+    [1;31m)[0m
+    [1;31m^[0m
+  File [35m""C:\Users\tiago\AppData\Local\Temp\fame_gpu_04b_zt2opz1g\26ASPLOS-Spot-FAME\transfer_worker.py""[0m, line [35m102[0m, in [35mreset_segment_metrics[0m
+    sched.recorder=[1;31mRecorder[0m(
+                   [1;31m^^^^^^^^[0m
+[1;35mNameError[0m: [35mname 'Recorder' is not defined[0m
+"
+R04,0.99,2,R04_q0.99_H2,6.471323490142822,1,error,"Traceback (most recent call last):
+  File [35m""C:\Users\tiago\AppData\Local\Temp\fame_gpu_04b_zt2opz1g\26ASPLOS-Spot-FAME\transfer_worker.py""[0m, line [35m319[0m, in [35m<module>[0m
+    [31mmain[0m[1;31m()[0m
+    [31m~~~~[0m[1;31m^^[0m
+  File [35m""C:\Users\tiago\AppData\Local\Temp\fame_gpu_04b_zt2opz1g\26ASPLOS-Spot-FAME\transfer_worker.py""[0m, line [35m217[0m, in [35mmain[0m
+    [31mreset_segment_metrics[0m[1;31m([0m
+    [31m~~~~~~~~~~~~~~~~~~~~~[0m[1;31m^[0m
+        [1;31msched,[0m
+        [1;31m^^^^^^[0m
+        [1;31mPath(args_cli.out_json).parent/""C""[0m
+        [1;31m^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^[0m
+    [1;31m)[0m
+    [1;31m^[0m
+  File [35m""C:\Users\tiago\AppData\Local\Temp\fame_gpu_04b_zt2opz1g\26ASPLOS-Spot-FAME\transfer_worker.py""[0m, line [35m102[0m, in [35mreset_segment_metrics[0m
+    sched.recorder=[1;31mRecorder[0m(
+                   [1;31m^^^^^^^^[0m
+[1;35mNameError[0m: [35mname 'Recorder' is not defined[0m
+"
+R04,0.99,1,R04_q0.99_H1,6.553962230682373,1,error,"Traceback (most recent call last):
+  File [35m""C:\Users\tiago\AppData\Local\Temp\fame_gpu_04b_zt2opz1g\26ASPLOS-Spot-FAME\transfer_worker.py""[0m, line [35m319[0m, in [35m<module>[0m
+    [31mmain[0m[1;31m()[0m
+    [31m~~~~[0m[1;31m^^[0m
+  File [35m""C:\Users\tiago\AppData\Local\Temp\fame_gpu_04b_zt2opz1g\26ASPLOS-Spot-FAME\transfer_worker.py""[0m, line [35m217[0m, in [35mmain[0m
+    [31mreset_segment_metrics[0m[1;31m([0m
+    [31m~~~~~~~~~~~~~~~~~~~~~[0m[1;31m^[0m
+        [1;31msched,[0m
+        [1;31m^^^^^^[0m
+        [1;31mPath(args_cli.out_json).parent/""C""[0m
+        [1;31m^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^[0m
+    [1;31m)[0m
+    [1;31m^[0m
+  File [35m""C:\Users\tiago\AppData\Local\Temp\fame_gpu_04b_zt2opz1g\26ASPLOS-Spot-FAME\transfer_worker.py""[0m, line [35m102[0m, in [35mreset_segment_metrics[0m
+    sched.recorder=[1;31mRecorder[0m(
+                   [1;31m^^^^^^^^[0m
+[1;35mNameError[0m: [35mname 'Recorder' is not defined[0m
+"
+R04,0.99,4,R04_q0.99_H4,6.32727837562561,1,error,"Traceback (most recent call last):
+  File [35m""C:\Users\tiago\AppData\Local\Temp\fame_gpu_04b_zt2opz1g\26ASPLOS-Spot-FAME\transfer_worker.py""[0m, line [35m319[0m, in [35m<module>[0m
+    [31mmain[0m[1;31m()[0m
+    [31m~~~~[0m[1;31m^^[0m
+  File [35m""C:\Users\tiago\AppData\Local\Temp\fame_gpu_04b_zt2opz1g\26ASPLOS-Spot-FAME\transfer_worker.py""[0m, line [35m217[0m, in [35mmain[0m
+    [31mreset_segment_metrics[0m[1;31m([0m
+    [31m~~~~~~~~~~~~~~~~~~~~~[0m[1;31m^[0m
+        [1;31msched,[0m
+        [1;31m^^^^^^[0m
+        [1;31mPath(args_cli.out_json).parent/""C""[0m
+        [1;31m^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^[0m
+    [1;31m)[0m
+    [1;31m^[0m
+  File [35m""C:\Users\tiago\AppData\Local\Temp\fame_gpu_04b_zt2opz1g\26ASPLOS-Spot-FAME\transfer_worker.py""[0m, line [35m102[0m, in [35mreset_segment_metrics[0m
+    sched.recorder=[1;31mRecorder[0m(
+                   [1;31m^^^^^^^^[0m
+[1;35mNameError[0m: [35mname 'Recorder' is not defined[0m
+"
+R05,0.5,1,R05_q0.50_H1,12.946056127548218,1,error,"Traceback (most recent call last):
+  File [35m""C:\Users\tiago\AppData\Local\Temp\fame_gpu_04b_zt2opz1g\26ASPLOS-Spot-FAME\transfer_worker.py""[0m, line [35m319[0m, in [35m<module>[0m
+    [31mmain[0m[1;31m()[0m
+    [31m~~~~[0m[1;31m^^[0m
+  File [35m""C:\Users\tiago\AppData\Local\Temp\fame_gpu_04b_zt2opz1g\26ASPLOS-Spot-FAME\transfer_worker.py""[0m, line [35m217[0m, in [35mmain[0m
+    [31mreset_segment_metrics[0m[1;31m([0m
+    [31m~~~~~~~~~~~~~~~~~~~~~[0m[1;31m^[0m
+        [1;31msched,[0m
+        [1;31m^^^^^^[0m
+        [1;31mPath(args_cli.out_json).parent/""C""[0m
+        [1;31m^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^[0m
+    [1;31m)[0m
+    [1;31m^[0m
+  File [35m""C:\Users\tiago\AppData\Local\Temp\fame_gpu_04b_zt2opz1g\26ASPLOS-Spot-FAME\transfer_worker.py""[0m, line [35m102[0m, in [35mreset_segment_metrics[0m
+    sched.recorder=[1;31mRecorder[0m(
+                   [1;31m^^^^^^^^[0m
+[1;35mNameError[0m: [35mname 'Recorder' is not defined[0m
+"
+R05,0.5,2,R05_q0.50_H2,13.045276165008543,1,error,"Traceback (most recent call last):
+  File [35m""C:\Users\tiago\AppData\Local\Temp\fame_gpu_04b_zt2opz1g\26ASPLOS-Spot-FAME\transfer_worker.py""[0m, line [35m319[0m, in [35m<module>[0m
+    [31mmain[0m[1;31m()[0m
+    [31m~~~~[0m[1;31m^^[0m
+  File [35m""C:\Users\tiago\AppData\Local\Temp\fame_gpu_04b_zt2opz1g\26ASPLOS-Spot-FAME\transfer_worker.py""[0m, line [35m217[0m, in [35mmain[0m
+    [31mreset_segment_metrics[0m[1;31m([0m
+    [31m~~~~~~~~~~~~~~~~~~~~~[0m[1;31m^[0m
+        [1;31msched,[0m
+        [1;31m^^^^^^[0m
+        [1;31mPath(args_cli.out_json).parent/""C""[0m
+        [1;31m^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^[0m
+    [1;31m)[0m
+    [1;31m^[0m
+  File [35m""C:\Users\tiago\AppData\Local\Temp\fame_gpu_04b_zt2opz1g\26ASPLOS-Spot-FAME\transfer_worker.py""[0m, line [35m102[0m, in [35mreset_segment_metrics[0m
+    sched.recorder=[1;31mRecorder[0m(
+                   [1;31m^^^^^^^^[0m
+[1;35mNameError[0m: [35mname 'Recorder' is not defined[0m
+"
+R05,0.5,4,R05_q0.50_H4,13.1286883354187,1,error,"Traceback (most recent call last):
+  File [35m""C:\Users\tiago\AppData\Local\Temp\fame_gpu_04b_zt2opz1g\26ASPLOS-Spot-FAME\transfer_worker.py""[0m, line [35m319[0m, in [35m<module>[0m
+    [31mmain[0m[1;31m()[0m
+    [31m~~~~[0m[1;31m^^[0m
+  File [35m""C:\Users\tiago\AppData\Local\Temp\fame_gpu_04b_zt2opz1g\26ASPLOS-Spot-FAME\transfer_worker.py""[0m, line [35m217[0m, in [35mmain[0m
+    [31mreset_segment_metrics[0m[1;31m([0m
+    [31m~~~~~~~~~~~~~~~~~~~~~[0m[1;31m^[0m
+        [1;31msched,[0m
+        [1;31m^^^^^^[0m
+        [1;31mPath(args_cli.out_json).parent/""C""[0m
+        [1;31m^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^[0m
+    [1;31m)[0m
+    [1;31m^[0m
+  File [35m""C:\Users\tiago\AppData\Local\Temp\fame_gpu_04b_zt2opz1g\26ASPLOS-Spot-FAME\transfer_worker.py""[0m, line [35m102[0m, in [35mreset_segment_metrics[0m
+    sched.recorder=[1;31mRecorder[0m(
+                   [1;31m^^^^^^^^[0m
+[1;35mNameError[0m: [35mname 'Recorder' is not defined[0m
+"
+R05,0.8,2,R05_q0.80_H2,12.937645196914673,1,error,"Traceback (most recent call last):
+  File [35m""C:\Users\tiago\AppData\Local\Temp\fame_gpu_04b_zt2opz1g\26ASPLOS-Spot-FAME\transfer_worker.py""[0m, line [35m319[0m, in [35m<module>[0m
+    [31mmain[0m[1;31m()[0m
+    [31m~~~~[0m[1;31m^^[0m
+  File [35m""C:\Users\tiago\AppData\Local\Temp\fame_gpu_04b_zt2opz1g\26ASPLOS-Spot-FAME\transfer_worker.py""[0m, line [35m217[0m, in [35mmain[0m
+    [31mreset_segment_metrics[0m[1;31m([0m
+    [31m~~~~~~~~~~~~~~~~~~~~~[0m[1;31m^[0m
+        [1;31msched,[0m
+        [1;31m^^^^^^[0m
+        [1;31mPath(args_cli.out_json).parent/""C""[0m
+        [1;31m^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^[0m
+    [1;31m)[0m
+    [1;31m^[0m
+  File [35m""C:\Users\tiago\AppData\Local\Temp\fame_gpu_04b_zt2opz1g\26ASPLOS-Spot-FAME\transfer_worker.py""[0m, line [35m102[0m, in [35mreset_segment_metrics[0m
+    sched.recorder=[1;31mRecorder[0m(
+                   [1;31m^^^^^^^^[0m
+[1;35mNameError[0m: [35mname 'Recorder' is not defined[0m
+"
+R05,0.8,4,R05_q0.80_H4,12.94045090675354,1,error,"Traceback (most recent call last):
+  File [35m""C:\Users\tiago\AppData\Local\Temp\fame_gpu_04b_zt2opz1g\26ASPLOS-Spot-FAME\transfer_worker.py""[0m, line [35m319[0m, in [35m<module>[0m
+    [31mmain[0m[1;31m()[0m
+    [31m~~~~[0m[1;31m^^[0m
+  File [35m""C:\Users\tiago\AppData\Local\Temp\fame_gpu_04b_zt2opz1g\26ASPLOS-Spot-FAME\transfer_worker.py""[0m, line [35m217[0m, in [35mmain[0m
+    [31mreset_segment_metrics[0m[1;31m([0m
+    [31m~~~~~~~~~~~~~~~~~~~~~[0m[1;31m^[0m
+        [1;31msched,[0m
+        [1;31m^^^^^^[0m
+        [1;31mPath(args_cli.out_json).parent/""C""[0m
+        [1;31m^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^[0m
+    [1;31m)[0m
+    [1;31m^[0m
+  File [35m""C:\Users\tiago\AppData\Local\Temp\fame_gpu_04b_zt2opz1g\26ASPLOS-Spot-FAME\transfer_worker.py""[0m, line [35m102[0m, in [35mreset_segment_metrics[0m
+    sched.recorder=[1;31mRecorder[0m(
+                   [1;31m^^^^^^^^[0m
+[1;35mNameError[0m: [35mname 'Recorder' is not defined[0m
+"
+R05,0.8,1,R05_q0.80_H1,13.042387962341309,1,error,"Traceback (most recent call last):
+  File [35m""C:\Users\tiago\AppData\Local\Temp\fame_gpu_04b_zt2opz1g\26ASPLOS-Spot-FAME\transfer_worker.py""[0m, line [35m319[0m, in [35m<module>[0m
+    [31mmain[0m[1;31m()[0m
+    [31m~~~~[0m[1;31m^^[0m
+  File [35m""C:\Users\tiago\AppData\Local\Temp\fame_gpu_04b_zt2opz1g\26ASPLOS-Spot-FAME\transfer_worker.py""[0m, line [35m217[0m, in [35mmain[0m
+    [31mreset_segment_metrics[0m[1;31m([0m
+    [31m~~~~~~~~~~~~~~~~~~~~~[0m[1;31m^[0m
+        [1;31msched,[0m
+        [1;31m^^^^^^[0m
+        [1;31mPath(args_cli.out_json).parent/""C""[0m
+        [1;31m^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^[0m
+    [1;31m)[0m
+    [1;31m^[0m
+  File [35m""C:\Users\tiago\AppData\Local\Temp\fame_gpu_04b_zt2opz1g\26ASPLOS-Spot-FAME\transfer_worker.py""[0m, line [35m102[0m, in [35mreset_segment_metrics[0m
+    sched.recorder=[1;31mRecorder[0m(
+                   [1;31m^^^^^^^^[0m
+[1;35mNameError[0m: [35mname 'Recorder' is not defined[0m
+"
+R05,0.9,1,R05_q0.90_H1,12.888701438903809,1,error,"Traceback (most recent call last):
+  File [35m""C:\Users\tiago\AppData\Local\Temp\fame_gpu_04b_zt2opz1g\26ASPLOS-Spot-FAME\transfer_worker.py""[0m, line [35m319[0m, in [35m<module>[0m
+    [31mmain[0m[1;31m()[0m
+    [31m~~~~[0m[1;31m^^[0m
+  File [35m""C:\Users\tiago\AppData\Local\Temp\fame_gpu_04b_zt2opz1g\26ASPLOS-Spot-FAME\transfer_worker.py""[0m, line [35m217[0m, in [35mmain[0m
+    [31mreset_segment_metrics[0m[1;31m([0m
+    [31m~~~~~~~~~~~~~~~~~~~~~[0m[1;31m^[0m
+        [1;31msched,[0m
+        [1;31m^^^^^^[0m
+        [1;31mPath(args_cli.out_json).parent/""C""[0m
+        [1;31m^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^[0m
+    [1;31m)[0m
+    [1;31m^[0m
+  File [35m""C:\Users\tiago\AppData\Local\Temp\fame_gpu_04b_zt2opz1g\26ASPLOS-Spot-FAME\transfer_worker.py""[0m, line [35m102[0m, in [35mreset_segment_metrics[0m
+    sched.recorder=[1;31mRecorder[0m(
+                   [1;31m^^^^^^^^[0m
+[1;35mNameError[0m: [35mname 'Recorder' is not defined[0m
+"
+R05,0.9,2,R05_q0.90_H2,12.99984049797058,1,error,"Traceback (most recent call last):
+  File [35m""C:\Users\tiago\AppData\Local\Temp\fame_gpu_04b_zt2opz1g\26ASPLOS-Spot-FAME\transfer_worker.py""[0m, line [35m319[0m, in [35m<module>[0m
+    [31mmain[0m[1;31m()[0m
+    [31m~~~~[0m[1;31m^^[0m
+  File [35m""C:\Users\tiago\AppData\Local\Temp\fame_gpu_04b_zt2opz1g\26ASPLOS-Spot-FAME\transfer_worker.py""[0m, line [35m217[0m, in [35mmain[0m
+    [31mreset_segment_metrics[0m[1;31m([0m
+    [31m~~~~~~~~~~~~~~~~~~~~~[0m[1;31m^[0m
+        [1;31msched,[0m
+        [1;31m^^^^^^[0m
+        [1;31mPath(args_cli.out_json).parent/""C""[0m
+        [1;31m^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^[0m
+    [1;31m)[0m
+    [1;31m^[0m
+  File [35m""C:\Users\tiago\AppData\Local\Temp\fame_gpu_04b_zt2opz1g\26ASPLOS-Spot-FAME\transfer_worker.py""[0m, line [35m102[0m, in [35mreset_segment_metrics[0m
+    sched.recorder=[1;31mRecorder[0m(
+                   [1;31m^^^^^^^^[0m
+[1;35mNameError[0m: [35mname 'Recorder' is not defined[0m
+"
+R05,0.9,4,R05_q0.90_H4,12.917185306549072,1,error,"Traceback (most recent call last):
+  File [35m""C:\Users\tiago\AppData\Local\Temp\fame_gpu_04b_zt2opz1g\26ASPLOS-Spot-FAME\transfer_worker.py""[0m, line [35m319[0m, in [35m<module>[0m
+    [31mmain[0m[1;31m()[0m
+    [31m~~~~[0m[1;31m^^[0m
+  File [35m""C:\Users\tiago\AppData\Local\Temp\fame_gpu_04b_zt2opz1g\26ASPLOS-Spot-FAME\transfer_worker.py""[0m, line [35m217[0m, in [35mmain[0m
+    [31mreset_segment_metrics[0m[1;31m([0m
+    [31m~~~~~~~~~~~~~~~~~~~~~[0m[1;31m^[0m
+        [1;31msched,[0m
+        [1;31m^^^^^^[0m
+        [1;31mPath(args_cli.out_json).parent/""C""[0m
+        [1;31m^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^[0m
+    [1;31m)[0m
+    [1;31m^[0m
+  File [35m""C:\Users\tiago\AppData\Local\Temp\fame_gpu_04b_zt2opz1g\26ASPLOS-Spot-FAME\transfer_worker.py""[0m, line [35m102[0m, in [35mreset_segment_metrics[0m
+    sched.recorder=[1;31mRecorder[0m(
+                   [1;31m^^^^^^^^[0m
+[1;35mNameError[0m: [35mname 'Recorder' is not defined[0m
+"
+R05,0.95,1,R05_q0.95_H1,12.98021149635315,1,error,"Traceback (most recent call last):
+  File [35m""C:\Users\tiago\AppData\Local\Temp\fame_gpu_04b_zt2opz1g\26ASPLOS-Spot-FAME\transfer_worker.py""[0m, line [35m319[0m, in [35m<module>[0m
+    [31mmain[0m[1;31m()[0m
+    [31m~~~~[0m[1;31m^^[0m
+  File [35m""C:\Users\tiago\AppData\Local\Temp\fame_gpu_04b_zt2opz1g\26ASPLOS-Spot-FAME\transfer_worker.py""[0m, line [35m217[0m, in [35mmain[0m
+    [31mreset_segment_metrics[0m[1;31m([0m
+    [31m~~~~~~~~~~~~~~~~~~~~~[0m[1;31m^[0m
+        [1;31msched,[0m
+        [1;31m^^^^^^[0m
+        [1;31mPath(args_cli.out_json).parent/""C""[0m
+        [1;31m^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^[0m
+    [1;31m)[0m
+    [1;31m^[0m
+  File [35m""C:\Users\tiago\AppData\Local\Temp\fame_gpu_04b_zt2opz1g\26ASPLOS-Spot-FAME\transfer_worker.py""[0m, line [35m102[0m, in [35mreset_segment_metrics[0m
+    sched.recorder=[1;31mRecorder[0m(
+                   [1;31m^^^^^^^^[0m
+[1;35mNameError[0m: [35mname 'Recorder' is not defined[0m
+"
+R05,0.95,2,R05_q0.95_H2,12.936663389205933,1,error,"Traceback (most recent call last):
+  File [35m""C:\Users\tiago\AppData\Local\Temp\fame_gpu_04b_zt2opz1g\26ASPLOS-Spot-FAME\transfer_worker.py""[0m, line [35m319[0m, in [35m<module>[0m
+    [31mmain[0m[1;31m()[0m
+    [31m~~~~[0m[1;31m^^[0m
+  File [35m""C:\Users\tiago\AppData\Local\Temp\fame_gpu_04b_zt2opz1g\26ASPLOS-Spot-FAME\transfer_worker.py""[0m, line [35m217[0m, in [35mmain[0m
+    [31mreset_segment_metrics[0m[1;31m([0m
+    [31m~~~~~~~~~~~~~~~~~~~~~[0m[1;31m^[0m
+        [1;31msched,[0m
+        [1;31m^^^^^^[0m
+        [1;31mPath(args_cli.out_json).parent/""C""[0m
+        [1;31m^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^[0m
+    [1;31m)[0m
+    [1;31m^[0m
+  File [35m""C:\Users\tiago\AppData\Local\Temp\fame_gpu_04b_zt2opz1g\26ASPLOS-Spot-FAME\transfer_worker.py""[0m, line [35m102[0m, in [35mreset_segment_metrics[0m
+    sched.recorder=[1;31mRecorder[0m(
+                   [1;31m^^^^^^^^[0m
+[1;35mNameError[0m: [35mname 'Recorder' is not defined[0m
+"
+R05,0.95,4,R05_q0.95_H4,12.974610090255736,1,error,"Traceback (most recent call last):
+  File [35m""C:\Users\tiago\AppData\Local\Temp\fame_gpu_04b_zt2opz1g\26ASPLOS-Spot-FAME\transfer_worker.py""[0m, line [35m319[0m, in [35m<module>[0m
+    [31mmain[0m[1;31m()[0m
+    [31m~~~~[0m[1;31m^^[0m
+  File [35m""C:\Users\tiago\AppData\Local\Temp\fame_gpu_04b_zt2opz1g\26ASPLOS-Spot-FAME\transfer_worker.py""[0m, line [35m217[0m, in [35mmain[0m
+    [31mreset_segment_metrics[0m[1;31m([0m
+    [31m~~~~~~~~~~~~~~~~~~~~~[0m[1;31m^[0m
+        [1;31msched,[0m
+        [1;31m^^^^^^[0m
+        [1;31mPath(args_cli.out_json).parent/""C""[0m
+        [1;31m^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^[0m
+    [1;31m)[0m
+    [1;31m^[0m
+  File [35m""C:\Users\tiago\AppData\Local\Temp\fame_gpu_04b_zt2opz1g\26ASPLOS-Spot-FAME\transfer_worker.py""[0m, line [35m102[0m, in [35mreset_segment_metrics[0m
+    sched.recorder=[1;31mRecorder[0m(
+                   [1;31m^^^^^^^^[0m
+[1;35mNameError[0m: [35mname 'Recorder' is not defined[0m
+"
+R05,0.99,1,R05_q0.99_H1,13.094218254089355,1,error,"Traceback (most recent call last):
+  File [35m""C:\Users\tiago\AppData\Local\Temp\fame_gpu_04b_zt2opz1g\26ASPLOS-Spot-FAME\transfer_worker.py""[0m, line [35m319[0m, in [35m<module>[0m
+    [31mmain[0m[1;31m()[0m
+    [31m~~~~[0m[1;31m^^[0m
+  File [35m""C:\Users\tiago\AppData\Local\Temp\fame_gpu_04b_zt2opz1g\26ASPLOS-Spot-FAME\transfer_worker.py""[0m, line [35m217[0m, in [35mmain[0m
+    [31mreset_segment_metrics[0m[1;31m([0m
+    [31m~~~~~~~~~~~~~~~~~~~~~[0m[1;31m^[0m
+        [1;31msched,[0m
+        [1;31m^^^^^^[0m
+        [1;31mPath(args_cli.out_json).parent/""C""[0m
+        [1;31m^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^[0m
+    [1;31m)[0m
+    [1;31m^[0m
+  File [35m""C:\Users\tiago\AppData\Local\Temp\fame_gpu_04b_zt2opz1g\26ASPLOS-Spot-FAME\transfer_worker.py""[0m, line [35m102[0m, in [35mreset_segment_metrics[0m
+    sched.recorder=[1;31mRecorder[0m(
+                   [1;31m^^^^^^^^[0m
+[1;35mNameError[0m: [35mname 'Recorder' is not defined[0m
+"
+R05,0.99,2,R05_q0.99_H2,12.961630582809448,1,error,"Traceback (most recent call last):
+  File [35m""C:\Users\tiago\AppData\Local\Temp\fame_gpu_04b_zt2opz1g\26ASPLOS-Spot-FAME\transfer_worker.py""[0m, line [35m319[0m, in [35m<module>[0m
+    [31mmain[0m[1;31m()[0m
+    [31m~~~~[0m[1;31m^^[0m
+  File [35m""C:\Users\tiago\AppData\Local\Temp\fame_gpu_04b_zt2opz1g\26ASPLOS-Spot-FAME\transfer_worker.py""[0m, line [35m217[0m, in [35mmain[0m
+    [31mreset_segment_metrics[0m[1;31m([0m
+    [31m~~~~~~~~~~~~~~~~~~~~~[0m[1;31m^[0m
+        [1;31msched,[0m
+        [1;31m^^^^^^[0m
+        [1;31mPath(args_cli.out_json).parent/""C""[0m
+        [1;31m^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^[0m
+    [1;31m)[0m
+    [1;31m^[0m
+  File [35m""C:\Users\tiago\AppData\Local\Temp\fame_gpu_04b_zt2opz1g\26ASPLOS-Spot-FAME\transfer_worker.py""[0m, line [35m102[0m, in [35mreset_segment_metrics[0m
+    sched.recorder=[1;31mRecorder[0m(
+                   [1;31m^^^^^^^^[0m
+[1;35mNameError[0m: [35mname 'Recorder' is not defined[0m
+"
+R05,0.99,4,R05_q0.99_H4,12.973497152328491,1,error,"Traceback (most recent call last):
+  File [35m""C:\Users\tiago\AppData\Local\Temp\fame_gpu_04b_zt2opz1g\26ASPLOS-Spot-FAME\transfer_worker.py""[0m, line [35m319[0m, in [35m<module>[0m
+    [31mmain[0m[1;31m()[0m
+    [31m~~~~[0m[1;31m^^[0m
+  File [35m""C:\Users\tiago\AppData\Local\Temp\fame_gpu_04b_zt2opz1g\26ASPLOS-Spot-FAME\transfer_worker.py""[0m, line [35m217[0m, in [35mmain[0m
+    [31mreset_segment_metrics[0m[1;31m([0m
+    [31m~~~~~~~~~~~~~~~~~~~~~[0m[1;31m^[0m
+        [1;31msched,[0m
+        [1;31m^^^^^^[0m
+        [1;31mPath(args_cli.out_json).parent/""C""[0m
+        [1;31m^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^[0m
+    [1;31m)[0m
+    [1;31m^[0m
+  File [35m""C:\Users\tiago\AppData\Local\Temp\fame_gpu_04b_zt2opz1g\26ASPLOS-Spot-FAME\transfer_worker.py""[0m, line [35m102[0m, in [35mreset_segment_metrics[0m
+    sched.recorder=[1;31mRecorder[0m(
+                   [1;31m^^^^^^^^[0m
+[1;35mNameError[0m: [35mname 'Recorder' is not defined[0m
+"
+R06,0.5,1,R06_q0.50_H1,10.068673372268677,1,error,"Traceback (most recent call last):
+  File [35m""C:\Users\tiago\AppData\Local\Temp\fame_gpu_04b_zt2opz1g\26ASPLOS-Spot-FAME\transfer_worker.py""[0m, line [35m319[0m, in [35m<module>[0m
+    [31mmain[0m[1;31m()[0m
+    [31m~~~~[0m[1;31m^^[0m
+  File [35m""C:\Users\tiago\AppData\Local\Temp\fame_gpu_04b_zt2opz1g\26ASPLOS-Spot-FAME\transfer_worker.py""[0m, line [35m217[0m, in [35mmain[0m
+    [31mreset_segment_metrics[0m[1;31m([0m
+    [31m~~~~~~~~~~~~~~~~~~~~~[0m[1;31m^[0m
+        [1;31msched,[0m
+        [1;31m^^^^^^[0m
+        [1;31mPath(args_cli.out_json).parent/""C""[0m
+        [1;31m^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^[0m
+    [1;31m)[0m
+    [1;31m^[0m
+  File [35m""C:\Users\tiago\AppData\Local\Temp\fame_gpu_04b_zt2opz1g\26ASPLOS-Spot-FAME\transfer_worker.py""[0m, line [35m102[0m, in [35mreset_segment_metrics[0m
+    sched.recorder=[1;31mRecorder[0m(
+                   [1;31m^^^^^^^^[0m
+[1;35mNameError[0m: [35mname 'Recorder' is not defined[0m
+"
+R06,0.5,4,R06_q0.50_H4,10.087616682052612,1,error,"Traceback (most recent call last):
+  File [35m""C:\Users\tiago\AppData\Local\Temp\fame_gpu_04b_zt2opz1g\26ASPLOS-Spot-FAME\transfer_worker.py""[0m, line [35m319[0m, in [35m<module>[0m
+    [31mmain[0m[1;31m()[0m
+    [31m~~~~[0m[1;31m^^[0m
+  File [35m""C:\Users\tiago\AppData\Local\Temp\fame_gpu_04b_zt2opz1g\26ASPLOS-Spot-FAME\transfer_worker.py""[0m, line [35m217[0m, in [35mmain[0m
+    [31mreset_segment_metrics[0m[1;31m([0m
+    [31m~~~~~~~~~~~~~~~~~~~~~[0m[1;31m^[0m
+        [1;31msched,[0m
+        [1;31m^^^^^^[0m
+        [1;31mPath(args_cli.out_json).parent/""C""[0m
+        [1;31m^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^[0m
+    [1;31m)[0m
+    [1;31m^[0m
+  File [35m""C:\Users\tiago\AppData\Local\Temp\fame_gpu_04b_zt2opz1g\26ASPLOS-Spot-FAME\transfer_worker.py""[0m, line [35m102[0m, in [35mreset_segment_metrics[0m
+    sched.recorder=[1;31mRecorder[0m(
+                   [1;31m^^^^^^^^[0m
+[1;35mNameError[0m: [35mname 'Recorder' is not defined[0m
+"
+R06,0.5,2,R06_q0.50_H2,10.162222385406494,1,error,"Traceback (most recent call last):
+  File [35m""C:\Users\tiago\AppData\Local\Temp\fame_gpu_04b_zt2opz1g\26ASPLOS-Spot-FAME\transfer_worker.py""[0m, line [35m319[0m, in [35m<module>[0m
+    [31mmain[0m[1;31m()[0m
+    [31m~~~~[0m[1;31m^^[0m
+  File [35m""C:\Users\tiago\AppData\Local\Temp\fame_gpu_04b_zt2opz1g\26ASPLOS-Spot-FAME\transfer_worker.py""[0m, line [35m217[0m, in [35mmain[0m
+    [31mreset_segment_metrics[0m[1;31m([0m
+    [31m~~~~~~~~~~~~~~~~~~~~~[0m[1;31m^[0m
+        [1;31msched,[0m
+        [1;31m^^^^^^[0m
+        [1;31mPath(args_cli.out_json).parent/""C""[0m
+        [1;31m^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^[0m
+    [1;31m)[0m
+    [1;31m^[0m
+  File [35m""C:\Users\tiago\AppData\Local\Temp\fame_gpu_04b_zt2opz1g\26ASPLOS-Spot-FAME\transfer_worker.py""[0m, line [35m102[0m, in [35mreset_segment_metrics[0m
+    sched.recorder=[1;31mRecorder[0m(
+                   [1;31m^^^^^^^^[0m
+[1;35mNameError[0m: [35mname 'Recorder' is not defined[0m
+"
+R06,0.8,2,R06_q0.80_H2,9.844352960586548,1,error,"Traceback (most recent call last):
+  File [35m""C:\Users\tiago\AppData\Local\Temp\fame_gpu_04b_zt2opz1g\26ASPLOS-Spot-FAME\transfer_worker.py""[0m, line [35m319[0m, in [35m<module>[0m
+    [31mmain[0m[1;31m()[0m
+    [31m~~~~[0m[1;31m^^[0m
+  File [35m""C:\Users\tiago\AppData\Local\Temp\fame_gpu_04b_zt2opz1g\26ASPLOS-Spot-FAME\transfer_worker.py""[0m, line [35m217[0m, in [35mmain[0m
+    [31mreset_segment_metrics[0m[1;31m([0m
+    [31m~~~~~~~~~~~~~~~~~~~~~[0m[1;31m^[0m
+        [1;31msched,[0m
+        [1;31m^^^^^^[0m
+        [1;31mPath(args_cli.out_json).parent/""C""[0m
+        [1;31m^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^[0m
+    [1;31m)[0m
+    [1;31m^[0m
+  File [35m""C:\Users\tiago\AppData\Local\Temp\fame_gpu_04b_zt2opz1g\26ASPLOS-Spot-FAME\transfer_worker.py""[0m, line [35m102[0m, in [35mreset_segment_metrics[0m
+    sched.recorder=[1;31mRecorder[0m(
+                   [1;31m^^^^^^^^[0m
+[1;35mNameError[0m: [35mname 'Recorder' is not defined[0m
+"
+R06,0.8,4,R06_q0.80_H4,9.862563371658323,1,error,"Traceback (most recent call last):
+  File [35m""C:\Users\tiago\AppData\Local\Temp\fame_gpu_04b_zt2opz1g\26ASPLOS-Spot-FAME\transfer_worker.py""[0m, line [35m319[0m, in [35m<module>[0m
+    [31mmain[0m[1;31m()[0m
+    [31m~~~~[0m[1;31m^^[0m
+  File [35m""C:\Users\tiago\AppData\Local\Temp\fame_gpu_04b_zt2opz1g\26ASPLOS-Spot-FAME\transfer_worker.py""[0m, line [35m217[0m, in [35mmain[0m
+    [31mreset_segment_metrics[0m[1;31m([0m
+    [31m~~~~~~~~~~~~~~~~~~~~~[0m[1;31m^[0m
+        [1;31msched,[0m
+        [1;31m^^^^^^[0m
+        [1;31mPath(args_cli.out_json).parent/""C""[0m
+        [1;31m^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^[0m
+    [1;31m)[0m
+    [1;31m^[0m
+  File [35m""C:\Users\tiago\AppData\Local\Temp\fame_gpu_04b_zt2opz1g\26ASPLOS-Spot-FAME\transfer_worker.py""[0m, line [35m102[0m, in [35mreset_segment_metrics[0m
+    sched.recorder=[1;31mRecorder[0m(
+                   [1;31m^^^^^^^^[0m
+[1;35mNameError[0m: [35mname 'Recorder' is not defined[0m
+"
+R06,0.8,1,R06_q0.80_H1,10.007195234298706,1,error,"Traceback (most recent call last):
+  File [35m""C:\Users\tiago\AppData\Local\Temp\fame_gpu_04b_zt2opz1g\26ASPLOS-Spot-FAME\transfer_worker.py""[0m, line [35m319[0m, in [35m<module>[0m
+    [31mmain[0m[1;31m()[0m
+    [31m~~~~[0m[1;31m^^[0m
+  File [35m""C:\Users\tiago\AppData\Local\Temp\fame_gpu_04b_zt2opz1g\26ASPLOS-Spot-FAME\transfer_worker.py""[0m, line [35m217[0m, in [35mmain[0m
+    [31mreset_segment_metrics[0m[1;31m([0m
+    [31m~~~~~~~~~~~~~~~~~~~~~[0m[1;31m^[0m
+        [1;31msched,[0m
+        [1;31m^^^^^^[0m
+        [1;31mPath(args_cli.out_json).parent/""C""[0m
+        [1;31m^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^[0m
+    [1;31m)[0m
+    [1;31m^[0m
+  File [35m""C:\Users\tiago\AppData\Local\Temp\fame_gpu_04b_zt2opz1g\26ASPLOS-Spot-FAME\transfer_worker.py""[0m, line [35m102[0m, in [35mreset_segment_metrics[0m
+    sched.recorder=[1;31mRecorder[0m(
+                   [1;31m^^^^^^^^[0m
+[1;35mNameError[0m: [35mname 'Recorder' is not defined[0m
+"
+R06,0.9,1,R06_q0.90_H1,9.737857341766356,1,error,"Traceback (most recent call last):
+  File [35m""C:\Users\tiago\AppData\Local\Temp\fame_gpu_04b_zt2opz1g\26ASPLOS-Spot-FAME\transfer_worker.py""[0m, line [35m319[0m, in [35m<module>[0m
+    [31mmain[0m[1;31m()[0m
+    [31m~~~~[0m[1;31m^^[0m
+  File [35m""C:\Users\tiago\AppData\Local\Temp\fame_gpu_04b_zt2opz1g\26ASPLOS-Spot-FAME\transfer_worker.py""[0m, line [35m217[0m, in [35mmain[0m
+    [31mreset_segment_metrics[0m[1;31m([0m
+    [31m~~~~~~~~~~~~~~~~~~~~~[0m[1;31m^[0m
+        [1;31msched,[0m
+        [1;31m^^^^^^[0m
+        [1;31mPath(args_cli.out_json).parent/""C""[0m
+        [1;31m^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^[0m
+    [1;31m)[0m
+    [1;31m^[0m
+  File [35m""C:\Users\tiago\AppData\Local\Temp\fame_gpu_04b_zt2opz1g\26ASPLOS-Spot-FAME\transfer_worker.py""[0m, line [35m102[0m, in [35mreset_segment_metrics[0m
+    sched.recorder=[1;31mRecorder[0m(
+                   [1;31m^^^^^^^^[0m
+[1;35mNameError[0m: [35mname 'Recorder' is not defined[0m
+"
+R06,0.9,2,R06_q0.90_H2,9.677252054214478,1,error,"Traceback (most recent call last):
+  File [35m""C:\Users\tiago\AppData\Local\Temp\fame_gpu_04b_zt2opz1g\26ASPLOS-Spot-FAME\transfer_worker.py""[0m, line [35m319[0m, in [35m<module>[0m
+    [31mmain[0m[1;31m()[0m
+    [31m~~~~[0m[1;31m^^[0m
+  File [35m""C:\Users\tiago\AppData\Local\Temp\fame_gpu_04b_zt2opz1g\26ASPLOS-Spot-FAME\transfer_worker.py""[0m, line [35m217[0m, in [35mmain[0m
+    [31mreset_segment_metrics[0m[1;31m([0m
+    [31m~~~~~~~~~~~~~~~~~~~~~[0m[1;31m^[0m
+        [1;31msched,[0m
+        [1;31m^^^^^^[0m
+        [1;31mPath(args_cli.out_json).parent/""C""[0m
+        [1;31m^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^[0m
+    [1;31m)[0m
+    [1;31m^[0m
+  File [35m""C:\Users\tiago\AppData\Local\Temp\fame_gpu_04b_zt2opz1g\26ASPLOS-Spot-FAME\transfer_worker.py""[0m, line [35m102[0m, in [35mreset_segment_metrics[0m
+    sched.recorder=[1;31mRecorder[0m(
+                   [1;31m^^^^^^^^[0m
+[1;35mNameError[0m: [35mname 'Recorder' is not defined[0m
+"
+R06,0.9,4,R06_q0.90_H4,9.924540281295776,1,error,"Traceback (most recent call last):
+  File [35m""C:\Users\tiago\AppData\Local\Temp\fame_gpu_04b_zt2opz1g\26ASPLOS-Spot-FAME\transfer_worker.py""[0m, line [35m319[0m, in [35m<module>[0m
+    [31mmain[0m[1;31m()[0m
+    [31m~~~~[0m[1;31m^^[0m
+  File [35m""C:\Users\tiago\AppData\Local\Temp\fame_gpu_04b_zt2opz1g\26ASPLOS-Spot-FAME\transfer_worker.py""[0m, line [35m217[0m, in [35mmain[0m
+    [31mreset_segment_metrics[0m[1;31m([0m
+    [31m~~~~~~~~~~~~~~~~~~~~~[0m[1;31m^[0m
+        [1;31msched,[0m
+        [1;31m^^^^^^[0m
+        [1;31mPath(args_cli.out_json).parent/""C""[0m
+        [1;31m^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^[0m
+    [1;31m)[0m
+    [1;31m^[0m
+  File [35m""C:\Users\tiago\AppData\Local\Temp\fame_gpu_04b_zt2opz1g\26ASPLOS-Spot-FAME\transfer_worker.py""[0m, line [35m102[0m, in [35mreset_segment_metrics[0m
+    sched.recorder=[1;31mRecorder[0m(
+                   [1;31m^^^^^^^^[0m
+[1;35mNameError[0m: [35mname 'Recorder' is not defined[0m
+"
+R06,0.95,2,R06_q0.95_H2,9.872751712799072,1,error,"Traceback (most recent call last):
+  File [35m""C:\Users\tiago\AppData\Local\Temp\fame_gpu_04b_zt2opz1g\26ASPLOS-Spot-FAME\transfer_worker.py""[0m, line [35m319[0m, in [35m<module>[0m
+    [31mmain[0m[1;31m()[0m
+    [31m~~~~[0m[1;31m^^[0m
+  File [35m""C:\Users\tiago\AppData\Local\Temp\fame_gpu_04b_zt2opz1g\26ASPLOS-Spot-FAME\transfer_worker.py""[0m, line [35m217[0m, in [35mmain[0m
+    [31mreset_segment_metrics[0m[1;31m([0m
+    [31m~~~~~~~~~~~~~~~~~~~~~[0m[1;31m^[0m
+        [1;31msched,[0m
+        [1;31m^^^^^^[0m
+        [1;31mPath(args_cli.out_json).parent/""C""[0m
+        [1;31m^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^[0m
+    [1;31m)[0m
+    [1;31m^[0m
+  File [35m""C:\Users\tiago\AppData\Local\Temp\fame_gpu_04b_zt2opz1g\26ASPLOS-Spot-FAME\transfer_worker.py""[0m, line [35m102[0m, in [35mreset_segment_metrics[0m
+    sched.recorder=[1;31mRecorder[0m(
+                   [1;31m^^^^^^^^[0m
+[1;35mNameError[0m: [35mname 'Recorder' is not defined[0m
+"
+R06,0.95,4,R06_q0.95_H4,9.825005531311035,1,error,"Traceback (most recent call last):
+  File [35m""C:\Users\tiago\AppData\Local\Temp\fame_gpu_04b_zt2opz1g\26ASPLOS-Spot-FAME\transfer_worker.py""[0m, line [35m319[0m, in [35m<module>[0m
+    [31mmain[0m[1;31m()[0m
+    [31m~~~~[0m[1;31m^^[0m
+  File [35m""C:\Users\tiago\AppData\Local\Temp\fame_gpu_04b_zt2opz1g\26ASPLOS-Spot-FAME\transfer_worker.py""[0m, line [35m217[0m, in [35mmain[0m
+    [31mreset_segment_metrics[0m[1;31m([0m
+    [31m~~~~~~~~~~~~~~~~~~~~~[0m[1;31m^[0m
+        [1;31msched,[0m
+        [1;31m^^^^^^[0m
+        [1;31mPath(args_cli.out_json).parent/""C""[0m
+        [1;31m^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^[0m
+    [1;31m)[0m
+    [1;31m^[0m
+  File [35m""C:\Users\tiago\AppData\Local\Temp\fame_gpu_04b_zt2opz1g\26ASPLOS-Spot-FAME\transfer_worker.py""[0m, line [35m102[0m, in [35mreset_segment_metrics[0m
+    sched.recorder=[1;31mRecorder[0m(
+                   [1;31m^^^^^^^^[0m
+[1;35mNameError[0m: [35mname 'Recorder' is not defined[0m
+"
+R06,0.95,1,R06_q0.95_H1,10.049976110458374,1,error,"Traceback (most recent call last):
+  File [35m""C:\Users\tiago\AppData\Local\Temp\fame_gpu_04b_zt2opz1g\26ASPLOS-Spot-FAME\transfer_worker.py""[0m, line [35m319[0m, in [35m<module>[0m
+    [31mmain[0m[1;31m()[0m
+    [31m~~~~[0m[1;31m^^[0m
+  File [35m""C:\Users\tiago\AppData\Local\Temp\fame_gpu_04b_zt2opz1g\26ASPLOS-Spot-FAME\transfer_worker.py""[0m, line [35m217[0m, in [35mmain[0m
+    [31mreset_segment_metrics[0m[1;31m([0m
+    [31m~~~~~~~~~~~~~~~~~~~~~[0m[1;31m^[0m
+        [1;31msched,[0m
+        [1;31m^^^^^^[0m
+        [1;31mPath(args_cli.out_json).parent/""C""[0m
+        [1;31m^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^[0m
+    [1;31m)[0m
+    [1;31m^[0m
+  File [35m""C:\Users\tiago\AppData\Local\Temp\fame_gpu_04b_zt2opz1g\26ASPLOS-Spot-FAME\transfer_worker.py""[0m, line [35m102[0m, in [35mreset_segment_metrics[0m
+    sched.recorder=[1;31mRecorder[0m(
+                   [1;31m^^^^^^^^[0m
+[1;35mNameError[0m: [35mname 'Recorder' is not defined[0m
+"
+R06,0.99,1,R06_q0.99_H1,9.752940893173218,1,error,"Traceback (most recent call last):
+  File [35m""C:\Users\tiago\AppData\Local\Temp\fame_gpu_04b_zt2opz1g\26ASPLOS-Spot-FAME\transfer_worker.py""[0m, line [35m319[0m, in [35m<module>[0m
+    [31mmain[0m[1;31m()[0m
+    [31m~~~~[0m[1;31m^^[0m
+  File [35m""C:\Users\tiago\AppData\Local\Temp\fame_gpu_04b_zt2opz1g\26ASPLOS-Spot-FAME\transfer_worker.py""[0m, line [35m217[0m, in [35mmain[0m
+    [31mreset_segment_metrics[0m[1;31m([0m
+    [31m~~~~~~~~~~~~~~~~~~~~~[0m[1;31m^[0m
+        [1;31msched,[0m
+        [1;31m^^^^^^[0m
+        [1;31mPath(args_cli.out_json).parent/""C""[0m
+        [1;31m^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^[0m
+    [1;31m)[0m
+    [1;31m^[0m
+  File [35m""C:\Users\tiago\AppData\Local\Temp\fame_gpu_04b_zt2opz1g\26ASPLOS-Spot-FAME\transfer_worker.py""[0m, line [35m102[0m, in [35mreset_segment_metrics[0m
+    sched.recorder=[1;31mRecorder[0m(
+                   [1;31m^^^^^^^^[0m
+[1;35mNameError[0m: [35mname 'Recorder' is not defined[0m
+"
+R06,0.99,2,R06_q0.99_H2,9.90755009651184,1,error,"Traceback (most recent call last):
+  File [35m""C:\Users\tiago\AppData\Local\Temp\fame_gpu_04b_zt2opz1g\26ASPLOS-Spot-FAME\transfer_worker.py""[0m, line [35m319[0m, in [35m<module>[0m
+    [31mmain[0m[1;31m()[0m
+    [31m~~~~[0m[1;31m^^[0m
+  File [35m""C:\Users\tiago\AppData\Local\Temp\fame_gpu_04b_zt2opz1g\26ASPLOS-Spot-FAME\transfer_worker.py""[0m, line [35m217[0m, in [35mmain[0m
+    [31mreset_segment_metrics[0m[1;31m([0m
+    [31m~~~~~~~~~~~~~~~~~~~~~[0m[1;31m^[0m
+        [1;31msched,[0m
+        [1;31m^^^^^^[0m
+        [1;31mPath(args_cli.out_json).parent/""C""[0m
+        [1;31m^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^[0m
+    [1;31m)[0m
+    [1;31m^[0m
+  File [35m""C:\Users\tiago\AppData\Local\Temp\fame_gpu_04b_zt2opz1g\26ASPLOS-Spot-FAME\transfer_worker.py""[0m, line [35m102[0m, in [35mreset_segment_metrics[0m
+    sched.recorder=[1;31mRecorder[0m(
+                   [1;31m^^^^^^^^[0m
+[1;35mNameError[0m: [35mname 'Recorder' is not defined[0m
+"
+R06,0.99,4,R06_q0.99_H4,9.830020427703856,1,error,"Traceback (most recent call last):
+  File [35m""C:\Users\tiago\AppData\Local\Temp\fame_gpu_04b_zt2opz1g\26ASPLOS-Spot-FAME\transfer_worker.py""[0m, line [35m319[0m, in [35m<module>[0m
+    [31mmain[0m[1;31m()[0m
+    [31m~~~~[0m[1;31m^^[0m
+  File [35m""C:\Users\tiago\AppData\Local\Temp\fame_gpu_04b_zt2opz1g\26ASPLOS-Spot-FAME\transfer_worker.py""[0m, line [35m217[0m, in [35mmain[0m
+    [31mreset_segment_metrics[0m[1;31m([0m
+    [31m~~~~~~~~~~~~~~~~~~~~~[0m[1;31m^[0m
+        [1;31msched,[0m
+        [1;31m^^^^^^[0m
+        [1;31mPath(args_cli.out_json).parent/""C""[0m
+        [1;31m^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^[0m
+    [1;31m)[0m
+    [1;31m^[0m
+  File [35m""C:\Users\tiago\AppData\Local\Temp\fame_gpu_04b_zt2opz1g\26ASPLOS-Spot-FAME\transfer_worker.py""[0m, line [35m102[0m, in [35mreset_segment_metrics[0m
+    sched.recorder=[1;31mRecorder[0m(
+                   [1;31m^^^^^^^^[0m
+[1;35mNameError[0m: [35mname 'Recorder' is not defined[0m
+"
+R07,0.5,1,R07_q0.50_H1,7.553758144378662,1,error,"Traceback (most recent call last):
+  File [35m""C:\Users\tiago\AppData\Local\Temp\fame_gpu_04b_zt2opz1g\26ASPLOS-Spot-FAME\transfer_worker.py""[0m, line [35m319[0m, in [35m<module>[0m
+    [31mmain[0m[1;31m()[0m
+    [31m~~~~[0m[1;31m^^[0m
+  File [35m""C:\Users\tiago\AppData\Local\Temp\fame_gpu_04b_zt2opz1g\26ASPLOS-Spot-FAME\transfer_worker.py""[0m, line [35m217[0m, in [35mmain[0m
+    [31mreset_segment_metrics[0m[1;31m([0m
+    [31m~~~~~~~~~~~~~~~~~~~~~[0m[1;31m^[0m
+        [1;31msched,[0m
+        [1;31m^^^^^^[0m
+        [1;31mPath(args_cli.out_json).parent/""C""[0m
+        [1;31m^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^[0m
+    [1;31m)[0m
+    [1;31m^[0m
+  File [35m""C:\Users\tiago\AppData\Local\Temp\fame_gpu_04b_zt2opz1g\26ASPLOS-Spot-FAME\transfer_worker.py""[0m, line [35m102[0m, in [35mreset_segment_metrics[0m
+    sched.recorder=[1;31mRecorder[0m(
+                   [1;31m^^^^^^^^[0m
+[1;35mNameError[0m: [35mname 'Recorder' is not defined[0m
+"
+R07,0.5,2,R07_q0.50_H2,7.669429540634155,1,error,"Traceback (most recent call last):
+  File [35m""C:\Users\tiago\AppData\Local\Temp\fame_gpu_04b_zt2opz1g\26ASPLOS-Spot-FAME\transfer_worker.py""[0m, line [35m319[0m, in [35m<module>[0m
+    [31mmain[0m[1;31m()[0m
+    [31m~~~~[0m[1;31m^^[0m
+  File [35m""C:\Users\tiago\AppData\Local\Temp\fame_gpu_04b_zt2opz1g\26ASPLOS-Spot-FAME\transfer_worker.py""[0m, line [35m217[0m, in [35mmain[0m
+    [31mreset_segment_metrics[0m[1;31m([0m
+    [31m~~~~~~~~~~~~~~~~~~~~~[0m[1;31m^[0m
+        [1;31msched,[0m
+        [1;31m^^^^^^[0m
+        [1;31mPath(args_cli.out_json).parent/""C""[0m
+        [1;31m^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^[0m
+    [1;31m)[0m
+    [1;31m^[0m
+  File [35m""C:\Users\tiago\AppData\Local\Temp\fame_gpu_04b_zt2opz1g\26ASPLOS-Spot-FAME\transfer_worker.py""[0m, line [35m102[0m, in [35mreset_segment_metrics[0m
+    sched.recorder=[1;31mRecorder[0m(
+                   [1;31m^^^^^^^^[0m
+[1;35mNameError[0m: [35mname 'Recorder' is not defined[0m
+"
+R07,0.5,4,R07_q0.50_H4,7.604675054550171,1,error,"Traceback (most recent call last):
+  File [35m""C:\Users\tiago\AppData\Local\Temp\fame_gpu_04b_zt2opz1g\26ASPLOS-Spot-FAME\transfer_worker.py""[0m, line [35m319[0m, in [35m<module>[0m
+    [31mmain[0m[1;31m()[0m
+    [31m~~~~[0m[1;31m^^[0m
+  File [35m""C:\Users\tiago\AppData\Local\Temp\fame_gpu_04b_zt2opz1g\26ASPLOS-Spot-FAME\transfer_worker.py""[0m, line [35m217[0m, in [35mmain[0m
+    [31mreset_segment_metrics[0m[1;31m([0m
+    [31m~~~~~~~~~~~~~~~~~~~~~[0m[1;31m^[0m
+        [1;31msched,[0m
+        [1;31m^^^^^^[0m
+        [1;31mPath(args_cli.out_json).parent/""C""[0m
+        [1;31m^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^[0m
+    [1;31m)[0m
+    [1;31m^[0m
+  File [35m""C:\Users\tiago\AppData\Local\Temp\fame_gpu_04b_zt2opz1g\26ASPLOS-Spot-FAME\transfer_worker.py""[0m, line [35m102[0m, in [35mreset_segment_metrics[0m
+    sched.recorder=[1;31mRecorder[0m(
+                   [1;31m^^^^^^^^[0m
+[1;35mNameError[0m: [35mname 'Recorder' is not defined[0m
+"
+R07,0.8,1,R07_q0.80_H1,7.428289175033569,1,error,"Traceback (most recent call last):
+  File [35m""C:\Users\tiago\AppData\Local\Temp\fame_gpu_04b_zt2opz1g\26ASPLOS-Spot-FAME\transfer_worker.py""[0m, line [35m319[0m, in [35m<module>[0m
+    [31mmain[0m[1;31m()[0m
+    [31m~~~~[0m[1;31m^^[0m
+  File [35m""C:\Users\tiago\AppData\Local\Temp\fame_gpu_04b_zt2opz1g\26ASPLOS-Spot-FAME\transfer_worker.py""[0m, line [35m217[0m, in [35mmain[0m
+    [31mreset_segment_metrics[0m[1;31m([0m
+    [31m~~~~~~~~~~~~~~~~~~~~~[0m[1;31m^[0m
+        [1;31msched,[0m
+        [1;31m^^^^^^[0m
+        [1;31mPath(args_cli.out_json).parent/""C""[0m
+        [1;31m^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^[0m
+    [1;31m)[0m
+    [1;31m^[0m
+  File [35m""C:\Users\tiago\AppData\Local\Temp\fame_gpu_04b_zt2opz1g\26ASPLOS-Spot-FAME\transfer_worker.py""[0m, line [35m102[0m, in [35mreset_segment_metrics[0m
+    sched.recorder=[1;31mRecorder[0m(
+                   [1;31m^^^^^^^^[0m
+[1;35mNameError[0m: [35mname 'Recorder' is not defined[0m
+"
+R07,0.8,2,R07_q0.80_H2,7.390721559524536,1,error,"Traceback (most recent call last):
+  File [35m""C:\Users\tiago\AppData\Local\Temp\fame_gpu_04b_zt2opz1g\26ASPLOS-Spot-FAME\transfer_worker.py""[0m, line [35m319[0m, in [35m<module>[0m
+    [31mmain[0m[1;31m()[0m
+    [31m~~~~[0m[1;31m^^[0m
+  File [35m""C:\Users\tiago\AppData\Local\Temp\fame_gpu_04b_zt2opz1g\26ASPLOS-Spot-FAME\transfer_worker.py""[0m, line [35m217[0m, in [35mmain[0m
+    [31mreset_segment_metrics[0m[1;31m([0m
+    [31m~~~~~~~~~~~~~~~~~~~~~[0m[1;31m^[0m
+        [1;31msched,[0m
+        [1;31m^^^^^^[0m
+        [1;31mPath(args_cli.out_json).parent/""C""[0m
+        [1;31m^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^[0m
+    [1;31m)[0m
+    [1;31m^[0m
+  File [35m""C:\Users\tiago\AppData\Local\Temp\fame_gpu_04b_zt2opz1g\26ASPLOS-Spot-FAME\transfer_worker.py""[0m, line [35m102[0m, in [35mreset_segment_metrics[0m
+    sched.recorder=[1;31mRecorder[0m(
+                   [1;31m^^^^^^^^[0m
+[1;35mNameError[0m: [35mname 'Recorder' is not defined[0m
+"
+R07,0.8,4,R07_q0.80_H4,7.486164569854736,1,error,"Traceback (most recent call last):
+  File [35m""C:\Users\tiago\AppData\Local\Temp\fame_gpu_04b_zt2opz1g\26ASPLOS-Spot-FAME\transfer_worker.py""[0m, line [35m319[0m, in [35m<module>[0m
+    [31mmain[0m[1;31m()[0m
+    [31m~~~~[0m[1;31m^^[0m
+  File [35m""C:\Users\tiago\AppData\Local\Temp\fame_gpu_04b_zt2opz1g\26ASPLOS-Spot-FAME\transfer_worker.py""[0m, line [35m217[0m, in [35mmain[0m
+    [31mreset_segment_metrics[0m[1;31m([0m
+    [31m~~~~~~~~~~~~~~~~~~~~~[0m[1;31m^[0m
+        [1;31msched,[0m
+        [1;31m^^^^^^[0m
+        [1;31mPath(args_cli.out_json).parent/""C""[0m
+        [1;31m^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^[0m
+    [1;31m)[0m
+    [1;31m^[0m
+  File [35m""C:\Users\tiago\AppData\Local\Temp\fame_gpu_04b_zt2opz1g\26ASPLOS-Spot-FAME\transfer_worker.py""[0m, line [35m102[0m, in [35mreset_segment_metrics[0m
+    sched.recorder=[1;31mRecorder[0m(
+                   [1;31m^^^^^^^^[0m
+[1;35mNameError[0m: [35mname 'Recorder' is not defined[0m
+"
+R07,0.9,1,R07_q0.90_H1,7.711904764175415,1,error,"Traceback (most recent call last):
+  File [35m""C:\Users\tiago\AppData\Local\Temp\fame_gpu_04b_zt2opz1g\26ASPLOS-Spot-FAME\transfer_worker.py""[0m, line [35m319[0m, in [35m<module>[0m
+    [31mmain[0m[1;31m()[0m
+    [31m~~~~[0m[1;31m^^[0m
+  File [35m""C:\Users\tiago\AppData\Local\Temp\fame_gpu_04b_zt2opz1g\26ASPLOS-Spot-FAME\transfer_worker.py""[0m, line [35m217[0m, in [35mmain[0m
+    [31mreset_segment_metrics[0m[1;31m([0m
+    [31m~~~~~~~~~~~~~~~~~~~~~[0m[1;31m^[0m
+        [1;31msched,[0m
+        [1;31m^^^^^^[0m
+        [1;31mPath(args_cli.out_json).parent/""C""[0m
+        [1;31m^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^[0m
+    [1;31m)[0m
+    [1;31m^[0m
+  File [35m""C:\Users\tiago\AppData\Local\Temp\fame_gpu_04b_zt2opz1g\26ASPLOS-Spot-FAME\transfer_worker.py""[0m, line [35m102[0m, in [35mreset_segment_metrics[0m
+    sched.recorder=[1;31mRecorder[0m(
+                   [1;31m^^^^^^^^[0m
+[1;35mNameError[0m: [35mname 'Recorder' is not defined[0m
+"
+R07,0.9,2,R07_q0.90_H2,7.682647466659546,1,error,"Traceback (most recent call last):
+  File [35m""C:\Users\tiago\AppData\Local\Temp\fame_gpu_04b_zt2opz1g\26ASPLOS-Spot-FAME\transfer_worker.py""[0m, line [35m319[0m, in [35m<module>[0m
+    [31mmain[0m[1;31m()[0m
+    [31m~~~~[0m[1;31m^^[0m
+  File [35m""C:\Users\tiago\AppData\Local\Temp\fame_gpu_04b_zt2opz1g\26ASPLOS-Spot-FAME\transfer_worker.py""[0m, line [35m217[0m, in [35mmain[0m
+    [31mreset_segment_metrics[0m[1;31m([0m
+    [31m~~~~~~~~~~~~~~~~~~~~~[0m[1;31m^[0m
+        [1;31msched,[0m
+        [1;31m^^^^^^[0m
+        [1;31mPath(args_cli.out_json).parent/""C""[0m
+        [1;31m^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^[0m
+    [1;31m)[0m
+    [1;31m^[0m
+  File [35m""C:\Users\tiago\AppData\Local\Temp\fame_gpu_04b_zt2opz1g\26ASPLOS-Spot-FAME\transfer_worker.py""[0m, line [35m102[0m, in [35mreset_segment_metrics[0m
+    sched.recorder=[1;31mRecorder[0m(
+                   [1;31m^^^^^^^^[0m
+[1;35mNameError[0m: [35mname 'Recorder' is not defined[0m
+"
+R07,0.9,4,R07_q0.90_H4,7.643356084823608,1,error,"Traceback (most recent call last):
+  File [35m""C:\Users\tiago\AppData\Local\Temp\fame_gpu_04b_zt2opz1g\26ASPLOS-Spot-FAME\transfer_worker.py""[0m, line [35m319[0m, in [35m<module>[0m
+    [31mmain[0m[1;31m()[0m
+    [31m~~~~[0m[1;31m^^[0m
+  File [35m""C:\Users\tiago\AppData\Local\Temp\fame_gpu_04b_zt2opz1g\26ASPLOS-Spot-FAME\transfer_worker.py""[0m, line [35m217[0m, in [35mmain[0m
+    [31mreset_segment_metrics[0m[1;31m([0m
+    [31m~~~~~~~~~~~~~~~~~~~~~[0m[1;31m^[0m
+        [1;31msched,[0m
+        [1;31m^^^^^^[0m
+        [1;31mPath(args_cli.out_json).parent/""C""[0m
+        [1;31m^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^[0m
+    [1;31m)[0m
+    [1;31m^[0m
+  File [35m""C:\Users\tiago\AppData\Local\Temp\fame_gpu_04b_zt2opz1g\26ASPLOS-Spot-FAME\transfer_worker.py""[0m, line [35m102[0m, in [35mreset_segment_metrics[0m
+    sched.recorder=[1;31mRecorder[0m(
+                   [1;31m^^^^^^^^[0m
+[1;35mNameError[0m: [35mname 'Recorder' is not defined[0m
+"
+R07,0.95,1,R07_q0.95_H1,7.633608102798462,1,error,"Traceback (most recent call last):
+  File [35m""C:\Users\tiago\AppData\Local\Temp\fame_gpu_04b_zt2opz1g\26ASPLOS-Spot-FAME\transfer_worker.py""[0m, line [35m319[0m, in [35m<module>[0m
+    [31mmain[0m[1;31m()[0m
+    [31m~~~~[0m[1;31m^^[0m
+  File [35m""C:\Users\tiago\AppData\Local\Temp\fame_gpu_04b_zt2opz1g\26ASPLOS-Spot-FAME\transfer_worker.py""[0m, line [35m217[0m, in [35mmain[0m
+    [31mreset_segment_metrics[0m[1;31m([0m
+    [31m~~~~~~~~~~~~~~~~~~~~~[0m[1;31m^[0m
+        [1;31msched,[0m
+        [1;31m^^^^^^[0m
+        [1;31mPath(args_cli.out_json).parent/""C""[0m
+        [1;31m^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^[0m
+    [1;31m)[0m
+    [1;31m^[0m
+  File [35m""C:\Users\tiago\AppData\Local\Temp\fame_gpu_04b_zt2opz1g\26ASPLOS-Spot-FAME\transfer_worker.py""[0m, line [35m102[0m, in [35mreset_segment_metrics[0m
+    sched.recorder=[1;31mRecorder[0m(
+                   [1;31m^^^^^^^^[0m
+[1;35mNameError[0m: [35mname 'Recorder' is not defined[0m
+"
+R07,0.95,2,R07_q0.95_H2,7.8162665367126465,1,error,"Traceback (most recent call last):
+  File [35m""C:\Users\tiago\AppData\Local\Temp\fame_gpu_04b_zt2opz1g\26ASPLOS-Spot-FAME\transfer_worker.py""[0m, line [35m319[0m, in [35m<module>[0m
+    [31mmain[0m[1;31m()[0m
+    [31m~~~~[0m[1;31m^^[0m
+  File [35m""C:\Users\tiago\AppData\Local\Temp\fame_gpu_04b_zt2opz1g\26ASPLOS-Spot-FAME\transfer_worker.py""[0m, line [35m217[0m, in [35mmain[0m
+    [31mreset_segment_metrics[0m[1;31m([0m
+    [31m~~~~~~~~~~~~~~~~~~~~~[0m[1;31m^[0m
+        [1;31msched,[0m
+        [1;31m^^^^^^[0m
+        [1;31mPath(args_cli.out_json).parent/""C""[0m
+        [1;31m^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^[0m
+    [1;31m)[0m
+    [1;31m^[0m
+  File [35m""C:\Users\tiago\AppData\Local\Temp\fame_gpu_04b_zt2opz1g\26ASPLOS-Spot-FAME\transfer_worker.py""[0m, line [35m102[0m, in [35mreset_segment_metrics[0m
+    sched.recorder=[1;31mRecorder[0m(
+                   [1;31m^^^^^^^^[0m
+[1;35mNameError[0m: [35mname 'Recorder' is not defined[0m
+"
+R07,0.95,4,R07_q0.95_H4,7.54639196395874,1,error,"Traceback (most recent call last):
+  File [35m""C:\Users\tiago\AppData\Local\Temp\fame_gpu_04b_zt2opz1g\26ASPLOS-Spot-FAME\transfer_worker.py""[0m, line [35m319[0m, in [35m<module>[0m
+    [31mmain[0m[1;31m()[0m
+    [31m~~~~[0m[1;31m^^[0m
+  File [35m""C:\Users\tiago\AppData\Local\Temp\fame_gpu_04b_zt2opz1g\26ASPLOS-Spot-FAME\transfer_worker.py""[0m, line [35m217[0m, in [35mmain[0m
+    [31mreset_segment_metrics[0m[1;31m([0m
+    [31m~~~~~~~~~~~~~~~~~~~~~[0m[1;31m^[0m
+        [1;31msched,[0m
+        [1;31m^^^^^^[0m
+        [1;31mPath(args_cli.out_json).parent/""C""[0m
+        [1;31m^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^[0m
+    [1;31m)[0m
+    [1;31m^[0m
+  File [35m""C:\Users\tiago\AppData\Local\Temp\fame_gpu_04b_zt2opz1g\26ASPLOS-Spot-FAME\transfer_worker.py""[0m, line [35m102[0m, in [35mreset_segment_metrics[0m
+    sched.recorder=[1;31mRecorder[0m(
+                   [1;31m^^^^^^^^[0m
+[1;35mNameError[0m: [35mname 'Recorder' is not defined[0m
+"
+R07,0.99,1,R07_q0.99_H1,7.956544637680054,1,error,"Traceback (most recent call last):
+  File [35m""C:\Users\tiago\AppData\Local\Temp\fame_gpu_04b_zt2opz1g\26ASPLOS-Spot-FAME\transfer_worker.py""[0m, line [35m319[0m, in [35m<module>[0m
+    [31mmain[0m[1;31m()[0m
+    [31m~~~~[0m[1;31m^^[0m
+  File [35m""C:\Users\tiago\AppData\Local\Temp\fame_gpu_04b_zt2opz1g\26ASPLOS-Spot-FAME\transfer_worker.py""[0m, line [35m217[0m, in [35mmain[0m
+    [31mreset_segment_metrics[0m[1;31m([0m
+    [31m~~~~~~~~~~~~~~~~~~~~~[0m[1;31m^[0m
+        [1;31msched,[0m
+        [1;31m^^^^^^[0m
+        [1;31mPath(args_cli.out_json).parent/""C""[0m
+        [1;31m^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^[0m
+    [1;31m)[0m
+    [1;31m^[0m
+  File [35m""C:\Users\tiago\AppData\Local\Temp\fame_gpu_04b_zt2opz1g\26ASPLOS-Spot-FAME\transfer_worker.py""[0m, line [35m102[0m, in [35mreset_segment_metrics[0m
+    sched.recorder=[1;31mRecorder[0m(
+                   [1;31m^^^^^^^^[0m
+[1;35mNameError[0m: [35mname 'Recorder' is not defined[0m
+"
+R07,0.99,4,R07_q0.99_H4,7.837455034255981,1,error,"Traceback (most recent call last):
+  File [35m""C:\Users\tiago\AppData\Local\Temp\fame_gpu_04b_zt2opz1g\26ASPLOS-Spot-FAME\transfer_worker.py""[0m, line [35m319[0m, in [35m<module>[0m
+    [31mmain[0m[1;31m()[0m
+    [31m~~~~[0m[1;31m^^[0m
+  File [35m""C:\Users\tiago\AppData\Local\Temp\fame_gpu_04b_zt2opz1g\26ASPLOS-Spot-FAME\transfer_worker.py""[0m, line [35m217[0m, in [35mmain[0m
+    [31mreset_segment_metrics[0m[1;31m([0m
+    [31m~~~~~~~~~~~~~~~~~~~~~[0m[1;31m^[0m
+        [1;31msched,[0m
+        [1;31m^^^^^^[0m
+        [1;31mPath(args_cli.out_json).parent/""C""[0m
+        [1;31m^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^[0m
+    [1;31m)[0m
+    [1;31m^[0m
+  File [35m""C:\Users\tiago\AppData\Local\Temp\fame_gpu_04b_zt2opz1g\26ASPLOS-Spot-FAME\transfer_worker.py""[0m, line [35m102[0m, in [35mreset_segment_metrics[0m
+    sched.recorder=[1;31mRecorder[0m(
+                   [1;31m^^^^^^^^[0m
+[1;35mNameError[0m: [35mname 'Recorder' is not defined[0m
+"
+R07,0.99,2,R07_q0.99_H2,7.952876806259155,1,error,"Traceback (most recent call last):
+  File [35m""C:\Users\tiago\AppData\Local\Temp\fame_gpu_04b_zt2opz1g\26ASPLOS-Spot-FAME\transfer_worker.py""[0m, line [35m319[0m, in [35m<module>[0m
+    [31mmain[0m[1;31m()[0m
+    [31m~~~~[0m[1;31m^^[0m
+  File [35m""C:\Users\tiago\AppData\Local\Temp\fame_gpu_04b_zt2opz1g\26ASPLOS-Spot-FAME\transfer_worker.py""[0m, line [35m217[0m, in [35mmain[0m
+    [31mreset_segment_metrics[0m[1;31m([0m
+    [31m~~~~~~~~~~~~~~~~~~~~~[0m[1;31m^[0m
+        [1;31msched,[0m
+        [1;31m^^^^^^[0m
+        [1;31mPath(args_cli.out_json).parent/""C""[0m
+        [1;31m^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^[0m
+    [1;31m)[0m
+    [1;31m^[0m
+  File [35m""C:\Users\tiago\AppData\Local\Temp\fame_gpu_04b_zt2opz1g\26ASPLOS-Spot-FAME\transfer_worker.py""[0m, line [35m102[0m, in [35mreset_segment_metrics[0m
+    sched.recorder=[1;31mRecorder[0m(
+                   [1;31m^^^^^^^^[0m
+[1;35mNameError[0m: [35mname 'Recorder' is not defined[0m
+"
+R08,0.5,2,R08_q0.50_H2,8.743356943130493,1,error,"Traceback (most recent call last):
+  File [35m""C:\Users\tiago\AppData\Local\Temp\fame_gpu_04b_zt2opz1g\26ASPLOS-Spot-FAME\transfer_worker.py""[0m, line [35m319[0m, in [35m<module>[0m
+    [31mmain[0m[1;31m()[0m
+    [31m~~~~[0m[1;31m^^[0m
+  File [35m""C:\Users\tiago\AppData\Local\Temp\fame_gpu_04b_zt2opz1g\26ASPLOS-Spot-FAME\transfer_worker.py""[0m, line [35m217[0m, in [35mmain[0m
+    [31mreset_segment_metrics[0m[1;31m([0m
+    [31m~~~~~~~~~~~~~~~~~~~~~[0m[1;31m^[0m
+        [1;31msched,[0m
+        [1;31m^^^^^^[0m
+        [1;31mPath(args_cli.out_json).parent/""C""[0m
+        [1;31m^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^[0m
+    [1;31m)[0m
+    [1;31m^[0m
+  File [35m""C:\Users\tiago\AppData\Local\Temp\fame_gpu_04b_zt2opz1g\26ASPLOS-Spot-FAME\transfer_worker.py""[0m, line [35m102[0m, in [35mreset_segment_metrics[0m
+    sched.recorder=[1;31mRecorder[0m(
+                   [1;31m^^^^^^^^[0m
+[1;35mNameError[0m: [35mname 'Recorder' is not defined[0m
+"
+R08,0.5,1,R08_q0.50_H1,9.109889030456545,1,error,"Traceback (most recent call last):
+  File [35m""C:\Users\tiago\AppData\Local\Temp\fame_gpu_04b_zt2opz1g\26ASPLOS-Spot-FAME\transfer_worker.py""[0m, line [35m319[0m, in [35m<module>[0m
+    [31mmain[0m[1;31m()[0m
+    [31m~~~~[0m[1;31m^^[0m
+  File [35m""C:\Users\tiago\AppData\Local\Temp\fame_gpu_04b_zt2opz1g\26ASPLOS-Spot-FAME\transfer_worker.py""[0m, line [35m217[0m, in [35mmain[0m
+    [31mreset_segment_metrics[0m[1;31m([0m
+    [31m~~~~~~~~~~~~~~~~~~~~~[0m[1;31m^[0m
+        [1;31msched,[0m
+        [1;31m^^^^^^[0m
+        [1;31mPath(args_cli.out_json).parent/""C""[0m
+        [1;31m^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^[0m
+    [1;31m)[0m
+    [1;31m^[0m
+  File [35m""C:\Users\tiago\AppData\Local\Temp\fame_gpu_04b_zt2opz1g\26ASPLOS-Spot-FAME\transfer_worker.py""[0m, line [35m102[0m, in [35mreset_segment_metrics[0m
+    sched.recorder=[1;31mRecorder[0m(
+                   [1;31m^^^^^^^^[0m
+[1;35mNameError[0m: [35mname 'Recorder' is not defined[0m
+"
+R08,0.5,4,R08_q0.50_H4,8.839776754379272,1,error,"Traceback (most recent call last):
+  File [35m""C:\Users\tiago\AppData\Local\Temp\fame_gpu_04b_zt2opz1g\26ASPLOS-Spot-FAME\transfer_worker.py""[0m, line [35m319[0m, in [35m<module>[0m
+    [31mmain[0m[1;31m()[0m
+    [31m~~~~[0m[1;31m^^[0m
+  File [35m""C:\Users\tiago\AppData\Local\Temp\fame_gpu_04b_zt2opz1g\26ASPLOS-Spot-FAME\transfer_worker.py""[0m, line [35m217[0m, in [35mmain[0m
+    [31mreset_segment_metrics[0m[1;31m([0m
+    [31m~~~~~~~~~~~~~~~~~~~~~[0m[1;31m^[0m
+        [1;31msched,[0m
+        [1;31m^^^^^^[0m
+        [1;31mPath(args_cli.out_json).parent/""C""[0m
+        [1;31m^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^[0m
+    [1;31m)[0m
+    [1;31m^[0m
+  File [35m""C:\Users\tiago\AppData\Local\Temp\fame_gpu_04b_zt2opz1g\26ASPLOS-Spot-FAME\transfer_worker.py""[0m, line [35m102[0m, in [35mreset_segment_metrics[0m
+    sched.recorder=[1;31mRecorder[0m(
+                   [1;31m^^^^^^^^[0m
+[1;35mNameError[0m: [35mname 'Recorder' is not defined[0m
+"
+R08,0.8,1,R08_q0.80_H1,8.733912467956543,1,error,"Traceback (most recent call last):
+  File [35m""C:\Users\tiago\AppData\Local\Temp\fame_gpu_04b_zt2opz1g\26ASPLOS-Spot-FAME\transfer_worker.py""[0m, line [35m319[0m, in [35m<module>[0m
+    [31mmain[0m[1;31m()[0m
+    [31m~~~~[0m[1;31m^^[0m
+  File [35m""C:\Users\tiago\AppData\Local\Temp\fame_gpu_04b_zt2opz1g\26ASPLOS-Spot-FAME\transfer_worker.py""[0m, line [35m217[0m, in [35mmain[0m
+    [31mreset_segment_metrics[0m[1;31m([0m
+    [31m~~~~~~~~~~~~~~~~~~~~~[0m[1;31m^[0m
+        [1;31msched,[0m
+        [1;31m^^^^^^[0m
+        [1;31mPath(args_cli.out_json).parent/""C""[0m
+        [1;31m^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^[0m
+    [1;31m)[0m
+    [1;31m^[0m
+  File [35m""C:\Users\tiago\AppData\Local\Temp\fame_gpu_04b_zt2opz1g\26ASPLOS-Spot-FAME\transfer_worker.py""[0m, line [35m102[0m, in [35mreset_segment_metrics[0m
+    sched.recorder=[1;31mRecorder[0m(
+                   [1;31m^^^^^^^^[0m
+[1;35mNameError[0m: [35mname 'Recorder' is not defined[0m
+"
+R08,0.8,4,R08_q0.80_H4,8.765910387039185,1,error,"Traceback (most recent call last):
+  File [35m""C:\Users\tiago\AppData\Local\Temp\fame_gpu_04b_zt2opz1g\26ASPLOS-Spot-FAME\transfer_worker.py""[0m, line [35m319[0m, in [35m<module>[0m
+    [31mmain[0m[1;31m()[0m
+    [31m~~~~[0m[1;31m^^[0m
+  File [35m""C:\Users\tiago\AppData\Local\Temp\fame_gpu_04b_zt2opz1g\26ASPLOS-Spot-FAME\transfer_worker.py""[0m, line [35m217[0m, in [35mmain[0m
+    [31mreset_segment_metrics[0m[1;31m([0m
+    [31m~~~~~~~~~~~~~~~~~~~~~[0m[1;31m^[0m
+        [1;31msched,[0m
+        [1;31m^^^^^^[0m
+        [1;31mPath(args_cli.out_json).parent/""C""[0m
+        [1;31m^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^[0m
+    [1;31m)[0m
+    [1;31m^[0m
+  File [35m""C:\Users\tiago\AppData\Local\Temp\fame_gpu_04b_zt2opz1g\26ASPLOS-Spot-FAME\transfer_worker.py""[0m, line [35m102[0m, in [35mreset_segment_metrics[0m
+    sched.recorder=[1;31mRecorder[0m(
+                   [1;31m^^^^^^^^[0m
+[1;35mNameError[0m: [35mname 'Recorder' is not defined[0m
+"
+R08,0.8,2,R08_q0.80_H2,8.883453130722046,1,error,"Traceback (most recent call last):
+  File [35m""C:\Users\tiago\AppData\Local\Temp\fame_gpu_04b_zt2opz1g\26ASPLOS-Spot-FAME\transfer_worker.py""[0m, line [35m319[0m, in [35m<module>[0m
+    [31mmain[0m[1;31m()[0m
+    [31m~~~~[0m[1;31m^^[0m
+  File [35m""C:\Users\tiago\AppData\Local\Temp\fame_gpu_04b_zt2opz1g\26ASPLOS-Spot-FAME\transfer_worker.py""[0m, line [35m217[0m, in [35mmain[0m
+    [31mreset_segment_metrics[0m[1;31m([0m
+    [31m~~~~~~~~~~~~~~~~~~~~~[0m[1;31m^[0m
+        [1;31msched,[0m
+        [1;31m^^^^^^[0m
+        [1;31mPath(args_cli.out_json).parent/""C""[0m
+        [1;31m^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^[0m
+    [1;31m)[0m
+    [1;31m^[0m
+  File [35m""C:\Users\tiago\AppData\Local\Temp\fame_gpu_04b_zt2opz1g\26ASPLOS-Spot-FAME\transfer_worker.py""[0m, line [35m102[0m, in [35mreset_segment_metrics[0m
+    sched.recorder=[1;31mRecorder[0m(
+                   [1;31m^^^^^^^^[0m
+[1;35mNameError[0m: [35mname 'Recorder' is not defined[0m
+"
+R08,0.9,1,R08_q0.90_H1,8.566933393478394,1,error,"Traceback (most recent call last):
+  File [35m""C:\Users\tiago\AppData\Local\Temp\fame_gpu_04b_zt2opz1g\26ASPLOS-Spot-FAME\transfer_worker.py""[0m, line [35m319[0m, in [35m<module>[0m
+    [31mmain[0m[1;31m()[0m
+    [31m~~~~[0m[1;31m^^[0m
+  File [35m""C:\Users\tiago\AppData\Local\Temp\fame_gpu_04b_zt2opz1g\26ASPLOS-Spot-FAME\transfer_worker.py""[0m, line [35m217[0m, in [35mmain[0m
+    [31mreset_segment_metrics[0m[1;31m([0m
+    [31m~~~~~~~~~~~~~~~~~~~~~[0m[1;31m^[0m
+        [1;31msched,[0m
+        [1;31m^^^^^^[0m
+        [1;31mPath(args_cli.out_json).parent/""C""[0m
+        [1;31m^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^[0m
+    [1;31m)[0m
+    [1;31m^[0m
+  File [35m""C:\Users\tiago\AppData\Local\Temp\fame_gpu_04b_zt2opz1g\26ASPLOS-Spot-FAME\transfer_worker.py""[0m, line [35m102[0m, in [35mreset_segment_metrics[0m
+    sched.recorder=[1;31mRecorder[0m(
+                   [1;31m^^^^^^^^[0m
+[1;35mNameError[0m: [35mname 'Recorder' is not defined[0m
+"
+R08,0.9,4,R08_q0.90_H4,8.67147445678711,1,error,"Traceback (most recent call last):
+  File [35m""C:\Users\tiago\AppData\Local\Temp\fame_gpu_04b_zt2opz1g\26ASPLOS-Spot-FAME\transfer_worker.py""[0m, line [35m319[0m, in [35m<module>[0m
+    [31mmain[0m[1;31m()[0m
+    [31m~~~~[0m[1;31m^^[0m
+  File [35m""C:\Users\tiago\AppData\Local\Temp\fame_gpu_04b_zt2opz1g\26ASPLOS-Spot-FAME\transfer_worker.py""[0m, line [35m217[0m, in [35mmain[0m
+    [31mreset_segment_metrics[0m[1;31m([0m
+    [31m~~~~~~~~~~~~~~~~~~~~~[0m[1;31m^[0m
+        [1;31msched,[0m
+        [1;31m^^^^^^[0m
+        [1;31mPath(args_cli.out_json).parent/""C""[0m
+        [1;31m^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^[0m
+    [1;31m)[0m
+    [1;31m^[0m
+  File [35m""C:\Users\tiago\AppData\Local\Temp\fame_gpu_04b_zt2opz1g\26ASPLOS-Spot-FAME\transfer_worker.py""[0m, line [35m102[0m, in [35mreset_segment_metrics[0m
+    sched.recorder=[1;31mRecorder[0m(
+                   [1;31m^^^^^^^^[0m
+[1;35mNameError[0m: [35mname 'Recorder' is not defined[0m
+"
+R08,0.9,2,R08_q0.90_H2,8.799899578094482,1,error,"Traceback (most recent call last):
+  File [35m""C:\Users\tiago\AppData\Local\Temp\fame_gpu_04b_zt2opz1g\26ASPLOS-Spot-FAME\transfer_worker.py""[0m, line [35m319[0m, in [35m<module>[0m
+    [31mmain[0m[1;31m()[0m
+    [31m~~~~[0m[1;31m^^[0m
+  File [35m""C:\Users\tiago\AppData\Local\Temp\fame_gpu_04b_zt2opz1g\26ASPLOS-Spot-FAME\transfer_worker.py""[0m, line [35m217[0m, in [35mmain[0m
+    [31mreset_segment_metrics[0m[1;31m([0m
+    [31m~~~~~~~~~~~~~~~~~~~~~[0m[1;31m^[0m
+        [1;31msched,[0m
+        [1;31m^^^^^^[0m
+        [1;31mPath(args_cli.out_json).parent/""C""[0m
+        [1;31m^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^[0m
+    [1;31m)[0m
+    [1;31m^[0m
+  File [35m""C:\Users\tiago\AppData\Local\Temp\fame_gpu_04b_zt2opz1g\26ASPLOS-Spot-FAME\transfer_worker.py""[0m, line [35m102[0m, in [35mreset_segment_metrics[0m
+    sched.recorder=[1;31mRecorder[0m(
+                   [1;31m^^^^^^^^[0m
+[1;35mNameError[0m: [35mname 'Recorder' is not defined[0m
+"
+R08,0.95,1,R08_q0.95_H1,8.609697341918945,1,error,"Traceback (most recent call last):
+  File [35m""C:\Users\tiago\AppData\Local\Temp\fame_gpu_04b_zt2opz1g\26ASPLOS-Spot-FAME\transfer_worker.py""[0m, line [35m319[0m, in [35m<module>[0m
+    [31mmain[0m[1;31m()[0m
+    [31m~~~~[0m[1;31m^^[0m
+  File [35m""C:\Users\tiago\AppData\Local\Temp\fame_gpu_04b_zt2opz1g\26ASPLOS-Spot-FAME\transfer_worker.py""[0m, line [35m217[0m, in [35mmain[0m
+    [31mreset_segment_metrics[0m[1;31m([0m
+    [31m~~~~~~~~~~~~~~~~~~~~~[0m[1;31m^[0m
+        [1;31msched,[0m
+        [1;31m^^^^^^[0m
+        [1;31mPath(args_cli.out_json).parent/""C""[0m
+        [1;31m^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^[0m
+    [1;31m)[0m
+    [1;31m^[0m
+  File [35m""C:\Users\tiago\AppData\Local\Temp\fame_gpu_04b_zt2opz1g\26ASPLOS-Spot-FAME\transfer_worker.py""[0m, line [35m102[0m, in [35mreset_segment_metrics[0m
+    sched.recorder=[1;31mRecorder[0m(
+                   [1;31m^^^^^^^^[0m
+[1;35mNameError[0m: [35mname 'Recorder' is not defined[0m
+"
+R08,0.95,2,R08_q0.95_H2,8.645984649658203,1,error,"Traceback (most recent call last):
+  File [35m""C:\Users\tiago\AppData\Local\Temp\fame_gpu_04b_zt2opz1g\26ASPLOS-Spot-FAME\transfer_worker.py""[0m, line [35m319[0m, in [35m<module>[0m
+    [31mmain[0m[1;31m()[0m
+    [31m~~~~[0m[1;31m^^[0m
+  File [35m""C:\Users\tiago\AppData\Local\Temp\fame_gpu_04b_zt2opz1g\26ASPLOS-Spot-FAME\transfer_worker.py""[0m, line [35m217[0m, in [35mmain[0m
+    [31mreset_segment_metrics[0m[1;31m([0m
+    [31m~~~~~~~~~~~~~~~~~~~~~[0m[1;31m^[0m
+        [1;31msched,[0m
+        [1;31m^^^^^^[0m
+        [1;31mPath(args_cli.out_json).parent/""C""[0m
+        [1;31m^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^[0m
+    [1;31m)[0m
+    [1;31m^[0m
+  File [35m""C:\Users\tiago\AppData\Local\Temp\fame_gpu_04b_zt2opz1g\26ASPLOS-Spot-FAME\transfer_worker.py""[0m, line [35m102[0m, in [35mreset_segment_metrics[0m
+    sched.recorder=[1;31mRecorder[0m(
+                   [1;31m^^^^^^^^[0m
+[1;35mNameError[0m: [35mname 'Recorder' is not defined[0m
+"
+R08,0.95,4,R08_q0.95_H4,8.747183561325073,1,error,"Traceback (most recent call last):
+  File [35m""C:\Users\tiago\AppData\Local\Temp\fame_gpu_04b_zt2opz1g\26ASPLOS-Spot-FAME\transfer_worker.py""[0m, line [35m319[0m, in [35m<module>[0m
+    [31mmain[0m[1;31m()[0m
+    [31m~~~~[0m[1;31m^^[0m
+  File [35m""C:\Users\tiago\AppData\Local\Temp\fame_gpu_04b_zt2opz1g\26ASPLOS-Spot-FAME\transfer_worker.py""[0m, line [35m217[0m, in [35mmain[0m
+    [31mreset_segment_metrics[0m[1;31m([0m
+    [31m~~~~~~~~~~~~~~~~~~~~~[0m[1;31m^[0m
+        [1;31msched,[0m
+        [1;31m^^^^^^[0m
+        [1;31mPath(args_cli.out_json).parent/""C""[0m
+        [1;31m^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^[0m
+    [1;31m)[0m
+    [1;31m^[0m
+  File [35m""C:\Users\tiago\AppData\Local\Temp\fame_gpu_04b_zt2opz1g\26ASPLOS-Spot-FAME\transfer_worker.py""[0m, line [35m102[0m, in [35mreset_segment_metrics[0m
+    sched.recorder=[1;31mRecorder[0m(
+                   [1;31m^^^^^^^^[0m
+[1;35mNameError[0m: [35mname 'Recorder' is not defined[0m
+"
+R08,0.99,1,R08_q0.99_H1,8.825789451599121,1,error,"Traceback (most recent call last):
+  File [35m""C:\Users\tiago\AppData\Local\Temp\fame_gpu_04b_zt2opz1g\26ASPLOS-Spot-FAME\transfer_worker.py""[0m, line [35m319[0m, in [35m<module>[0m
+    [31mmain[0m[1;31m()[0m
+    [31m~~~~[0m[1;31m^^[0m
+  File [35m""C:\Users\tiago\AppData\Local\Temp\fame_gpu_04b_zt2opz1g\26ASPLOS-Spot-FAME\transfer_worker.py""[0m, line [35m217[0m, in [35mmain[0m
+    [31mreset_segment_metrics[0m[1;31m([0m
+    [31m~~~~~~~~~~~~~~~~~~~~~[0m[1;31m^[0m
+        [1;31msched,[0m
+        [1;31m^^^^^^[0m
+        [1;31mPath(args_cli.out_json).parent/""C""[0m
+        [1;31m^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^[0m
+    [1;31m)[0m
+    [1;31m^[0m
+  File [35m""C:\Users\tiago\AppData\Local\Temp\fame_gpu_04b_zt2opz1g\26ASPLOS-Spot-FAME\transfer_worker.py""[0m, line [35m102[0m, in [35mreset_segment_metrics[0m
+    sched.recorder=[1;31mRecorder[0m(
+                   [1;31m^^^^^^^^[0m
+[1;35mNameError[0m: [35mname 'Recorder' is not defined[0m
+"
+R08,0.99,4,R08_q0.99_H4,8.823554992675781,1,error,"Traceback (most recent call last):
+  File [35m""C:\Users\tiago\AppData\Local\Temp\fame_gpu_04b_zt2opz1g\26ASPLOS-Spot-FAME\transfer_worker.py""[0m, line [35m319[0m, in [35m<module>[0m
+    [31mmain[0m[1;31m()[0m
+    [31m~~~~[0m[1;31m^^[0m
+  File [35m""C:\Users\tiago\AppData\Local\Temp\fame_gpu_04b_zt2opz1g\26ASPLOS-Spot-FAME\transfer_worker.py""[0m, line [35m217[0m, in [35mmain[0m
+    [31mreset_segment_metrics[0m[1;31m([0m
+    [31m~~~~~~~~~~~~~~~~~~~~~[0m[1;31m^[0m
+        [1;31msched,[0m
+        [1;31m^^^^^^[0m
+        [1;31mPath(args_cli.out_json).parent/""C""[0m
+        [1;31m^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^[0m
+    [1;31m)[0m
+    [1;31m^[0m
+  File [35m""C:\Users\tiago\AppData\Local\Temp\fame_gpu_04b_zt2opz1g\26ASPLOS-Spot-FAME\transfer_worker.py""[0m, line [35m102[0m, in [35mreset_segment_metrics[0m
+    sched.recorder=[1;31mRecorder[0m(
+                   [1;31m^^^^^^^^[0m
+[1;35mNameError[0m: [35mname 'Recorder' is not defined[0m
+"
+R08,0.99,2,R08_q0.99_H2,8.8572678565979,1,error,"Traceback (most recent call last):
+  File [35m""C:\Users\tiago\AppData\Local\Temp\fame_gpu_04b_zt2opz1g\26ASPLOS-Spot-FAME\transfer_worker.py""[0m, line [35m319[0m, in [35m<module>[0m
+    [31mmain[0m[1;31m()[0m
+    [31m~~~~[0m[1;31m^^[0m
+  File [35m""C:\Users\tiago\AppData\Local\Temp\fame_gpu_04b_zt2opz1g\26ASPLOS-Spot-FAME\transfer_worker.py""[0m, line [35m217[0m, in [35mmain[0m
+    [31mreset_segment_metrics[0m[1;31m([0m
+    [31m~~~~~~~~~~~~~~~~~~~~~[0m[1;31m^[0m
+        [1;31msched,[0m
+        [1;31m^^^^^^[0m
+        [1;31mPath(args_cli.out_json).parent/""C""[0m
+        [1;31m^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^[0m
+    [1;31m)[0m
+    [1;31m^[0m
+  File [35m""C:\Users\tiago\AppData\Local\Temp\fame_gpu_04b_zt2opz1g\26ASPLOS-Spot-FAME\transfer_worker.py""[0m, line [35m102[0m, in [35mreset_segment_metrics[0m
+    sched.recorder=[1;31mRecorder[0m(
+                   [1;31m^^^^^^^^[0m
+[1;35mNameError[0m: [35mname 'Recorder' is not defined[0m
+"
+R09,0.5,2,R09_q0.50_H2,10.680328607559204,1,error,"Traceback (most recent call last):
+  File [35m""C:\Users\tiago\AppData\Local\Temp\fame_gpu_04b_zt2opz1g\26ASPLOS-Spot-FAME\transfer_worker.py""[0m, line [35m319[0m, in [35m<module>[0m
+    [31mmain[0m[1;31m()[0m
+    [31m~~~~[0m[1;31m^^[0m
+  File [35m""C:\Users\tiago\AppData\Local\Temp\fame_gpu_04b_zt2opz1g\26ASPLOS-Spot-FAME\transfer_worker.py""[0m, line [35m217[0m, in [35mmain[0m
+    [31mreset_segment_metrics[0m[1;31m([0m
+    [31m~~~~~~~~~~~~~~~~~~~~~[0m[1;31m^[0m
+        [1;31msched,[0m
+        [1;31m^^^^^^[0m
+        [1;31mPath(args_cli.out_json).parent/""C""[0m
+        [1;31m^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^[0m
+    [1;31m)[0m
+    [1;31m^[0m
+  File [35m""C:\Users\tiago\AppData\Local\Temp\fame_gpu_04b_zt2opz1g\26ASPLOS-Spot-FAME\transfer_worker.py""[0m, line [35m102[0m, in [35mreset_segment_metrics[0m
+    sched.recorder=[1;31mRecorder[0m(
+                   [1;31m^^^^^^^^[0m
+[1;35mNameError[0m: [35mname 'Recorder' is not defined[0m
+"
+R09,0.5,1,R09_q0.50_H1,10.843392610549929,1,error,"Traceback (most recent call last):
+  File [35m""C:\Users\tiago\AppData\Local\Temp\fame_gpu_04b_zt2opz1g\26ASPLOS-Spot-FAME\transfer_worker.py""[0m, line [35m319[0m, in [35m<module>[0m
+    [31mmain[0m[1;31m()[0m
+    [31m~~~~[0m[1;31m^^[0m
+  File [35m""C:\Users\tiago\AppData\Local\Temp\fame_gpu_04b_zt2opz1g\26ASPLOS-Spot-FAME\transfer_worker.py""[0m, line [35m217[0m, in [35mmain[0m
+    [31mreset_segment_metrics[0m[1;31m([0m
+    [31m~~~~~~~~~~~~~~~~~~~~~[0m[1;31m^[0m
+        [1;31msched,[0m
+        [1;31m^^^^^^[0m
+        [1;31mPath(args_cli.out_json).parent/""C""[0m
+        [1;31m^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^[0m
+    [1;31m)[0m
+    [1;31m^[0m
+  File [35m""C:\Users\tiago\AppData\Local\Temp\fame_gpu_04b_zt2opz1g\26ASPLOS-Spot-FAME\transfer_worker.py""[0m, line [35m102[0m, in [35mreset_segment_metrics[0m
+    sched.recorder=[1;31mRecorder[0m(
+                   [1;31m^^^^^^^^[0m
+[1;35mNameError[0m: [35mname 'Recorder' is not defined[0m
+"
+R09,0.5,4,R09_q0.50_H4,11.025704383850098,1,error,"Traceback (most recent call last):
+  File [35m""C:\Users\tiago\AppData\Local\Temp\fame_gpu_04b_zt2opz1g\26ASPLOS-Spot-FAME\transfer_worker.py""[0m, line [35m319[0m, in [35m<module>[0m
+    [31mmain[0m[1;31m()[0m
+    [31m~~~~[0m[1;31m^^[0m
+  File [35m""C:\Users\tiago\AppData\Local\Temp\fame_gpu_04b_zt2opz1g\26ASPLOS-Spot-FAME\transfer_worker.py""[0m, line [35m217[0m, in [35mmain[0m
+    [31mreset_segment_metrics[0m[1;31m([0m
+    [31m~~~~~~~~~~~~~~~~~~~~~[0m[1;31m^[0m
+        [1;31msched,[0m
+        [1;31m^^^^^^[0m
+        [1;31mPath(args_cli.out_json).parent/""C""[0m
+        [1;31m^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^[0m
+    [1;31m)[0m
+    [1;31m^[0m
+  File [35m""C:\Users\tiago\AppData\Local\Temp\fame_gpu_04b_zt2opz1g\26ASPLOS-Spot-FAME\transfer_worker.py""[0m, line [35m102[0m, in [35mreset_segment_metrics[0m
+    sched.recorder=[1;31mRecorder[0m(
+                   [1;31m^^^^^^^^[0m
+[1;35mNameError[0m: [35mname 'Recorder' is not defined[0m
+"
+R09,0.8,1,R09_q0.80_H1,10.888344764709473,1,error,"Traceback (most recent call last):
+  File [35m""C:\Users\tiago\AppData\Local\Temp\fame_gpu_04b_zt2opz1g\26ASPLOS-Spot-FAME\transfer_worker.py""[0m, line [35m319[0m, in [35m<module>[0m
+    [31mmain[0m[1;31m()[0m
+    [31m~~~~[0m[1;31m^^[0m
+  File [35m""C:\Users\tiago\AppData\Local\Temp\fame_gpu_04b_zt2opz1g\26ASPLOS-Spot-FAME\transfer_worker.py""[0m, line [35m217[0m, in [35mmain[0m
+    [31mreset_segment_metrics[0m[1;31m([0m
+    [31m~~~~~~~~~~~~~~~~~~~~~[0m[1;31m^[0m
+        [1;31msched,[0m
+        [1;31m^^^^^^[0m
+        [1;31mPath(args_cli.out_json).parent/""C""[0m
+        [1;31m^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^[0m
+    [1;31m)[0m
+    [1;31m^[0m
+  File [35m""C:\Users\tiago\AppData\Local\Temp\fame_gpu_04b_zt2opz1g\26ASPLOS-Spot-FAME\transfer_worker.py""[0m, line [35m102[0m, in [35mreset_segment_metrics[0m
+    sched.recorder=[1;31mRecorder[0m(
+                   [1;31m^^^^^^^^[0m
+[1;35mNameError[0m: [35mname 'Recorder' is not defined[0m
+"
+R09,0.8,4,R09_q0.80_H4,10.723100423812866,1,error,"Traceback (most recent call last):
+  File [35m""C:\Users\tiago\AppData\Local\Temp\fame_gpu_04b_zt2opz1g\26ASPLOS-Spot-FAME\transfer_worker.py""[0m, line [35m319[0m, in [35m<module>[0m
+    [31mmain[0m[1;31m()[0m
+    [31m~~~~[0m[1;31m^^[0m
+  File [35m""C:\Users\tiago\AppData\Local\Temp\fame_gpu_04b_zt2opz1g\26ASPLOS-Spot-FAME\transfer_worker.py""[0m, line [35m217[0m, in [35mmain[0m
+    [31mreset_segment_metrics[0m[1;31m([0m
+    [31m~~~~~~~~~~~~~~~~~~~~~[0m[1;31m^[0m
+        [1;31msched,[0m
+        [1;31m^^^^^^[0m
+        [1;31mPath(args_cli.out_json).parent/""C""[0m
+        [1;31m^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^[0m
+    [1;31m)[0m
+    [1;31m^[0m
+  File [35m""C:\Users\tiago\AppData\Local\Temp\fame_gpu_04b_zt2opz1g\26ASPLOS-Spot-FAME\transfer_worker.py""[0m, line [35m102[0m, in [35mreset_segment_metrics[0m
+    sched.recorder=[1;31mRecorder[0m(
+                   [1;31m^^^^^^^^[0m
+[1;35mNameError[0m: [35mname 'Recorder' is not defined[0m
+"
+R09,0.8,2,R09_q0.80_H2,10.789637804031372,1,error,"Traceback (most recent call last):
+  File [35m""C:\Users\tiago\AppData\Local\Temp\fame_gpu_04b_zt2opz1g\26ASPLOS-Spot-FAME\transfer_worker.py""[0m, line [35m319[0m, in [35m<module>[0m
+    [31mmain[0m[1;31m()[0m
+    [31m~~~~[0m[1;31m^^[0m
+  File [35m""C:\Users\tiago\AppData\Local\Temp\fame_gpu_04b_zt2opz1g\26ASPLOS-Spot-FAME\transfer_worker.py""[0m, line [35m217[0m, in [35mmain[0m
+    [31mreset_segment_metrics[0m[1;31m([0m
+    [31m~~~~~~~~~~~~~~~~~~~~~[0m[1;31m^[0m
+        [1;31msched,[0m
+        [1;31m^^^^^^[0m
+        [1;31mPath(args_cli.out_json).parent/""C""[0m
+        [1;31m^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^[0m
+    [1;31m)[0m
+    [1;31m^[0m
+  File [35m""C:\Users\tiago\AppData\Local\Temp\fame_gpu_04b_zt2opz1g\26ASPLOS-Spot-FAME\transfer_worker.py""[0m, line [35m102[0m, in [35mreset_segment_metrics[0m
+    sched.recorder=[1;31mRecorder[0m(
+                   [1;31m^^^^^^^^[0m
+[1;35mNameError[0m: [35mname 'Recorder' is not defined[0m
+"
+R09,0.9,1,R09_q0.90_H1,11.304011106491089,1,error,"Traceback (most recent call last):
+  File [35m""C:\Users\tiago\AppData\Local\Temp\fame_gpu_04b_zt2opz1g\26ASPLOS-Spot-FAME\transfer_worker.py""[0m, line [35m319[0m, in [35m<module>[0m
+    [31mmain[0m[1;31m()[0m
+    [31m~~~~[0m[1;31m^^[0m
+  File [35m""C:\Users\tiago\AppData\Local\Temp\fame_gpu_04b_zt2opz1g\26ASPLOS-Spot-FAME\transfer_worker.py""[0m, line [35m217[0m, in [35mmain[0m
+    [31mreset_segment_metrics[0m[1;31m([0m
+    [31m~~~~~~~~~~~~~~~~~~~~~[0m[1;31m^[0m
+        [1;31msched,[0m
+        [1;31m^^^^^^[0m
+        [1;31mPath(args_cli.out_json).parent/""C""[0m
+        [1;31m^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^[0m
+    [1;31m)[0m
+    [1;31m^[0m
+  File [35m""C:\Users\tiago\AppData\Local\Temp\fame_gpu_04b_zt2opz1g\26ASPLOS-Spot-FAME\transfer_worker.py""[0m, line [35m102[0m, in [35mreset_segment_metrics[0m
+    sched.recorder=[1;31mRecorder[0m(
+                   [1;31m^^^^^^^^[0m
+[1;35mNameError[0m: [35mname 'Recorder' is not defined[0m
+"
+R09,0.9,2,R09_q0.90_H2,11.751919269561768,1,error,"Traceback (most recent call last):
+  File [35m""C:\Users\tiago\AppData\Local\Temp\fame_gpu_04b_zt2opz1g\26ASPLOS-Spot-FAME\transfer_worker.py""[0m, line [35m319[0m, in [35m<module>[0m
+    [31mmain[0m[1;31m()[0m
+    [31m~~~~[0m[1;31m^^[0m
+  File [35m""C:\Users\tiago\AppData\Local\Temp\fame_gpu_04b_zt2opz1g\26ASPLOS-Spot-FAME\transfer_worker.py""[0m, line [35m217[0m, in [35mmain[0m
+    [31mreset_segment_metrics[0m[1;31m([0m
+    [31m~~~~~~~~~~~~~~~~~~~~~[0m[1;31m^[0m
+        [1;31msched,[0m
+        [1;31m^^^^^^[0m
+        [1;31mPath(args_cli.out_json).parent/""C""[0m
+        [1;31m^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^[0m
+    [1;31m)[0m
+    [1;31m^[0m
+  File [35m""C:\Users\tiago\AppData\Local\Temp\fame_gpu_04b_zt2opz1g\26ASPLOS-Spot-FAME\transfer_worker.py""[0m, line [35m102[0m, in [35mreset_segment_metrics[0m
+    sched.recorder=[1;31mRecorder[0m(
+                   [1;31m^^^^^^^^[0m
+[1;35mNameError[0m: [35mname 'Recorder' is not defined[0m
+"
+R09,0.9,4,R09_q0.90_H4,11.534735918045044,1,error,"Traceback (most recent call last):
+  File [35m""C:\Users\tiago\AppData\Local\Temp\fame_gpu_04b_zt2opz1g\26ASPLOS-Spot-FAME\transfer_worker.py""[0m, line [35m319[0m, in [35m<module>[0m
+    [31mmain[0m[1;31m()[0m
+    [31m~~~~[0m[1;31m^^[0m
+  File [35m""C:\Users\tiago\AppData\Local\Temp\fame_gpu_04b_zt2opz1g\26ASPLOS-Spot-FAME\transfer_worker.py""[0m, line [35m217[0m, in [35mmain[0m
+    [31mreset_segment_metrics[0m[1;31m([0m
+    [31m~~~~~~~~~~~~~~~~~~~~~[0m[1;31m^[0m
+        [1;31msched,[0m
+        [1;31m^^^^^^[0m
+        [1;31mPath(args_cli.out_json).parent/""C""[0m
+        [1;31m^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^[0m
+    [1;31m)[0m
+    [1;31m^[0m
+  File [35m""C:\Users\tiago\AppData\Local\Temp\fame_gpu_04b_zt2opz1g\26ASPLOS-Spot-FAME\transfer_worker.py""[0m, line [35m102[0m, in [35mreset_segment_metrics[0m
+    sched.recorder=[1;31mRecorder[0m(
+                   [1;31m^^^^^^^^[0m
+[1;35mNameError[0m: [35mname 'Recorder' is not defined[0m
+"
+R09,0.95,1,R09_q0.95_H1,22.2851619720459,1,error,"Traceback (most recent call last):
+  File [35m""C:\Users\tiago\AppData\Local\Temp\fame_gpu_04b_zt2opz1g\26ASPLOS-Spot-FAME\transfer_worker.py""[0m, line [35m319[0m, in [35m<module>[0m
+    [31mmain[0m[1;31m()[0m
+    [31m~~~~[0m[1;31m^^[0m
+  File [35m""C:\Users\tiago\AppData\Local\Temp\fame_gpu_04b_zt2opz1g\26ASPLOS-Spot-FAME\transfer_worker.py""[0m, line [35m217[0m, in [35mmain[0m
+    [31mreset_segment_metrics[0m[1;31m([0m
+    [31m~~~~~~~~~~~~~~~~~~~~~[0m[1;31m^[0m
+        [1;31msched,[0m
+        [1;31m^^^^^^[0m
+        [1;31mPath(args_cli.out_json).parent/""C""[0m
+        [1;31m^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^[0m
+    [1;31m)[0m
+    [1;31m^[0m
+  File [35m""C:\Users\tiago\AppData\Local\Temp\fame_gpu_04b_zt2opz1g\26ASPLOS-Spot-FAME\transfer_worker.py""[0m, line [35m102[0m, in [35mreset_segment_metrics[0m
+    sched.recorder=[1;31mRecorder[0m(
+                   [1;31m^^^^^^^^[0m
+[1;35mNameError[0m: [35mname 'Recorder' is not defined[0m
+"
+R09,0.95,2,R09_q0.95_H2,22.2528657913208,1,error,"Traceback (most recent call last):
+  File [35m""C:\Users\tiago\AppData\Local\Temp\fame_gpu_04b_zt2opz1g\26ASPLOS-Spot-FAME\transfer_worker.py""[0m, line [35m319[0m, in [35m<module>[0m
+    [31mmain[0m[1;31m()[0m
+    [31m~~~~[0m[1;31m^^[0m
+  File [35m""C:\Users\tiago\AppData\Local\Temp\fame_gpu_04b_zt2opz1g\26ASPLOS-Spot-FAME\transfer_worker.py""[0m, line [35m217[0m, in [35mmain[0m
+    [31mreset_segment_metrics[0m[1;31m([0m
+    [31m~~~~~~~~~~~~~~~~~~~~~[0m[1;31m^[0m
+        [1;31msched,[0m
+        [1;31m^^^^^^[0m
+        [1;31mPath(args_cli.out_json).parent/""C""[0m
+        [1;31m^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^[0m
+    [1;31m)[0m
+    [1;31m^[0m
+  File [35m""C:\Users\tiago\AppData\Local\Temp\fame_gpu_04b_zt2opz1g\26ASPLOS-Spot-FAME\transfer_worker.py""[0m, line [35m102[0m, in [35mreset_segment_metrics[0m
+    sched.recorder=[1;31mRecorder[0m(
+                   [1;31m^^^^^^^^[0m
+[1;35mNameError[0m: [35mname 'Recorder' is not defined[0m
+"
+R09,0.95,4,R09_q0.95_H4,22.30501103401184,1,error,"Traceback (most recent call last):
+  File [35m""C:\Users\tiago\AppData\Local\Temp\fame_gpu_04b_zt2opz1g\26ASPLOS-Spot-FAME\transfer_worker.py""[0m, line [35m319[0m, in [35m<module>[0m
+    [31mmain[0m[1;31m()[0m
+    [31m~~~~[0m[1;31m^^[0m
+  File [35m""C:\Users\tiago\AppData\Local\Temp\fame_gpu_04b_zt2opz1g\26ASPLOS-Spot-FAME\transfer_worker.py""[0m, line [35m217[0m, in [35mmain[0m
+    [31mreset_segment_metrics[0m[1;31m([0m
+    [31m~~~~~~~~~~~~~~~~~~~~~[0m[1;31m^[0m
+        [1;31msched,[0m
+        [1;31m^^^^^^[0m
+        [1;31mPath(args_cli.out_json).parent/""C""[0m
+        [1;31m^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^[0m
+    [1;31m)[0m
+    [1;31m^[0m
+  File [35m""C:\Users\tiago\AppData\Local\Temp\fame_gpu_04b_zt2opz1g\26ASPLOS-Spot-FAME\transfer_worker.py""[0m, line [35m102[0m, in [35mreset_segment_metrics[0m
+    sched.recorder=[1;31mRecorder[0m(
+                   [1;31m^^^^^^^^[0m
+[1;35mNameError[0m: [35mname 'Recorder' is not defined[0m
+"
+R09,0.99,1,R09_q0.99_H1,19.80978465080261,1,error,"Traceback (most recent call last):
+  File [35m""C:\Users\tiago\AppData\Local\Temp\fame_gpu_04b_zt2opz1g\26ASPLOS-Spot-FAME\transfer_worker.py""[0m, line [35m319[0m, in [35m<module>[0m
+    [31mmain[0m[1;31m()[0m
+    [31m~~~~[0m[1;31m^^[0m
+  File [35m""C:\Users\tiago\AppData\Local\Temp\fame_gpu_04b_zt2opz1g\26ASPLOS-Spot-FAME\transfer_worker.py""[0m, line [35m217[0m, in [35mmain[0m
+    [31mreset_segment_metrics[0m[1;31m([0m
+    [31m~~~~~~~~~~~~~~~~~~~~~[0m[1;31m^[0m
+        [1;31msched,[0m
+        [1;31m^^^^^^[0m
+        [1;31mPath(args_cli.out_json).parent/""C""[0m
+        [1;31m^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^[0m
+    [1;31m)[0m
+    [1;31m^[0m
+  File [35m""C:\Users\tiago\AppData\Local\Temp\fame_gpu_04b_zt2opz1g\26ASPLOS-Spot-FAME\transfer_worker.py""[0m, line [35m102[0m, in [35mreset_segment_metrics[0m
+    sched.recorder=[1;31mRecorder[0m(
+                   [1;31m^^^^^^^^[0m
+[1;35mNameError[0m: [35mname 'Recorder' is not defined[0m
+"
+R09,0.99,2,R09_q0.99_H2,19.666978120803837,1,error,"Traceback (most recent call last):
+  File [35m""C:\Users\tiago\AppData\Local\Temp\fame_gpu_04b_zt2opz1g\26ASPLOS-Spot-FAME\transfer_worker.py""[0m, line [35m319[0m, in [35m<module>[0m
+    [31mmain[0m[1;31m()[0m
+    [31m~~~~[0m[1;31m^^[0m
+  File [35m""C:\Users\tiago\AppData\Local\Temp\fame_gpu_04b_zt2opz1g\26ASPLOS-Spot-FAME\transfer_worker.py""[0m, line [35m217[0m, in [35mmain[0m
+    [31mreset_segment_metrics[0m[1;31m([0m
+    [31m~~~~~~~~~~~~~~~~~~~~~[0m[1;31m^[0m
+        [1;31msched,[0m
+        [1;31m^^^^^^[0m
+        [1;31mPath(args_cli.out_json).parent/""C""[0m
+        [1;31m^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^[0m
+    [1;31m)[0m
+    [1;31m^[0m
+  File [35m""C:\Users\tiago\AppData\Local\Temp\fame_gpu_04b_zt2opz1g\26ASPLOS-Spot-FAME\transfer_worker.py""[0m, line [35m102[0m, in [35mreset_segment_metrics[0m
+    sched.recorder=[1;31mRecorder[0m(
+                   [1;31m^^^^^^^^[0m
+[1;35mNameError[0m: [35mname 'Recorder' is not defined[0m
+"
+R09,0.99,4,R09_q0.99_H4,19.46483826637268,1,error,"Traceback (most recent call last):
+  File [35m""C:\Users\tiago\AppData\Local\Temp\fame_gpu_04b_zt2opz1g\26ASPLOS-Spot-FAME\transfer_worker.py""[0m, line [35m319[0m, in [35m<module>[0m
+    [31mmain[0m[1;31m()[0m
+    [31m~~~~[0m[1;31m^^[0m
+  File [35m""C:\Users\tiago\AppData\Local\Temp\fame_gpu_04b_zt2opz1g\26ASPLOS-Spot-FAME\transfer_worker.py""[0m, line [35m217[0m, in [35mmain[0m
+    [31mreset_segment_metrics[0m[1;31m([0m
+    [31m~~~~~~~~~~~~~~~~~~~~~[0m[1;31m^[0m
+        [1;31msched,[0m
+        [1;31m^^^^^^[0m
+        [1;31mPath(args_cli.out_json).parent/""C""[0m
+        [1;31m^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^[0m
+    [1;31m)[0m
+    [1;31m^[0m
+  File [35m""C:\Users\tiago\AppData\Local\Temp\fame_gpu_04b_zt2opz1g\26ASPLOS-Spot-FAME\transfer_worker.py""[0m, line [35m102[0m, in [35mreset_segment_metrics[0m
+    sched.recorder=[1;31mRecorder[0m(
+                   [1;31m^^^^^^^^[0m
+[1;35mNameError[0m: [35mname 'Recorder' is not defined[0m
+"

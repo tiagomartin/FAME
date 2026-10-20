@@ -1,0 +1,6 @@
+{
+  "carry_in_48h_problem": true,
+  "any_candidate_binding": true,
+  "meaningful_candidate_quota_spread_gt_50_gpu": true,
+  "GO_TO_DOC_SIMULATION": true
+}

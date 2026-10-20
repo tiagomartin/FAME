@@ -1,0 +1,7 @@
+replication,n_candidates,expected,complete
+R04,15,15,True
+R05,15,15,True
+R06,15,15,True
+R07,15,15,True
+R08,15,15,True
+R09,15,15,True

@@ -1,0 +1,13 @@
+,0
+n_principal,5.0
+mean_gain_vs_reference,0.0011378761574074136
+median_gain_vs_reference,0.0006766470091121857
+mean_gain_vs_reference_GPU_hours,660.6600000000037
+positive_gain_rate,0.6
+mean_transfer_regret,0.0031747065145503405
+median_transfer_regret,0.003186573385141167
+mean_transfer_regret_GPU_hours,1843.2600000000443
+mean_representation_shift_hat,0.04449829603909465
+mean_centered_representation_shift_ref,0.014149908371913633
+argmax_change_rate,1.0
+frozen_SLO_violation_rate,0.0

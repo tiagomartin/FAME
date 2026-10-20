@@ -1,0 +1,10 @@
+,0
+n_principal,5.0
+mean_gain_vs_reference,0.0022147587815991134
+median_gain_vs_reference,0.0007366415895062595
+mean_transfer_regret,0.002097823890358641
+median_transfer_regret,0.0012431508579511252
+mean_representation_shift_hat,0.04449829603909465
+median_representation_shift_hat,0.04177747005437982
+argmax_change_rate,1.0
+SLO_violation_rate_frozen,0.0

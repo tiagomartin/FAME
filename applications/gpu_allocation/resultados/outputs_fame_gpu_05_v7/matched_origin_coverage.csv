@@ -1,0 +1,6 @@
+replication,n_seeds,expected,complete
+R05,3,3,True
+R06,3,3,True
+R07,3,3,True
+R08,3,3,True
+R09,3,3,True

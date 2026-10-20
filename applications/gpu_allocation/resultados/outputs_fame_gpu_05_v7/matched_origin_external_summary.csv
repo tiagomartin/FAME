@@ -1,0 +1,11 @@
+,0
+n_replications,5.0
+n_seeds,3.0
+mean_FAME_minus_matched_GFS_allocation,0.006060411384847031
+mean_FAME_minus_matched_GFS_GPU_hours,3518.7233333332647
+median_FAME_minus_matched_GFS_GPU_hours,984.1333333332724
+mean_FAME_minus_matched_GFS_eviction,-0.013229788746984925
+FAME_higher_allocation_rate,0.8
+FAME_lower_or_equal_eviction_rate,0.8
+FAME_higher_allocation_and_no_higher_eviction_rate,0.6
+mean_matched_minus_continuous_GPU_hours,2377.3466666667287

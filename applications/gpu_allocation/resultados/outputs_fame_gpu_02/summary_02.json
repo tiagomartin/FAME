@@ -1,0 +1,44 @@
+{
+  "primary_gpu": "A100-SXM4-80GB",
+  "horizon_hours": 4,
+  "n_replications": 9,
+  "candidate_representation_count": 24,
+  "selected_predictors": [
+    {
+      "replication": "R01",
+      "selected_model": "seasonal24"
+    },
+    {
+      "replication": "R02",
+      "selected_model": "seasonal24"
+    },
+    {
+      "replication": "R03",
+      "selected_model": "ridge"
+    },
+    {
+      "replication": "R04",
+      "selected_model": "ridge"
+    },
+    {
+      "replication": "R05",
+      "selected_model": "ridge"
+    },
+    {
+      "replication": "R06",
+      "selected_model": "ridge"
+    },
+    {
+      "replication": "R07",
+      "selected_model": "seasonal168"
+    },
+    {
+      "replication": "R08",
+      "selected_model": "ridge"
+    },
+    {
+      "replication": "R09",
+      "selected_model": "ridge"
+    }
+  ]
+}

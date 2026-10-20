@@ -1,0 +1,5 @@
+,delta_RMSE_pct,representation_shift_hat,centered_representation_shift_ref,transfer_regret
+delta_RMSE_pct,1.0,0.8,0.7,0.3
+representation_shift_hat,0.8,1.0,0.8,0.2
+centered_representation_shift_ref,0.7,0.8,1.0,0.7
+transfer_regret,0.3,0.2,0.7,1.0
