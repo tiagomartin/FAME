@@ -1,84 +1,126 @@
 # FAME
 
+**Prediction-to-decision representations for constrained resource allocation**
+
+FAME is a modular predictive-prescriptive framework that connects predictive information, parameterized prediction-to-decision representations, and constrained optimization to support operational resource-allocation decisions.
+
+The framework separates predictive performance from realized decision utility. In particular, improvements in predictive accuracy do not necessarily translate into proportional improvements in downstream operational outcomes.
+
+This repository contains the research code, curated experimental artifacts, robustness analyses, figures, and documentation supporting the FAME research program.
+
 ## FAME v1.1.0 — Companion research tracks
 
-Version 1.1.0 extends the FAME reproducibility repository to support two
-complementary research tracks built around prediction-to-decision
-representations.
+Version 1.1.0 extends the FAME reproducibility infrastructure to support two complementary research tracks concerned with prediction-to-decision representations.
 
-### FAME/DOC — temporal transferability
+### FAME/DOC — Temporal transferability
 
-This track studies the learning, calibration stability, and temporal
-transferability of prediction-to-decision representations.
+This track investigates the learning, calibration stability, and temporal transferability of prediction-to-decision representations through **Decision-Oriented Calibration (DOC)**.
 
-Main question:
+DOC selects representation parameters using historical realized utility. Once calibrated, the representation is frozen and evaluated in subsequent chronological periods.
 
-> Do historically decision-calibrated representations preserve operational
-> value when transferred to future environments?
+The central research question is:
 
-Reproducibility materials:
+> Do historically decision-calibrated representations preserve operational value when transferred to future environments?
 
-- [Manuscript scope](docs/MANUSCRIPTS.md)
-- [Reproducibility map](docs/REPRODUCIBILITY_MAP.md)
-- [
-eproducibility/fame_doc/](reproducibility/fame_doc/)
+The analysis distinguishes predictive transfer from representation transfer. Changes in predictive performance and changes in downstream decision utility need not evolve proportionally.
 
-### DRR/DRVM — post-deployment validity monitoring
+Three application domains are examined:
 
-This track studies the continued validity of a frozen prediction-to-decision
-representation after deployment.
+- **Fantasy football:** chronological transfer of decision-calibrated representations under team-selection constraints.
+- **Energy:** temporal transfer and robustness of representations used in constrained operational decisions.
+- **GPU allocation:** calibration, frozen temporal transfer, and external comparisons with Native GFS under matched deployment origins.
 
-It introduces Decision-Representation Regret (DRR) and the
-Decision-Representation Validity Monitor (DRVM), together with
-reference-risk robustness, monitorability analysis, and post-alert
-representation renewal.
+The theoretical analysis distinguishes calibration estimation error, temporal representation shift, and representation-class approximation error.
 
-Main question:
-
-> When has a frozen representation accumulated enough downstream evidence to
-> warrant operational review?
-
-Reproducibility materials:
+**Research resources**
 
 - [Manuscript scope](docs/MANUSCRIPTS.md)
 - [Reproducibility map](docs/REPRODUCIBILITY_MAP.md)
-- [
-eproducibility/drvm/](reproducibility/drvm/)
+- [FAME/DOC reproducibility materials](reproducibility/fame_doc/)
+- [GPU allocation application](applications/gpu_allocation/)
 
-### Versioning and archive
+### DRR/DRVM — Post-deployment validity monitoring
 
-The previously archived release is:
+This research track examines the continued validity of a frozen prediction-to-decision representation after deployment.
 
-**FAME v1.0.2**
-DOI: 10.5281/zenodo.22072076
+It introduces **Decision-Representation Regret (DRR)** and the **Decision-Representation Validity Monitor (DRVM)**, together with reference-risk robustness, monitorability analysis, and post-alert representation renewal.
 
-The new v1.1.0 release preserves the v1.0.2 reproducibility infrastructure
-and adds the companion-manuscript organization and DRR/DRVM computational
-artifacts.
+The central research question is:
 
-## Current release
+> When has a frozen representation accumulated enough downstream evidence to warrant operational review?
 
-**FAME v1.1.0**
+**Research resources**
 
-Version-specific DOI:  
-https://doi.org/10.5281/zenodo.22730680
-
-Concept DOI — all FAME versions:  
-https://doi.org/10.5281/zenodo.22071477
-
+- [Manuscript scope](docs/MANUSCRIPTS.md)
+- [Reproducibility map](docs/REPRODUCIBILITY_MAP.md)
+- [DRR/DRVM reproducibility materials](reproducibility/drvm/)
 
 ---
 
+## GPU Allocation Application
 
-FAME is a modular prediction-to-decision framework for constrained resource allocation.
+The repository includes a dedicated GPU resource-allocation application of FAME and Decision-Oriented Calibration (DOC).
 
-This repository contains the curated code, processed experimental artifacts, robustness analyses, figures, and supplementary material accompanying the manuscript:
+The application examines how historically calibrated prediction-to-decision representations behave when transferred to future deployment periods.
 
-**Temporal Transferability of Prediction-to-Decision Representations in Constrained Resource Allocation**
+The computational experiments cover predictive baselines, representation calibration, frozen temporal transfer, and matched-origin comparisons with Native GFS.
+
+### Experimental organization
+
+The GPU application contains seven principal notebooks:
+
+| Notebook | Experimental component |
+|---|---|
+| `FAME_GPU_01_data_audit_v2.ipynb` | Data inspection and audit |
+| `FAME_GPU_02_predictive_baselines.ipynb` | Predictive baselines |
+| `FAME_GPU_03B_demand_alignment_binding_audit.ipynb` | Demand alignment and binding audit |
+| `FAME_GPU_04A_DOC_calibration_v3_parallel.ipynb` | Decision-Oriented Calibration |
+| `FAME_GPU_04B_frozen_transfer_parallel_v4.ipynb` | Frozen temporal transfer |
+| `FAME_GPU_04C.ipynb` | Additional GPU experimental analysis |
+| `FAME_GPU_05_v7_matched_origin_GFS.ipynb` | Matched-origin Native GFS benchmark |
+
+The accompanying results directory contains machine-readable experimental outputs, diagnostic summaries, and figures.
+
+### Interpretation of the GPU comparisons
+
+The GPU experiments distinguish two comparisons.
+
+**1. Incremental DOC contribution**
+
+DOC is compared with a fixed FAME reference under the relevant evaluation protocol. This comparison assesses the incremental operational value associated with selecting the prediction-to-decision representation through historical calibration.
+
+**2. External FAME–GFS comparison**
+
+FAME is also compared with Native GFS using matched deployment origins.
+
+The overall difference between FAME and Native GFS must not be attributed entirely to DOC. It includes the difference associated with the fixed FAME reference and the incremental contribution of DOC.
+
+The matched-origin comparison is an external operational benchmark, not a causal ablation of the FAME architecture.
+
+Results across deployment origins are reported as temporal experimental diagnostics and should not automatically be interpreted as independent and identically distributed replications or population-level inference.
+
+The experiments do not establish universal superiority across GPU workloads, operational conditions, or deployment environments.
+
+**Access the application:**
+
+[GPU allocation notebooks, results, and documentation](applications/gpu_allocation/)
+
+---
 
 ## Repository purpose
 
-The repository is organized to make the paper's empirical claims auditable. It separates predictive development, decision-oriented calibration (DOC), frozen prediction-to-decision representations, future out-of-time evaluation, and retrospective robustness and diagnostic analyses.
+The repository is organized to make the empirical claims of the FAME research program auditable.
+
+For FAME/DOC, it distinguishes:
+
+1. Predictive development and predictive performance.
+2. Parameterized prediction-to-decision representations.
+3. Constrained optimization.
+4. Historical calibration using realized utility.
+5. Frozen representation transfer to future periods.
+6. Retrospective robustness and diagnostic analyses.
+
+Predictive models and contextual information may be updated according to the experimental protocol, while the representation parameters selected through DOC remain frozen during the corresponding future evaluation.
 
 Future-period outcomes are not used to reselect the representation evaluated prospectively.
 
@@ -86,84 +128,103 @@ Future-period outcomes are not used to reselect the representation evaluated pro
 
 ```text
 FAME/
-|-- code/
-|   |-- fantasy_football/
-|   `-- energy/
-|
-|-- data/
-|   |-- fantasy_football/
-|   |   `-- splits/
-|   `-- energy/
-|       `-- splits/
-|
-|-- results/
-|   |-- fantasy_football/
-|   |   |-- model_selection/
-|   |   |-- calibration/
-|   |   |-- evaluation/
-|   |   |-- robustness/
-|   |   `-- audit/
-|   `-- energy/
-|       |-- temporal_replications/
-|       |-- robustness/
-|       `-- audit/
-|
-|-- figures/
-|   |-- main/
-|   `-- supplementary/
-|
-|-- supplementary/
-|
-|-- reproducibility/
-|   |-- fame_doc/
-|   |-- drvm/
-|   |-- CLEAN_CLONE_WORKFLOW.md
-|   |-- artifact_manifest.csv
-|   |-- artifact_manifest_v1.1.0.csv
-|   `-- checksums.sha256
-|
-|-- docs/
-|   |-- MANUSCRIPTS.md
-|   `-- REPRODUCIBILITY_MAP.md
-|
-|-- release/
-|   |-- RELEASE_NOTES_v1.1.0.md
-|   |-- GITHUB_UPDATE_PLAN.md
-|   `-- ZENODO_METADATA_v1.1.0.md
-|
-|-- scripts/
-|-- README.md
-|-- CITATION.cff
-|-- CHANGELOG.md
-|-- requirements.txt
-`-- .zenodo.json
+├── applications/
+│   └── gpu_allocation/
+│       ├── README.md
+│       ├── notebooks/
+│       └── resultados/
+│
+├── code/
+│   ├── fantasy_football/
+│   └── energy/
+│
+├── data/
+│   ├── fantasy_football/
+│   │   └── splits/
+│   └── energy/
+│       └── splits/
+│
+├── results/
+│   ├── fantasy_football/
+│   │   ├── model_selection/
+│   │   ├── calibration/
+│   │   ├── evaluation/
+│   │   ├── robustness/
+│   │   └── audit/
+│   └── energy/
+│       ├── temporal_replications/
+│       ├── robustness/
+│       └── audit/
+│
+├── figures/
+│   ├── main/
+│   └── supplementary/
+│
+├── supplementary/
+│
+├── reproducibility/
+│   ├── fame_doc/
+│   ├── drvm/
+│   ├── CLEAN_CLONE_WORKFLOW.md
+│   ├── artifact_manifest.csv
+│   ├── artifact_manifest_v1.1.0.csv
+│   └── checksums.sha256
+│
+├── docs/
+│   ├── MANUSCRIPTS.md
+│   └── REPRODUCIBILITY_MAP.md
+│
+├── release/
+│   ├── RELEASE_NOTES_v1.1.0.md
+│   ├── GITHUB_UPDATE_PLAN.md
+│   └── ZENODO_METADATA_v1.1.0.md
+│
+├── scripts/
+├── README.md
+├── CITATION.cff
+├── CHANGELOG.md
+├── requirements.txt
+├── .zenodo.json
+└── .gitignore
 ```
+
+The GPU application is maintained in `applications/gpu_allocation/`, independently of the existing fantasy-football and energy directories.
 
 ## Reproducibility status
 
-The repository provides the curated numerical artifacts, temporal split definitions, frozen parameters, analysis code, and supporting documentation required to audit the empirical claims reported in the manuscript.
+The repository provides curated numerical artifacts, temporal split definitions, frozen representation parameters, analysis code, and supporting documentation for auditing the empirical claims.
 
-The archived results can be inspected without access to the original raw datasets. Re-execution of analyses that depend on external or third-party data additionally requires the corresponding analytical inputs described in `data/README.md` and `data/SOURCES_AND_RECONSTRUCTION.md`.
+Archived results can be inspected without access to the original raw datasets.
 
-The repository does not claim complete raw-source-to-result reconstruction for third-party analytical datasets whose full source-to-analysis transformations are not redistributed. These reproducibility boundaries are documented explicitly in `data/SOURCES_AND_RECONSTRUCTION.md`.
+Re-execution of experiments that depend on external or third-party data additionally requires the corresponding analytical inputs and computational environment.
 
-The clean-clone verification procedure is documented in `reproducibility/CLEAN_CLONE_WORKFLOW.md`.
+Data provenance, redistribution restrictions, and reconstruction guidance are documented in:
 
-## Code
+- [Data documentation](data/README.md)
+- [Sources and reconstruction](data/SOURCES_AND_RECONSTRUCTION.md)
+- [Clean-clone workflow](reproducibility/CLEAN_CLONE_WORKFLOW.md)
 
-The `code/` directory contains the notebooks used for the final fantasy-football and Energy experiments reported in the manuscript. Development, debugging, and obsolete intermediate notebooks were intentionally excluded from the public repository.
+The repository does not claim complete raw-source-to-result reconstruction for third-party datasets whose full transformation pipelines or original inputs are not redistributed.
 
-## Notebook format
+The GPU application provides notebooks and archived experimental outputs. Availability of these artifacts does not, by itself, establish that every experiment can be re-executed without additional inputs or environment-specific dependencies.
 
-All public notebooks in `code/` contain executable code cells only. Markdown and raw cells, inline and standalone comments, stored outputs, and execution counts were removed from the public copies.
+## Code and notebook format
 
-Scientific documentation is provided in the repository Markdown files and in the manuscript rather than inside the notebooks.
+The `code/` directory contains the notebooks associated with the final fantasy-football and energy experiments.
+
+The `applications/gpu_allocation/notebooks/` directory contains the principal computational notebooks associated with the GPU application.
+
+Public notebooks have been prepared to emphasize executable computational content. Scientific explanations, experimental scope, interpretation, and reproducibility boundaries are provided through the repository documentation and associated manuscripts.
+
+The GPU notebooks and archived outputs should be treated as versioned research artifacts. The availability of stored results does not imply that every notebook has been independently re-executed in a clean environment.
 
 ## Data
 
-Raw third-party data are not redistributed by default in this repository.
+Raw third-party datasets are not redistributed by default.
 
-The repository includes temporal split definitions and processed experimental artifacts that can be shared. Data provenance, external sources, expected input structures, redistribution considerations, and reconstruction guidance are documented in `data/README.md` and `data/SOURCES_AND_RECONSTRUCTION.md`.
+The repository includes shareable temporal split definitions and processed experimental artifacts.
+
+External sources, expected input structures, redistribution considerations, and reconstruction instructions are described in the corresponding data documentation.
 
 ## Main reproducibility artifacts
 
@@ -171,90 +232,141 @@ The repository includes temporal split definitions and processed experimental ar
 
 The repository includes:
 
-- temporal development folds;
-- frozen predictive hyperparameters and ensemble weights;
-- DOC weight grid and frozen DOC weights;
-- bootstrap stability results;
-- out-of-time 2025 operational summaries;
-- temporal replication comparisons;
-- component ablation analyses;
-- captain-selection sensitivity analyses;
-- target-alignment and missing-next-market audits;
-- local calibration sensitivity analyses; and
-- leakage and freeze audits.
+- Temporal development folds and chronological evaluation definitions.
+- Frozen predictive hyperparameters and ensemble weights.
+- DOC candidate grids and selected representation weights.
+- Bootstrap stability results.
+- Out-of-time operational summaries.
+- Temporal replication comparisons.
+- Component ablation analyses.
+- Captain-selection sensitivity analyses.
+- Target-alignment and missing-next-market audits.
+- Local calibration sensitivity analyses.
+- Leakage and freeze audits.
 
 ### Energy
 
 The repository includes:
 
-- temporal replication definitions;
-- frozen representation parameters;
-- extended-theta robustness experiments;
-- capacity-margin ├ù VOLL robustness summaries; and
-- replication-level and model-level summaries.
+- Temporal replication definitions.
+- Frozen representation parameters.
+- Extended-theta robustness experiments.
+- Capacity-margin and value-of-lost-load robustness summaries.
+- Replication-level and model-level summaries.
+- Diagnostics relating predictive changes to operational outcomes.
 
-## Reproducing paper claims
+### GPU allocation
 
-The file `reproducibility/artifact_manifest.csv` maps manuscript claims and analyses to the corresponding archived artifacts and analysis code.
+The repository includes:
 
-This mapping provides a direct audit trail from the results reported in the manuscript to the machine-readable outputs and code stored in the repository.
+- Data inspection and alignment audits.
+- Predictive baseline experiments.
+- DOC representation calibration.
+- Frozen temporal transfer experiments.
+- Deployment-origin operational summaries.
+- Matched-origin comparisons with Native GFS.
+- Machine-readable results and diagnostic figures.
+- Runtime and execution-related outputs where archived.
+
+The GPU experiments distinguish the incremental DOC comparison from the external FAME–GFS benchmark.
+
+## Reproducing manuscript claims
+
+The file [`reproducibility/artifact_manifest.csv`](reproducibility/artifact_manifest.csv) provides the existing mapping between manuscript claims and archived research artifacts.
+
+The GPU application has its own documentation and experimental outputs under [`applications/gpu_allocation/`](applications/gpu_allocation/).
+
+The presence of the GPU application in this repository does not imply that all GPU artifacts have already been incorporated into the existing release-specific manifests or archived Zenodo releases.
+
+These records should be updated when the next versioned research archive is prepared.
 
 ## Computational environment
 
-The manuscript experiments were executed using **Python 3.13.14**.
+The previously documented manuscript experiments used **Python 3.13.14**.
 
-The direct Python dependencies and the versions used in the manuscript-associated computational environment are recorded in `requirements.txt`.
+The Python dependencies associated with the existing reproducibility environment are recorded in [`requirements.txt`](requirements.txt).
 
-A compatible virtual environment can be created with:
+A virtual environment can be created using:
 
 ```bash
 python -m venv .venv
 ```
 
-Activate the environment and install the required dependencies with:
+Install the documented dependencies with:
 
 ```bash
 python -m pip install -r requirements.txt
 ```
 
-A clean-clone installation of the pinned dependencies was successfully verified under Python 3.13.
+The existing clean-clone verification applies to the environment and artifacts documented for that verification.
 
-The archived numerical results in `results/` correspond to the manuscript-associated computational environment documented above.
+The GPU application may require additional dependencies, computational resources, external datasets, or environment-specific configuration. Its complete execution environment should be verified separately before claiming end-to-end reproducibility.
 
 ## Clean-clone workflow
 
-Instructions for verifying the repository from a clean clone are provided in:
+Instructions for verifying the previously documented repository artifacts are available in:
 
-`reproducibility/CLEAN_CLONE_WORKFLOW.md`
+[`reproducibility/CLEAN_CLONE_WORKFLOW.md`](reproducibility/CLEAN_CLONE_WORKFLOW.md)
 
-Because some experiments rely on external or third-party datasets that are not redistributed in this repository, the clean-clone workflow distinguishes between:
+The workflow distinguishes between auditing archived manuscript results and re-executing analyses that require external analytical inputs.
 
-1. auditing the archived manuscript results; and
-2. re-executing analyses after supplying the required external analytical inputs.
+GPU-specific reproducibility information is available through the application directory.
 
-## Supplementary material
+## Supplementary material and computational artifacts
 
-The LaTeX source and supporting files for the Supplementary Material are available in `supplementary/`.
+The LaTeX source and supporting files for the scientific Supplementary Material are maintained in [`supplementary/`](supplementary/).
+
+Computational notebooks and machine-readable experimental outputs are distributed through the public GitHub repository and, when deposited, versioned Zenodo archives.
+
+The GPU notebooks are not intended to be submitted as separate notebook attachments to the journal. Instead, the associated manuscript can cite the permanent archived research artifacts.
+
+A GitHub commit and a Zenodo deposit serve different purposes: the former records repository development, whereas the latter provides a citable, versioned research archive.
+
+## Versioning and Zenodo archive
+
+### FAME v1.0.2
+
+Previous reproducibility release.
+
+**Version-specific DOI:**  
+https://doi.org/10.5281/zenodo.22072076
+
+### FAME v1.1.0
+
+Companion research tracks and DRR/DRVM computational artifacts.
+
+**Version-specific DOI:**  
+https://doi.org/10.5281/zenodo.22730680
+
+### FAME concept DOI
+
+The concept DOI identifies the FAME archive across versions and resolves to the latest published version.
+
+**Concept DOI:**  
+https://doi.org/10.5281/zenodo.22071477
+
+### GPU application archival status
+
+The GPU notebooks and results have been added to the GitHub repository after the previously documented v1.1.0 release.
+
+Their presence in the current GitHub repository does not establish their inclusion in the existing Zenodo v1.1.0 archive.
+
+A subsequent versioned Zenodo deposit should capture the GPU application, its supporting results, and the corresponding repository state.
+
+Once that deposit is published, its version-specific DOI should be added here and cited in the FAME/DOC manuscript.
 
 ## Citation
 
-Citation metadata for the FAME software and the associated manuscript are provided in `CITATION.cff`.
+Citation metadata for FAME and its associated research outputs are provided in [`CITATION.cff`](CITATION.cff).
 
-The manuscript-associated reproducibility release is:
+For reproducibility, readers should cite the version-specific Zenodo DOI corresponding to the exact research artifacts used.
 
-**FAME v1.0.2 ÔÇö Reproducibility Hardening Release**
-**DOI: 10.5281/zenodo.22072076**
-
-This version-specific DOI identifies the archived software and reproducibility materials associated with the manuscript.
-
-The Zenodo concept DOI representing all versions of FAME is:
-
-**DOI: 10.5281/zenodo.22071477**
-
-The concept DOI resolves to the latest archived version of FAME.
+For general reference to the FAME software and research program, the concept DOI may be used.
 
 ## License
 
-The original source code in this repository is released under the MIT License unless otherwise indicated.
+Original source code in this repository is released under the MIT License unless otherwise indicated.
 
-Third-party datasets, external software, and external test systems retain their original licenses and terms of use. The MIT License does not apply to third-party data.
+Third-party datasets, external software, and external test systems retain their original licenses and terms of use.
+
+The MIT License does not automatically extend to third-party datasets or externally licensed artifacts.
