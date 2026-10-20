@@ -1,9 +1,10 @@
+
 cff-version: 1.2.0
 
 message: >-
-  If you use FAME or its reproducibility materials, please cite this software
-  release and the relevant companion manuscript when manuscript-specific
-  bibliographic metadata become available.
+  If you use FAME or its reproducibility materials, please cite the
+  corresponding version-specific software release and the relevant
+  companion manuscript when its bibliographic metadata become available.
 
 title: "FAME: Prediction-to-Decision Representations for Constrained Resource Allocation"
 
@@ -15,9 +16,9 @@ authors:
   - family-names: Oliveira
     given-names: Diana Campos de
 
-version: 1.1.0
+version: 1.2.0
 
-date-released: 2026-09-12
+date-released: 2026-10-20
 
 repository-code: "https://github.com/tiagomartin/FAME"
 
@@ -34,3 +35,6 @@ keywords:
   - prediction-to-decision representation
   - post-deployment monitoring
   - anytime-valid inference
+  - GPU resource allocation
+  - matched-origin benchmarking
+  
