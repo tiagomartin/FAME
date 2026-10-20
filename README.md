@@ -276,9 +276,7 @@ The file [`reproducibility/artifact_manifest.csv`](reproducibility/artifact_mani
 
 The GPU application has its own documentation and experimental outputs under [`applications/gpu_allocation/`](applications/gpu_allocation/).
 
-The presence of the GPU application in this repository does not imply that all GPU artifacts have already been incorporated into the existing release-specific manifests or archived Zenodo releases.
-
-These records should be updated when the next versioned research archive is prepared.
+The GPU application is included in the FAME v1.2.0 Zenodo archive (https://doi.org/10.5281/zenodo.23506235). The existing release-specific artifact manifests may not yet enumerate all GPU files; consult `applications/gpu_allocation/` for the GPU notebooks and outputs.
 
 ## Computational environment
 
@@ -316,7 +314,7 @@ GPU-specific reproducibility information is available through the application di
 
 The LaTeX source and supporting files for the scientific Supplementary Material are maintained in [`supplementary/`](supplementary/).
 
-Computational notebooks and machine-readable experimental outputs are distributed through the public GitHub repository and, when deposited, versioned Zenodo archives.
+Computational notebooks and machine-readable experimental outputs are distributed through the public GitHub repository and versioned Zenodo archives. The GPU application is included in FAME v1.2.0 (https://doi.org/10.5281/zenodo.23506235).
 
 The GPU notebooks are not intended to be submitted as separate notebook attachments to the journal. Instead, the associated manuscript can cite the permanent archived research artifacts.
 
@@ -324,12 +322,14 @@ A GitHub commit and a Zenodo deposit serve different purposes: the former record
 
 ## Versioning and Zenodo archive
 
-### FAME v1.0.2
+### FAME v1.2.0 — GPU Allocation and DOC Experiments
 
-Previous reproducibility release.
+The versioned research archive includes the GPU allocation notebooks, archived experimental outputs, and accompanying documentation, alongside the existing FAME/DOC and DRR/DRVM research materials.
 
 **Version-specific DOI:**  
-https://doi.org/10.5281/zenodo.22072076
+https://doi.org/10.5281/zenodo.23506235
+
+The GPU experiments distinguish the incremental contribution of DOC relative to a fixed FAME reference from the external matched-origin benchmark against Native GFS. The latter is not a causal architecture ablation. Archived outputs are auditable, but complete re-execution may require additional inputs and environment-specific configuration.
 
 ### FAME v1.1.0
 
@@ -338,22 +338,19 @@ Companion research tracks and DRR/DRVM computational artifacts.
 **Version-specific DOI:**  
 https://doi.org/10.5281/zenodo.22730680
 
+### FAME v1.0.2
+
+Previous reproducibility hardening release.
+
+**Version-specific DOI:**  
+https://doi.org/10.5281/zenodo.22072076
+
 ### FAME concept DOI
 
 The concept DOI identifies the FAME archive across versions and resolves to the latest published version.
 
 **Concept DOI:**  
 https://doi.org/10.5281/zenodo.22071477
-
-### GPU application archival status
-
-The GPU notebooks and results have been added to the GitHub repository after the previously documented v1.1.0 release.
-
-Their presence in the current GitHub repository does not establish their inclusion in the existing Zenodo v1.1.0 archive.
-
-A subsequent versioned Zenodo deposit should capture the GPU application, its supporting results, and the corresponding repository state.
-
-Once that deposit is published, its version-specific DOI should be added here and cited in the FAME/DOC manuscript.
 
 ## Citation
 
