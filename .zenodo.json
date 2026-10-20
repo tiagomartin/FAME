@@ -1,7 +1,8 @@
+
 {
   "title": "FAME: Framework for Allocation with Modular Evaluation",
   "upload_type": "software",
-  "description": "Version 1.1.0 of the FAME reproducibility archive. This release organizes the project into two companion research tracks: (1) FAME/DOC temporal transferability of learned prediction-to-decision representations, and (2) DRR/DRVM post-deployment validity monitoring of frozen prediction-to-decision representations. The release adds controlled DRVM Monte Carlo validation, real historical deployment replays in fantasy football and Energy, temporal reference-risk stress tests, baseline-uplift sensitivity outputs, and an explicit manuscript/reproducibility map. Existing third-party-data redistribution boundaries remain unchanged.",
+  "description": "Version 1.2.0 of the FAME reproducibility archive. This release preserves the FAME/DOC temporal-transferability and DRR/DRVM post-deployment monitoring research tracks and adds the GPU allocation application, including computational notebooks, decision-oriented calibration, frozen temporal transfer, experimental outputs, and matched-origin comparisons with Native GFS. The external FAME–GFS comparison is distinguished from the incremental contribution of DOC relative to a fixed FAME reference. The matched-origin benchmark is not a causal ablation.",
   "creators": [
     {
       "name": "Pereira, Tiago Martins",
@@ -20,9 +21,11 @@
     "temporal transferability",
     "prediction-to-decision representation",
     "post-deployment monitoring",
-    "anytime-valid inference"
+    "anytime-valid inference",
+    "GPU resource allocation",
+    "matched-origin benchmarking"
   ],
-  "version": "1.1.0",
+  "version": "1.2.0",
   "language": "eng",
   "related_identifiers": [
     {
@@ -32,3 +35,4 @@
     }
   ]
 }
+  
